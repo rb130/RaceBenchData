@@ -1,0 +1,4 @@
+{install_dir}/volrend
+4
+{install_dir}/head-scaleddown4
+{input_file}

@@ -1,0 +1,8 @@
+{install_dir}/ferret-pthreads
+{install_dir}/corel
+lsh
+{input_file}
+5
+5
+1
+/dev/null

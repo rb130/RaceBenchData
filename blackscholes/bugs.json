@@ -1,0 +1,1502 @@
+[
+    {
+        "id": 0,
+        "bytes_index": [
+            [
+                239,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:192+",
+            "src/blackscholes.m4.cpp:435+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 0
+    },
+    {
+        "id": 1,
+        "bytes_index": [
+            [
+                248,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:190+",
+            "src/blackscholes.m4.cpp:188+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 1
+    },
+    {
+        "id": 2,
+        "bytes_index": [
+            [
+                234,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:434+",
+            "src/blackscholes.m4.cpp:267+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 3
+    },
+    {
+        "id": 3,
+        "bytes_index": [
+            [
+                239,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:435+",
+            "src/blackscholes.m4.cpp:278+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 2
+    },
+    {
+        "id": 4,
+        "bytes_index": [
+            [
+                80,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:188+",
+            "src/blackscholes.m4.cpp:434+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 3
+    },
+    {
+        "id": 5,
+        "bytes_index": [
+            [
+                250,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:117+",
+            "src/blackscholes.m4.cpp:434+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 2
+    },
+    {
+        "id": 6,
+        "bytes_index": [
+            [
+                247,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:173+",
+            "src/blackscholes.m4.cpp:435+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 2
+    },
+    {
+        "id": 7,
+        "bytes_index": [
+            [
+                244,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:197+",
+            "src/blackscholes.m4.cpp:434+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 2
+    },
+    {
+        "id": 8,
+        "bytes_index": [
+            [
+                241,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:176+",
+            "src/blackscholes.m4.cpp:425+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 2
+    },
+    {
+        "id": 9,
+        "bytes_index": [
+            [
+                223,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:435+",
+            "src/blackscholes.m4.cpp:267+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 3
+    },
+    {
+        "id": 10,
+        "bytes_index": [
+            [
+                245,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:185+",
+            "src/blackscholes.m4.cpp:185+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 2
+    },
+    {
+        "id": 11,
+        "bytes_index": [
+            [
+                250,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:278+",
+            "src/blackscholes.m4.cpp:434+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 0
+    },
+    {
+        "id": 12,
+        "bytes_index": [
+            [
+                243,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:113+",
+            "src/blackscholes.m4.cpp:434+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 0
+    },
+    {
+        "id": 13,
+        "bytes_index": [
+            [
+                252,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:268+",
+            "src/blackscholes.m4.cpp:435+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 3
+    },
+    {
+        "id": 14,
+        "bytes_index": [
+            [
+                180,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:196+",
+            "src/blackscholes.m4.cpp:192+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 1
+    },
+    {
+        "id": 15,
+        "bytes_index": [
+            [
+                33,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:173+",
+            "src/blackscholes.m4.cpp:435+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 1
+    },
+    {
+        "id": 16,
+        "bytes_index": [
+            [
+                125,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:435+",
+            "src/blackscholes.m4.cpp:113+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 3
+    },
+    {
+        "id": 17,
+        "bytes_index": [
+            [
+                253,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:185+",
+            "src/blackscholes.m4.cpp:189+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 0
+    },
+    {
+        "id": 18,
+        "bytes_index": [
+            [
+                179,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:435+",
+            "src/blackscholes.m4.cpp:189+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 2
+    },
+    {
+        "id": 19,
+        "bytes_index": [
+            [
+                239,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:435+",
+            "src/blackscholes.m4.cpp:266+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 1
+    },
+    {
+        "id": 20,
+        "bytes_index": [
+            [
+                249,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:173+",
+            "src/blackscholes.m4.cpp:425+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 3
+    },
+    {
+        "id": 21,
+        "bytes_index": [
+            [
+                1,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:173+",
+            "src/blackscholes.m4.cpp:425+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 0
+    },
+    {
+        "id": 22,
+        "bytes_index": [
+            [
+                241,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:127+",
+            "src/blackscholes.m4.cpp:129+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 0
+    },
+    {
+        "id": 23,
+        "bytes_index": [
+            [
+                228,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:179+",
+            "src/blackscholes.m4.cpp:435+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 0
+    },
+    {
+        "id": 24,
+        "bytes_index": [
+            [
+                247,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:435+",
+            "src/blackscholes.m4.cpp:267+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 0
+    },
+    {
+        "id": 25,
+        "bytes_index": [
+            [
+                241,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:190+",
+            "src/blackscholes.m4.cpp:190+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 1
+    },
+    {
+        "id": 26,
+        "bytes_index": [
+            [
+                240,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:185+",
+            "src/blackscholes.m4.cpp:193+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 2
+    },
+    {
+        "id": 27,
+        "bytes_index": [
+            [
+                152,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:435+",
+            "src/blackscholes.m4.cpp:266+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 2
+    },
+    {
+        "id": 28,
+        "bytes_index": [
+            [
+                250,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:435+",
+            "src/blackscholes.m4.cpp:190+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 0
+    },
+    {
+        "id": 29,
+        "bytes_index": [
+            [
+                96,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:435+",
+            "src/blackscholes.m4.cpp:266+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 1
+    },
+    {
+        "id": 30,
+        "bytes_index": [
+            [
+                248,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:267+",
+            "src/blackscholes.m4.cpp:268+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 1
+    },
+    {
+        "id": 31,
+        "bytes_index": [
+            [
+                169,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:425+",
+            "src/blackscholes.m4.cpp:181+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 0
+    },
+    {
+        "id": 32,
+        "bytes_index": [
+            [
+                247,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:434+",
+            "src/blackscholes.m4.cpp:188+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 1
+    },
+    {
+        "id": 33,
+        "bytes_index": [
+            [
+                58,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:435+",
+            "src/blackscholes.m4.cpp:278+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 0
+    },
+    {
+        "id": 34,
+        "bytes_index": [
+            [
+                238,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:190+",
+            "src/blackscholes.m4.cpp:425+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 0
+    },
+    {
+        "id": 35,
+        "bytes_index": [
+            [
+                79,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:181+",
+            "src/blackscholes.m4.cpp:435+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 2
+    },
+    {
+        "id": 36,
+        "bytes_index": [
+            [
+                231,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:123+",
+            "src/blackscholes.m4.cpp:125+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 1
+    },
+    {
+        "id": 37,
+        "bytes_index": [
+            [
+                46,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:194+",
+            "src/blackscholes.m4.cpp:124+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 3
+    },
+    {
+        "id": 38,
+        "bytes_index": [
+            [
+                226,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:175+",
+            "src/blackscholes.m4.cpp:435+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 2
+    },
+    {
+        "id": 39,
+        "bytes_index": [
+            [
+                117,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:190+",
+            "src/blackscholes.m4.cpp:190+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 0
+    },
+    {
+        "id": 40,
+        "bytes_index": [
+            [
+                97,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:425+",
+            "src/blackscholes.m4.cpp:181+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 0
+    },
+    {
+        "id": 41,
+        "bytes_index": [
+            [
+                102,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:110+",
+            "src/blackscholes.m4.cpp:435+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 3
+    },
+    {
+        "id": 42,
+        "bytes_index": [
+            [
+                236,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:435+",
+            "src/blackscholes.m4.cpp:190+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 2
+    },
+    {
+        "id": 43,
+        "bytes_index": [
+            [
+                244,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:434+",
+            "src/blackscholes.m4.cpp:193+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 1
+    },
+    {
+        "id": 44,
+        "bytes_index": [
+            [
+                235,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:268+",
+            "src/blackscholes.m4.cpp:268+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 2
+    },
+    {
+        "id": 45,
+        "bytes_index": [
+            [
+                189,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:174+",
+            "src/blackscholes.m4.cpp:435+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 0
+    },
+    {
+        "id": 46,
+        "bytes_index": [
+            [
+                161,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:176+",
+            "src/blackscholes.m4.cpp:435+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 1
+    },
+    {
+        "id": 47,
+        "bytes_index": [
+            [
+                253,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:425+",
+            "src/blackscholes.m4.cpp:266+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 2
+    },
+    {
+        "id": 48,
+        "bytes_index": [
+            [
+                27,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:425+",
+            "src/blackscholes.m4.cpp:278+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 1
+    },
+    {
+        "id": 49,
+        "bytes_index": [
+            [
+                249,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:435+",
+            "src/blackscholes.m4.cpp:173+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 0
+    },
+    {
+        "id": 50,
+        "bytes_index": [
+            [
+                189,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:185+",
+            "src/blackscholes.m4.cpp:435+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 0
+    },
+    {
+        "id": 51,
+        "bytes_index": [
+            [
+                245,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:435+",
+            "src/blackscholes.m4.cpp:266+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 0
+    },
+    {
+        "id": 52,
+        "bytes_index": [
+            [
+                93,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:425+",
+            "src/blackscholes.m4.cpp:173+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 0
+    },
+    {
+        "id": 53,
+        "bytes_index": [
+            [
+                124,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:173+",
+            "src/blackscholes.m4.cpp:266+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 1
+    },
+    {
+        "id": 54,
+        "bytes_index": [
+            [
+                237,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:435+",
+            "src/blackscholes.m4.cpp:185+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 2
+    },
+    {
+        "id": 55,
+        "bytes_index": [
+            [
+                252,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:434+",
+            "src/blackscholes.m4.cpp:185+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 1
+    },
+    {
+        "id": 56,
+        "bytes_index": [
+            [
+                244,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:194+",
+            "src/blackscholes.m4.cpp:192+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 2
+    },
+    {
+        "id": 57,
+        "bytes_index": [
+            [
+                238,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:178+",
+            "src/blackscholes.m4.cpp:181+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 1
+    },
+    {
+        "id": 58,
+        "bytes_index": [
+            [
+                121,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:435+",
+            "src/blackscholes.m4.cpp:183+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 3
+    },
+    {
+        "id": 59,
+        "bytes_index": [
+            [
+                50,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:181+",
+            "src/blackscholes.m4.cpp:425+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 2
+    },
+    {
+        "id": 60,
+        "bytes_index": [
+            [
+                243,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:267+",
+            "src/blackscholes.m4.cpp:435+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 3
+    },
+    {
+        "id": 61,
+        "bytes_index": [
+            [
+                182,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:278+",
+            "src/blackscholes.m4.cpp:435+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 0
+    },
+    {
+        "id": 62,
+        "bytes_index": [
+            [
+                237,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:115+",
+            "src/blackscholes.m4.cpp:115+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 0
+    },
+    {
+        "id": 63,
+        "bytes_index": [
+            [
+                78,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:435+",
+            "src/blackscholes.m4.cpp:266+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 1
+    },
+    {
+        "id": 64,
+        "bytes_index": [
+            [
+                213,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:181+",
+            "src/blackscholes.m4.cpp:425+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 2
+    },
+    {
+        "id": 65,
+        "bytes_index": [
+            [
+                244,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:425+",
+            "src/blackscholes.m4.cpp:186+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 1
+    },
+    {
+        "id": 66,
+        "bytes_index": [
+            [
+                249,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:173+",
+            "src/blackscholes.m4.cpp:435+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 2
+    },
+    {
+        "id": 67,
+        "bytes_index": [
+            [
+                158,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:186+",
+            "src/blackscholes.m4.cpp:425+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 0
+    },
+    {
+        "id": 68,
+        "bytes_index": [
+            [
+                42,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:186+",
+            "src/blackscholes.m4.cpp:425+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 1
+    },
+    {
+        "id": 69,
+        "bytes_index": [
+            [
+                225,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:435+",
+            "src/blackscholes.m4.cpp:268+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 0
+    },
+    {
+        "id": 70,
+        "bytes_index": [
+            [
+                36,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:186+",
+            "src/blackscholes.m4.cpp:434+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 2
+    },
+    {
+        "id": 71,
+        "bytes_index": [
+            [
+                165,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:193+",
+            "src/blackscholes.m4.cpp:435+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 0
+    },
+    {
+        "id": 72,
+        "bytes_index": [
+            [
+                244,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:196+",
+            "src/blackscholes.m4.cpp:435+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 2
+    },
+    {
+        "id": 73,
+        "bytes_index": [
+            [
+                223,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:434+",
+            "src/blackscholes.m4.cpp:173+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 1
+    },
+    {
+        "id": 74,
+        "bytes_index": [
+            [
+                162,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:189+",
+            "src/blackscholes.m4.cpp:186+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 1
+    },
+    {
+        "id": 75,
+        "bytes_index": [
+            [
+                234,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:434+",
+            "src/blackscholes.m4.cpp:115+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 0
+    },
+    {
+        "id": 76,
+        "bytes_index": [
+            [
+                246,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:435+",
+            "src/blackscholes.m4.cpp:189+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 2
+    },
+    {
+        "id": 77,
+        "bytes_index": [
+            [
+                242,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:175+",
+            "src/blackscholes.m4.cpp:425+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 0
+    },
+    {
+        "id": 78,
+        "bytes_index": [
+            [
+                240,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:173+",
+            "src/blackscholes.m4.cpp:425+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 3
+    },
+    {
+        "id": 79,
+        "bytes_index": [
+            [
+                248,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:434+",
+            "src/blackscholes.m4.cpp:181+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 3
+    },
+    {
+        "id": 80,
+        "bytes_index": [
+            [
+                81,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:435+",
+            "src/blackscholes.m4.cpp:178+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 1
+    },
+    {
+        "id": 81,
+        "bytes_index": [
+            [
+                188,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:186+",
+            "src/blackscholes.m4.cpp:435+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 3
+    },
+    {
+        "id": 82,
+        "bytes_index": [
+            [
+                85,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:120+",
+            "src/blackscholes.m4.cpp:425+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 0
+    },
+    {
+        "id": 83,
+        "bytes_index": [
+            [
+                245,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:199+",
+            "src/blackscholes.m4.cpp:115+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 0
+    },
+    {
+        "id": 84,
+        "bytes_index": [
+            [
+                7,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:266+",
+            "src/blackscholes.m4.cpp:435+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 3
+    },
+    {
+        "id": 85,
+        "bytes_index": [
+            [
+                237,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:425+",
+            "src/blackscholes.m4.cpp:175+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 1
+    },
+    {
+        "id": 86,
+        "bytes_index": [
+            [
+                247,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:268+",
+            "src/blackscholes.m4.cpp:266+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 2
+    },
+    {
+        "id": 87,
+        "bytes_index": [
+            [
+                127,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:435+",
+            "src/blackscholes.m4.cpp:192+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 2
+    },
+    {
+        "id": 88,
+        "bytes_index": [
+            [
+                136,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:435+",
+            "src/blackscholes.m4.cpp:266+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 1
+    },
+    {
+        "id": 89,
+        "bytes_index": [
+            [
+                245,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:435+",
+            "src/blackscholes.m4.cpp:278+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 3
+    },
+    {
+        "id": 90,
+        "bytes_index": [
+            [
+                132,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:266+",
+            "src/blackscholes.m4.cpp:435+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 3
+    },
+    {
+        "id": 91,
+        "bytes_index": [
+            [
+                241,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:115+",
+            "src/blackscholes.m4.cpp:120+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 1
+    },
+    {
+        "id": 92,
+        "bytes_index": [
+            [
+                103,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:197+",
+            "src/blackscholes.m4.cpp:196+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 1
+    },
+    {
+        "id": 93,
+        "bytes_index": [
+            [
+                249,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:267+",
+            "src/blackscholes.m4.cpp:435+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 1
+    },
+    {
+        "id": 94,
+        "bytes_index": [
+            [
+                245,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:435+",
+            "src/blackscholes.m4.cpp:116+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 0
+    },
+    {
+        "id": 95,
+        "bytes_index": [
+            [
+                129,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:435+",
+            "src/blackscholes.m4.cpp:266+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 2
+    },
+    {
+        "id": 96,
+        "bytes_index": [
+            [
+                98,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:188+",
+            "src/blackscholes.m4.cpp:434+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 2
+    },
+    {
+        "id": 97,
+        "bytes_index": [
+            [
+                184,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:435+",
+            "src/blackscholes.m4.cpp:183+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 3
+    },
+    {
+        "id": 98,
+        "bytes_index": [
+            [
+                236,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:435+",
+            "src/blackscholes.m4.cpp:175+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 0
+    },
+    {
+        "id": 99,
+        "bytes_index": [
+            [
+                77,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/blackscholes.m4.cpp:189+",
+            "src/blackscholes.m4.cpp:435+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 1
+    }
+]

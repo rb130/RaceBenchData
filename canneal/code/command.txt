@@ -1,0 +1,6 @@
+{install_dir}/canneal
+3
+100
+300
+{input_file}
+2

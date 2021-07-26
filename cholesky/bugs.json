@@ -1,0 +1,1502 @@
+[
+    {
+        "id": 0,
+        "bytes_index": [
+            [
+                11846,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/solve.c:366+",
+            "src/solve.c:380+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 3
+    },
+    {
+        "id": 1,
+        "bytes_index": [
+            [
+                105081,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/fo.c:59+",
+            "src/fo.c:59+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 3
+    },
+    {
+        "id": 2,
+        "bytes_index": [
+            [
+                76076,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/fo.c:109+",
+            "src/fo.c:109+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 1
+    },
+    {
+        "id": 3,
+        "bytes_index": [
+            [
+                92550,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/fo.c:76+",
+            "src/solve.c:380+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 3
+    },
+    {
+        "id": 4,
+        "bytes_index": [
+            [
+                58921,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:204+",
+            "src/numLL.c:177+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 0
+    },
+    {
+        "id": 5,
+        "bytes_index": [
+            [
+                175660,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:349+",
+            "src/numLL.c:514+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 3
+    },
+    {
+        "id": 6,
+        "bytes_index": [
+            [
+                145062,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:174+",
+            "src/numLL.c:96+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 0
+    },
+    {
+        "id": 7,
+        "bytes_index": [
+            [
+                63824,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/fo.c:59+",
+            "src/fo.c:59+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 1
+    },
+    {
+        "id": 8,
+        "bytes_index": [
+            [
+                21666,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:183+",
+            "src/numLL.c:482+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 0
+    },
+    {
+        "id": 9,
+        "bytes_index": [
+            [
+                18883,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:94+",
+            "src/numLL.c:201+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 1
+    },
+    {
+        "id": 10,
+        "bytes_index": [
+            [
+                90367,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:177+",
+            "src/numLL.c:530+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 3
+    },
+    {
+        "id": 11,
+        "bytes_index": [
+            [
+                31915,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/malloc.c:183+",
+            "src/fo.c:50+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 2
+    },
+    {
+        "id": 12,
+        "bytes_index": [
+            [
+                147674,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/fo.c:46+",
+            "src/fo.c:73+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 1
+    },
+    {
+        "id": 13,
+        "bytes_index": [
+            [
+                30429,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:570+",
+            "src/numLL.c:567+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 3
+    },
+    {
+        "id": 14,
+        "bytes_index": [
+            [
+                155654,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:116+",
+            "src/numLL.c:43+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 0
+    },
+    {
+        "id": 15,
+        "bytes_index": [
+            [
+                148097,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/fo.c:89+",
+            "src/fo.c:23+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 1
+    },
+    {
+        "id": 16,
+        "bytes_index": [
+            [
+                62157,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/solve.c:276+",
+            "src/solve.c:360+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 3
+    },
+    {
+        "id": 17,
+        "bytes_index": [
+            [
+                66448,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/fo.c:50+",
+            "src/fo.c:50+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 0
+    },
+    {
+        "id": 18,
+        "bytes_index": [
+            [
+                15114,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:169+",
+            "src/numLL.c:174+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 0
+    },
+    {
+        "id": 19,
+        "bytes_index": [
+            [
+                132350,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:618+",
+            "src/numLL.c:622+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 1
+    },
+    {
+        "id": 20,
+        "bytes_index": [
+            [
+                165860,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/solve.c:362+",
+            "src/solve.c:362+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 0
+    },
+    {
+        "id": 21,
+        "bytes_index": [
+            [
+                161250,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/fo.c:59+",
+            "src/malloc.c:114+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 1
+    },
+    {
+        "id": 22,
+        "bytes_index": [
+            [
+                155057,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:485+",
+            "src/numLL.c:483+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 3
+    },
+    {
+        "id": 23,
+        "bytes_index": [
+            [
+                44188,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/mf.c:109+",
+            "src/numLL.c:267+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 3
+    },
+    {
+        "id": 24,
+        "bytes_index": [
+            [
+                114322,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/solve.c:360+",
+            "src/solve.c:361+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 3
+    },
+    {
+        "id": 25,
+        "bytes_index": [
+            [
+                59193,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/malloc.c:197+",
+            "src/fo.c:78+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 0
+    },
+    {
+        "id": 26,
+        "bytes_index": [
+            [
+                106460,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/solve.c:276+",
+            "src/fo.c:624+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 2
+    },
+    {
+        "id": 27,
+        "bytes_index": [
+            [
+                103687,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:282+",
+            "src/numLL.c:176+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 0
+    },
+    {
+        "id": 28,
+        "bytes_index": [
+            [
+                101506,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/fo.c:59+",
+            "src/fo.c:59+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 0
+    },
+    {
+        "id": 29,
+        "bytes_index": [
+            [
+                78410,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/malloc.c:137+",
+            "src/fo.c:78+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 0
+    },
+    {
+        "id": 30,
+        "bytes_index": [
+            [
+                90215,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/fo.c:93+",
+            "src/fo.c:95+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 0
+    },
+    {
+        "id": 31,
+        "bytes_index": [
+            [
+                14820,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/fo.c:57+",
+            "src/malloc.c:84+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 3
+    },
+    {
+        "id": 32,
+        "bytes_index": [
+            [
+                155391,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:455+",
+            "src/numLL.c:51+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 3
+    },
+    {
+        "id": 33,
+        "bytes_index": [
+            [
+                83077,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:305+",
+            "src/numLL.c:43+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 2
+    },
+    {
+        "id": 34,
+        "bytes_index": [
+            [
+                99503,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/fo.c:78+",
+            "src/malloc.c:106+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 1
+    },
+    {
+        "id": 35,
+        "bytes_index": [
+            [
+                23249,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/fo.c:50+",
+            "src/malloc.c:106+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 0
+    },
+    {
+        "id": 36,
+        "bytes_index": [
+            [
+                110117,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/malloc.c:109+",
+            "src/malloc.c:84+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 0
+    },
+    {
+        "id": 37,
+        "bytes_index": [
+            [
+                57781,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/solve.c:353+",
+            "src/malloc.c:114+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 2
+    },
+    {
+        "id": 38,
+        "bytes_index": [
+            [
+                157712,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/malloc.c:190+",
+            "src/malloc.c:188+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 0
+    },
+    {
+        "id": 39,
+        "bytes_index": [
+            [
+                168956,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/malloc.c:130+",
+            "src/numLL.c:494+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 2
+    },
+    {
+        "id": 40,
+        "bytes_index": [
+            [
+                70032,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/malloc.c:109+",
+            "src/solve.c:378+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 0
+    },
+    {
+        "id": 41,
+        "bytes_index": [
+            [
+                121138,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/solve.c:276+",
+            "src/fo.c:24+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 1
+    },
+    {
+        "id": 42,
+        "bytes_index": [
+            [
+                104213,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/malloc.c:143+",
+            "src/fo.c:78+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 1
+    },
+    {
+        "id": 43,
+        "bytes_index": [
+            [
+                162434,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/fo.c:91+",
+            "src/fo.c:91+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 0
+    },
+    {
+        "id": 44,
+        "bytes_index": [
+            [
+                48932,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:282+",
+            "src/numLL.c:92+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 2
+    },
+    {
+        "id": 45,
+        "bytes_index": [
+            [
+                13160,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/malloc.c:183+",
+            "src/malloc.c:181+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 1
+    },
+    {
+        "id": 46,
+        "bytes_index": [
+            [
+                132805,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/fo.c:114+",
+            "src/fo.c:114+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 1
+    },
+    {
+        "id": 47,
+        "bytes_index": [
+            [
+                112918,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:43+",
+            "src/numLL.c:513+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 3
+    },
+    {
+        "id": 48,
+        "bytes_index": [
+            [
+                103641,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:116+",
+            "src/numLL.c:619+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 3
+    },
+    {
+        "id": 49,
+        "bytes_index": [
+            [
+                151796,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:491+",
+            "src/numLL.c:628+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 0
+    },
+    {
+        "id": 50,
+        "bytes_index": [
+            [
+                19209,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/solve.c:364+",
+            "src/solve.c:276+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 1
+    },
+    {
+        "id": 51,
+        "bytes_index": [
+            [
+                106928,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/solve.c:276+",
+            "src/fo.c:82+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 0
+    },
+    {
+        "id": 52,
+        "bytes_index": [
+            [
+                127657,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:209+",
+            "src/numLL.c:177+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 3
+    },
+    {
+        "id": 53,
+        "bytes_index": [
+            [
+                152758,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:324+",
+            "src/numLL.c:324+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 3
+    },
+    {
+        "id": 54,
+        "bytes_index": [
+            [
+                144790,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/fo.c:109+",
+            "src/fo.c:109+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 2
+    },
+    {
+        "id": 55,
+        "bytes_index": [
+            [
+                85029,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/solve.c:276+",
+            "src/solve.c:364+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 3
+    },
+    {
+        "id": 56,
+        "bytes_index": [
+            [
+                101186,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:214+",
+            "src/numLL.c:622+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 2
+    },
+    {
+        "id": 57,
+        "bytes_index": [
+            [
+                167342,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:619+",
+            "src/numLL.c:210+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 3
+    },
+    {
+        "id": 58,
+        "bytes_index": [
+            [
+                126498,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:214+",
+            "src/numLL.c:607+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 0
+    },
+    {
+        "id": 59,
+        "bytes_index": [
+            [
+                40736,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:43+",
+            "src/numLL.c:46+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 1
+    },
+    {
+        "id": 60,
+        "bytes_index": [
+            [
+                20654,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:36+",
+            "src/numLL.c:36+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 1
+    },
+    {
+        "id": 61,
+        "bytes_index": [
+            [
+                142957,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:619+",
+            "src/numLL.c:464+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 0
+    },
+    {
+        "id": 62,
+        "bytes_index": [
+            [
+                111539,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:493+",
+            "src/numLL.c:43+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 3
+    },
+    {
+        "id": 63,
+        "bytes_index": [
+            [
+                57953,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/fo.c:78+",
+            "src/fo.c:50+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 2
+    },
+    {
+        "id": 64,
+        "bytes_index": [
+            [
+                143702,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:171+",
+            "src/numLL.c:174+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 2
+    },
+    {
+        "id": 65,
+        "bytes_index": [
+            [
+                70690,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/fo.c:61+",
+            "src/fo.c:61+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 1
+    },
+    {
+        "id": 66,
+        "bytes_index": [
+            [
+                152714,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/fo.c:59+",
+            "src/fo.c:59+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 0
+    },
+    {
+        "id": 67,
+        "bytes_index": [
+            [
+                66522,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/solve.c:283+",
+            "src/solve.c:378+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 0
+    },
+    {
+        "id": 68,
+        "bytes_index": [
+            [
+                145177,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/fo.c:624+",
+            "src/fo.c:624+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 2
+    },
+    {
+        "id": 69,
+        "bytes_index": [
+            [
+                110370,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/solve.c:378+",
+            "src/fo.c:624+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 3
+    },
+    {
+        "id": 70,
+        "bytes_index": [
+            [
+                153530,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:201+",
+            "src/numLL.c:201+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 0
+    },
+    {
+        "id": 71,
+        "bytes_index": [
+            [
+                176376,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/malloc.c:114+",
+            "src/malloc.c:84+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 0
+    },
+    {
+        "id": 72,
+        "bytes_index": [
+            [
+                129915,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:43+",
+            "src/numLL.c:43+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 3
+    },
+    {
+        "id": 73,
+        "bytes_index": [
+            [
+                144334,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:183+",
+            "src/numLL.c:464+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 0
+    },
+    {
+        "id": 74,
+        "bytes_index": [
+            [
+                57780,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/solve.c:362+",
+            "src/solve.c:362+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 0
+    },
+    {
+        "id": 75,
+        "bytes_index": [
+            [
+                133717,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:409+",
+            "src/numLL.c:408+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 1
+    },
+    {
+        "id": 76,
+        "bytes_index": [
+            [
+                163162,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/fo.c:46+",
+            "src/fo.c:46+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 3
+    },
+    {
+        "id": 77,
+        "bytes_index": [
+            [
+                83033,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/fo.c:93+",
+            "src/fo.c:85+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 1
+    },
+    {
+        "id": 78,
+        "bytes_index": [
+            [
+                136719,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:620+",
+            "src/numLL.c:37+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 1
+    },
+    {
+        "id": 79,
+        "bytes_index": [
+            [
+                79681,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:43+",
+            "src/numLL.c:176+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 2
+    },
+    {
+        "id": 80,
+        "bytes_index": [
+            [
+                121264,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:211+",
+            "src/numLL.c:211+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 0
+    },
+    {
+        "id": 81,
+        "bytes_index": [
+            [
+                142562,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/fo.c:46+",
+            "src/fo.c:46+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 1
+    },
+    {
+        "id": 82,
+        "bytes_index": [
+            [
+                145873,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/malloc.c:183+",
+            "src/numLL.c:610+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 1
+    },
+    {
+        "id": 83,
+        "bytes_index": [
+            [
+                77801,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/malloc.c:193+",
+            "src/numLL.c:461+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 1
+    },
+    {
+        "id": 84,
+        "bytes_index": [
+            [
+                167029,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:454+",
+            "src/numLL.c:457+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 0
+    },
+    {
+        "id": 85,
+        "bytes_index": [
+            [
+                62563,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:441+",
+            "src/numLL.c:441+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 0
+    },
+    {
+        "id": 86,
+        "bytes_index": [
+            [
+                102691,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/malloc.c:183+",
+            "src/malloc.c:183+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 0
+    },
+    {
+        "id": 87,
+        "bytes_index": [
+            [
+                137824,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:515+",
+            "src/malloc.c:183+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 0
+    },
+    {
+        "id": 88,
+        "bytes_index": [
+            [
+                19068,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/fo.c:50+",
+            "src/fo.c:50+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 0
+    },
+    {
+        "id": 89,
+        "bytes_index": [
+            [
+                55278,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:159+",
+            "src/numLL.c:312+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 0
+    },
+    {
+        "id": 90,
+        "bytes_index": [
+            [
+                168931,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:451+",
+            "src/fo.c:363+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 3
+    },
+    {
+        "id": 91,
+        "bytes_index": [
+            [
+                25608,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:491+",
+            "src/numLL.c:486+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 0
+    },
+    {
+        "id": 92,
+        "bytes_index": [
+            [
+                166984,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:475+",
+            "src/numLL.c:477+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 1
+    },
+    {
+        "id": 93,
+        "bytes_index": [
+            [
+                66066,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:98+",
+            "src/numLL.c:59+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 2
+    },
+    {
+        "id": 94,
+        "bytes_index": [
+            [
+                67308,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:515+",
+            "src/numLL.c:454+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 1
+    },
+    {
+        "id": 95,
+        "bytes_index": [
+            [
+                106365,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:46+",
+            "src/solve.c:387+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 0
+    },
+    {
+        "id": 96,
+        "bytes_index": [
+            [
+                49489,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/numLL.c:461+",
+            "src/numLL.c:612+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 1
+    },
+    {
+        "id": 97,
+        "bytes_index": [
+            [
+                100042,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/fo.c:112+",
+            "src/fo.c:114+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 3
+    },
+    {
+        "id": 98,
+        "bytes_index": [
+            [
+                70457,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/solve.c:362+",
+            "src/solve.c:353+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 3
+    },
+    {
+        "id": 99,
+        "bytes_index": [
+            [
+                112819,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/malloc.c:106+",
+            "src/fo.c:50+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 1
+    }
+]

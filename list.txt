@@ -1,0 +1,15 @@
+blackscholes
+bodytrack
+canneal
+cholesky
+dedup
+ferret
+fluidanimate
+freqmine
+raytrace
+raytrace2
+vips
+volrend
+water_nsquared
+water_spatial
+x264

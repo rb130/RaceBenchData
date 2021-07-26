@@ -1,0 +1,1502 @@
+[
+    {
+        "id": 0,
+        "bytes_index": [
+            [
+                2117,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:21+",
+            "src/main.cpp:102+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 1
+    },
+    {
+        "id": 1,
+        "bytes_index": [
+            [
+                1541,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:79+",
+            "src/annealer_thread.cpp:21+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 2
+    },
+    {
+        "id": 2,
+        "bytes_index": [
+            [
+                9,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:21+",
+            "src/annealer_thread.cpp:23+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 3
+    },
+    {
+        "id": 3,
+        "bytes_index": [
+            [
+                1168,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:21+",
+            "src/annealer_thread.cpp:20+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 0
+    },
+    {
+        "id": 4,
+        "bytes_index": [
+            [
+                1488,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:102+",
+            "src/main.cpp:102+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 0
+    },
+    {
+        "id": 5,
+        "bytes_index": [
+            [
+                1852,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:23+",
+            "src/annealer_thread.cpp:21+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 3
+    },
+    {
+        "id": 6,
+        "bytes_index": [
+            [
+                1948,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:102+",
+            "src/main.cpp:102+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 1
+    },
+    {
+        "id": 7,
+        "bytes_index": [
+            [
+                1195,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:101+",
+            "src/main.cpp:101+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 3
+    },
+    {
+        "id": 8,
+        "bytes_index": [
+            [
+                461,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:101+",
+            "src/main.cpp:101+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 1
+    },
+    {
+        "id": 9,
+        "bytes_index": [
+            [
+                631,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:102+",
+            "src/main.cpp:102+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 2
+    },
+    {
+        "id": 10,
+        "bytes_index": [
+            [
+                1332,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:23+",
+            "src/main.cpp:102+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 2
+    },
+    {
+        "id": 11,
+        "bytes_index": [
+            [
+                50,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:101+",
+            "src/main.cpp:101+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 0
+    },
+    {
+        "id": 12,
+        "bytes_index": [
+            [
+                1243,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:23+",
+            "src/main.cpp:79+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 0
+    },
+    {
+        "id": 13,
+        "bytes_index": [
+            [
+                1687,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:21+",
+            "src/annealer_thread.cpp:23+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 2
+    },
+    {
+        "id": 14,
+        "bytes_index": [
+            [
+                2054,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:21+",
+            "src/main.cpp:102+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 1
+    },
+    {
+        "id": 15,
+        "bytes_index": [
+            [
+                1356,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:22+",
+            "src/annealer_thread.cpp:22+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 2
+    },
+    {
+        "id": 16,
+        "bytes_index": [
+            [
+                1174,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:20+",
+            "src/annealer_thread.cpp:21+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 2
+    },
+    {
+        "id": 17,
+        "bytes_index": [
+            [
+                1031,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:20+",
+            "src/annealer_thread.cpp:22+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 0
+    },
+    {
+        "id": 18,
+        "bytes_index": [
+            [
+                1445,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:79+",
+            "src/annealer_thread.cpp:23+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 3
+    },
+    {
+        "id": 19,
+        "bytes_index": [
+            [
+                301,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:102+",
+            "src/main.cpp:102+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 1
+    },
+    {
+        "id": 20,
+        "bytes_index": [
+            [
+                1589,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:22+",
+            "src/annealer_thread.cpp:22+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 3
+    },
+    {
+        "id": 21,
+        "bytes_index": [
+            [
+                781,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:23+",
+            "src/annealer_thread.cpp:20+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 0
+    },
+    {
+        "id": 22,
+        "bytes_index": [
+            [
+                1936,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:22+",
+            "src/annealer_thread.cpp:23+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 3
+    },
+    {
+        "id": 23,
+        "bytes_index": [
+            [
+                1822,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:21+",
+            "src/annealer_thread.cpp:21+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 3
+    },
+    {
+        "id": 24,
+        "bytes_index": [
+            [
+                2017,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:23+",
+            "src/main.cpp:79+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 2
+    },
+    {
+        "id": 25,
+        "bytes_index": [
+            [
+                1730,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:21+",
+            "src/annealer_thread.cpp:22+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 1
+    },
+    {
+        "id": 26,
+        "bytes_index": [
+            [
+                2147,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:102+",
+            "src/main.cpp:102+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 1
+    },
+    {
+        "id": 27,
+        "bytes_index": [
+            [
+                2139,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:101+",
+            "src/main.cpp:101+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 2
+    },
+    {
+        "id": 28,
+        "bytes_index": [
+            [
+                1077,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:101+",
+            "src/main.cpp:101+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 1
+    },
+    {
+        "id": 29,
+        "bytes_index": [
+            [
+                558,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:20+",
+            "src/main.cpp:79+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 2
+    },
+    {
+        "id": 30,
+        "bytes_index": [
+            [
+                690,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:22+",
+            "src/annealer_thread.cpp:22+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 0
+    },
+    {
+        "id": 31,
+        "bytes_index": [
+            [
+                821,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:102+",
+            "src/main.cpp:79+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 2
+    },
+    {
+        "id": 32,
+        "bytes_index": [
+            [
+                166,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:20+",
+            "src/annealer_thread.cpp:20+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 3
+    },
+    {
+        "id": 33,
+        "bytes_index": [
+            [
+                1289,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:101+",
+            "src/main.cpp:101+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 0
+    },
+    {
+        "id": 34,
+        "bytes_index": [
+            [
+                1032,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:23+",
+            "src/annealer_thread.cpp:20+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 1
+    },
+    {
+        "id": 35,
+        "bytes_index": [
+            [
+                1964,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:20+",
+            "src/main.cpp:79+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 3
+    },
+    {
+        "id": 36,
+        "bytes_index": [
+            [
+                645,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:23+",
+            "src/annealer_thread.cpp:21+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 2
+    },
+    {
+        "id": 37,
+        "bytes_index": [
+            [
+                1339,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:101+",
+            "src/main.cpp:79+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 3
+    },
+    {
+        "id": 38,
+        "bytes_index": [
+            [
+                454,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:79+",
+            "src/annealer_thread.cpp:22+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 0
+    },
+    {
+        "id": 39,
+        "bytes_index": [
+            [
+                1840,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:79+",
+            "src/main.cpp:101+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 0
+    },
+    {
+        "id": 40,
+        "bytes_index": [
+            [
+                1844,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:21+",
+            "src/annealer_thread.cpp:21+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 3
+    },
+    {
+        "id": 41,
+        "bytes_index": [
+            [
+                2214,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:21+",
+            "src/annealer_thread.cpp:20+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 2
+    },
+    {
+        "id": 42,
+        "bytes_index": [
+            [
+                111,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:102+",
+            "src/main.cpp:102+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 0
+    },
+    {
+        "id": 43,
+        "bytes_index": [
+            [
+                876,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:101+",
+            "src/main.cpp:101+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 3
+    },
+    {
+        "id": 44,
+        "bytes_index": [
+            [
+                1313,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:20+",
+            "src/annealer_thread.cpp:20+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 2
+    },
+    {
+        "id": 45,
+        "bytes_index": [
+            [
+                1358,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:21+",
+            "src/main.cpp:102+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 3
+    },
+    {
+        "id": 46,
+        "bytes_index": [
+            [
+                1413,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:20+",
+            "src/annealer_thread.cpp:22+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 3
+    },
+    {
+        "id": 47,
+        "bytes_index": [
+            [
+                1009,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:101+",
+            "src/main.cpp:101+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 0
+    },
+    {
+        "id": 48,
+        "bytes_index": [
+            [
+                2139,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:101+",
+            "src/main.cpp:79+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 2
+    },
+    {
+        "id": 49,
+        "bytes_index": [
+            [
+                1908,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:102+",
+            "src/main.cpp:102+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 3
+    },
+    {
+        "id": 50,
+        "bytes_index": [
+            [
+                392,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:23+",
+            "src/main.cpp:101+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 0
+    },
+    {
+        "id": 51,
+        "bytes_index": [
+            [
+                2081,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:22+",
+            "src/annealer_thread.cpp:21+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 2
+    },
+    {
+        "id": 52,
+        "bytes_index": [
+            [
+                1651,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:101+",
+            "src/main.cpp:79+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 1
+    },
+    {
+        "id": 53,
+        "bytes_index": [
+            [
+                2105,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:101+",
+            "src/main.cpp:101+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 2
+    },
+    {
+        "id": 54,
+        "bytes_index": [
+            [
+                2121,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:23+",
+            "src/annealer_thread.cpp:21+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 3
+    },
+    {
+        "id": 55,
+        "bytes_index": [
+            [
+                1552,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:79+",
+            "src/main.cpp:101+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 2
+    },
+    {
+        "id": 56,
+        "bytes_index": [
+            [
+                1646,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:23+",
+            "src/annealer_thread.cpp:20+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 2
+    },
+    {
+        "id": 57,
+        "bytes_index": [
+            [
+                125,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:22+",
+            "src/main.cpp:101+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 0
+    },
+    {
+        "id": 58,
+        "bytes_index": [
+            [
+                298,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:22+",
+            "src/annealer_thread.cpp:23+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 0
+    },
+    {
+        "id": 59,
+        "bytes_index": [
+            [
+                434,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:102+",
+            "src/main.cpp:102+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 3
+    },
+    {
+        "id": 60,
+        "bytes_index": [
+            [
+                457,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:20+",
+            "src/annealer_thread.cpp:20+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 0
+    },
+    {
+        "id": 61,
+        "bytes_index": [
+            [
+                701,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:102+",
+            "src/main.cpp:102+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 3
+    },
+    {
+        "id": 62,
+        "bytes_index": [
+            [
+                2084,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:101+",
+            "src/main.cpp:101+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 2
+    },
+    {
+        "id": 63,
+        "bytes_index": [
+            [
+                2151,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:79+",
+            "src/annealer_thread.cpp:22+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 1
+    },
+    {
+        "id": 64,
+        "bytes_index": [
+            [
+                636,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:102+",
+            "src/main.cpp:79+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 2
+    },
+    {
+        "id": 65,
+        "bytes_index": [
+            [
+                293,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:79+",
+            "src/main.cpp:101+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 3
+    },
+    {
+        "id": 66,
+        "bytes_index": [
+            [
+                2169,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:22+",
+            "src/annealer_thread.cpp:22+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 3
+    },
+    {
+        "id": 67,
+        "bytes_index": [
+            [
+                20,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:23+",
+            "src/annealer_thread.cpp:21+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 0
+    },
+    {
+        "id": 68,
+        "bytes_index": [
+            [
+                2209,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:101+",
+            "src/main.cpp:102+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 0
+    },
+    {
+        "id": 69,
+        "bytes_index": [
+            [
+                582,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:20+",
+            "src/main.cpp:79+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 2
+    },
+    {
+        "id": 70,
+        "bytes_index": [
+            [
+                336,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:21+",
+            "src/main.cpp:102+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 1
+    },
+    {
+        "id": 71,
+        "bytes_index": [
+            [
+                527,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:21+",
+            "src/main.cpp:102+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 3
+    },
+    {
+        "id": 72,
+        "bytes_index": [
+            [
+                2094,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:21+",
+            "src/main.cpp:102+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 1
+    },
+    {
+        "id": 73,
+        "bytes_index": [
+            [
+                1245,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:102+",
+            "src/main.cpp:102+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 3
+    },
+    {
+        "id": 74,
+        "bytes_index": [
+            [
+                1822,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:101+",
+            "src/main.cpp:101+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 0
+    },
+    {
+        "id": 75,
+        "bytes_index": [
+            [
+                287,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:102+",
+            "src/main.cpp:79+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 3
+    },
+    {
+        "id": 76,
+        "bytes_index": [
+            [
+                92,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:20+",
+            "src/annealer_thread.cpp:20+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 0
+    },
+    {
+        "id": 77,
+        "bytes_index": [
+            [
+                2182,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:101+",
+            "src/main.cpp:79+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 1
+    },
+    {
+        "id": 78,
+        "bytes_index": [
+            [
+                455,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:20+",
+            "src/annealer_thread.cpp:20+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 2
+    },
+    {
+        "id": 79,
+        "bytes_index": [
+            [
+                512,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:101+",
+            "src/main.cpp:101+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 3
+    },
+    {
+        "id": 80,
+        "bytes_index": [
+            [
+                681,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:21+",
+            "src/annealer_thread.cpp:22+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 0
+    },
+    {
+        "id": 81,
+        "bytes_index": [
+            [
+                1095,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:21+",
+            "src/annealer_thread.cpp:22+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 2
+    },
+    {
+        "id": 82,
+        "bytes_index": [
+            [
+                1347,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:79+",
+            "src/main.cpp:101+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 2
+    },
+    {
+        "id": 83,
+        "bytes_index": [
+            [
+                1971,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:101+",
+            "src/main.cpp:79+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 3
+    },
+    {
+        "id": 84,
+        "bytes_index": [
+            [
+                452,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:20+",
+            "src/annealer_thread.cpp:20+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 0
+    },
+    {
+        "id": 85,
+        "bytes_index": [
+            [
+                283,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:101+",
+            "src/main.cpp:79+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 1
+    },
+    {
+        "id": 86,
+        "bytes_index": [
+            [
+                2208,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:20+",
+            "src/main.cpp:79+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 3
+    },
+    {
+        "id": 87,
+        "bytes_index": [
+            [
+                623,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:21+",
+            "src/annealer_thread.cpp:22+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 0
+    },
+    {
+        "id": 88,
+        "bytes_index": [
+            [
+                998,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:101+",
+            "src/annealer_thread.cpp:21+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 3
+    },
+    {
+        "id": 89,
+        "bytes_index": [
+            [
+                699,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:22+",
+            "src/annealer_thread.cpp:23+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 2
+    },
+    {
+        "id": 90,
+        "bytes_index": [
+            [
+                1064,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:22+",
+            "src/annealer_thread.cpp:23+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 3
+    },
+    {
+        "id": 91,
+        "bytes_index": [
+            [
+                576,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:22+",
+            "src/annealer_thread.cpp:21+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 1
+    },
+    {
+        "id": 92,
+        "bytes_index": [
+            [
+                58,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:102+",
+            "src/main.cpp:101+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 2
+    },
+    {
+        "id": 93,
+        "bytes_index": [
+            [
+                1482,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:79+",
+            "src/main.cpp:101+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 1
+    },
+    {
+        "id": 94,
+        "bytes_index": [
+            [
+                305,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:21+",
+            "src/annealer_thread.cpp:20+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 3
+    },
+    {
+        "id": 95,
+        "bytes_index": [
+            [
+                1172,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:21+",
+            "src/annealer_thread.cpp:23+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 2
+    },
+    {
+        "id": 96,
+        "bytes_index": [
+            [
+                1075,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:101+",
+            "src/main.cpp:101+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 3
+    },
+    {
+        "id": 97,
+        "bytes_index": [
+            [
+                1063,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:101+",
+            "src/main.cpp:101+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 2
+    },
+    {
+        "id": 98,
+        "bytes_index": [
+            [
+                558,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/main.cpp:102+",
+            "src/annealer_thread.cpp:20+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 0
+    },
+    {
+        "id": 99,
+        "bytes_index": [
+            [
+                284,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/annealer_thread.cpp:20+",
+            "src/annealer_thread.cpp:22+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 1
+    }
+]

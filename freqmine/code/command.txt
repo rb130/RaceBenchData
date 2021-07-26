@@ -1,0 +1,3 @@
+{install_dir}/freqmine
+{input_file}
+1

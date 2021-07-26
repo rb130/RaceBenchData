@@ -1,0 +1,1502 @@
+[
+    {
+        "id": 0,
+        "bytes_index": [
+            [
+                7845,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/common/mc.c:238+",
+            "src/encoder/encoder.c:985+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 3
+    },
+    {
+        "id": 1,
+        "bytes_index": [
+            [
+                720,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/encoder/encoder.c:1318+",
+            "src/common/macroblock.c:986+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 1
+    },
+    {
+        "id": 2,
+        "bytes_index": [
+            [
+                9294,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/common/macroblock.c:1070+",
+            "src/encoder/encoder.c:200+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 2
+    },
+    {
+        "id": 3,
+        "bytes_index": [
+            [
+                7345,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/common/frame.c:30+",
+            "src/encoder/encoder.c:957+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 0
+    },
+    {
+        "id": 4,
+        "bytes_index": [
+            [
+                260,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/common/macroblock.c:843+",
+            "src/encoder/analyse.c:117+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 1
+    },
+    {
+        "id": 5,
+        "bytes_index": [
+            [
+                4253,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/encoder/encoder.c:198+",
+            "src/encoder/analyse.c:117+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 0
+    },
+    {
+        "id": 6,
+        "bytes_index": [
+            [
+                1453,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/encoder/encoder.c:979+",
+            "src/common/frame.c:26+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 3
+    },
+    {
+        "id": 7,
+        "bytes_index": [
+            [
+                9862,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/encoder/encoder.c:733+",
+            "src/muxers.c:406+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 0
+    },
+    {
+        "id": 8,
+        "bytes_index": [
+            [
+                4356,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/common/mc.c:298+",
+            "src/common/predict.c:571+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 2
+    },
+    {
+        "id": 9,
+        "bytes_index": [
+            [
+                2667,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/encoder/analyse.c:165+",
+            "src/x264.c:693+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 1
+    },
+    {
+        "id": 10,
+        "bytes_index": [
+            [
+                298,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/encoder/encoder.c:1166+",
+            "src/muxers.c:248+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 3
+    },
+    {
+        "id": 11,
+        "bytes_index": [
+            [
+                3496,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/encoder/analyse.c:145+",
+            "src/encoder/encoder.c:1318+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 3
+    },
+    {
+        "id": 12,
+        "bytes_index": [
+            [
+                10165,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/encoder/encoder.c:1159+",
+            "src/encoder/encoder.c:129+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 0
+    },
+    {
+        "id": 13,
+        "bytes_index": [
+            [
+                8129,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/x264.c:691+",
+            "src/encoder/encoder.c:960+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 0
+    },
+    {
+        "id": 14,
+        "bytes_index": [
+            [
+                2408,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/encoder/encoder.c:1317+",
+            "src/encoder/ratecontrol.c:734+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 3
+    },
+    {
+        "id": 15,
+        "bytes_index": [
+            [
+                2094,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/encoder/encoder.c:213+",
+            "src/common/mc.c:219+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 1
+    },
+    {
+        "id": 16,
+        "bytes_index": [
+            [
+                1301,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/encoder/analyse.c:115+",
+            "src/common/mc.c:109+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 2
+    },
+    {
+        "id": 17,
+        "bytes_index": [
+            [
+                7468,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/encoder/encoder.c:207+",
+            "src/encoder/analyse.c:117+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 0
+    },
+    {
+        "id": 18,
+        "bytes_index": [
+            [
+                5005,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/muxers.c:400+",
+            "src/encoder/analyse.c:117+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 2
+    },
+    {
+        "id": 19,
+        "bytes_index": [
+            [
+                7594,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/common/mc.c:112+",
+            "src/common/predict.c:578+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 0
+    },
+    {
+        "id": 20,
+        "bytes_index": [
+            [
+                9634,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/common/macroblock.c:879+",
+            "src/encoder/analyse.c:117+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 1
+    },
+    {
+        "id": 21,
+        "bytes_index": [
+            [
+                957,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/encoder/encoder.c:1397+",
+            "src/common/dct.c:120+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 3
+    },
+    {
+        "id": 22,
+        "bytes_index": [
+            [
+                8650,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/encoder/encoder.c:1318+",
+            "src/common/macroblock.c:792+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 1
+    },
+    {
+        "id": 23,
+        "bytes_index": [
+            [
+                4110,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/encoder/encoder.c:1318+",
+            "src/encoder/encoder.c:200+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 1
+    },
+    {
+        "id": 24,
+        "bytes_index": [
+            [
+                3520,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/encoder/encoder.c:900+",
+            "src/encoder/encoder.c:969+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 0
+    },
+    {
+        "id": 25,
+        "bytes_index": [
+            [
+                6672,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/encoder/analyse.c:168+",
+            "src/x264.c:691+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 1
+    },
+    {
+        "id": 26,
+        "bytes_index": [
+            [
+                2496,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/x264.c:693+",
+            "src/common/macroblock.c:1016+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 3
+    },
+    {
+        "id": 27,
+        "bytes_index": [
+            [
+                1106,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/encoder/macroblock.c:316+",
+            "src/encoder/analyse.c:117+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 3
+    },
+    {
+        "id": 28,
+        "bytes_index": [
+            [
+                6961,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/encoder/analyse.c:143+",
+            "src/encoder/encoder.c:1318+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 1
+    },
+    {
+        "id": 29,
+        "bytes_index": [
+            [
+                2496,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/common/macroblock.c:986+",
+            "src/encoder/encoder.c:1397+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 1
+    },
+    {
+        "id": 30,
+        "bytes_index": [
+            [
+                4864,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/encoder/analyse.c:117+",
+            "src/encoder/encoder.c:207+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 2
+    },
+    {
+        "id": 31,
+        "bytes_index": [
+            [
+                636,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/common/macroblock.c:973+",
+            "src/encoder/encoder.c:1318+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 0
+    },
+    {
+        "id": 32,
+        "bytes_index": [
+            [
+                9886,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/encoder/encoder.c:828+",
+            "src/x264.c:691+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 0
+    },
+    {
+        "id": 33,
+        "bytes_index": [
+            [
+                98,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/encoder/analyse.c:117+",
+            "src/encoder/encoder.c:965+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 2
+    },
+    {
+        "id": 34,
+        "bytes_index": [
+            [
+                3141,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/encoder/analyse.c:1736+",
+            "src/encoder/analyse.c:117+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 0
+    },
+    {
+        "id": 35,
+        "bytes_index": [
+            [
+                6189,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/encoder/analyse.c:117+",
+            "src/common/macroblock.c:847+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 1
+    },
+    {
+        "id": 36,
+        "bytes_index": [
+            [
+                843,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/encoder/analyse.c:117+",
+            "src/encoder/encoder.c:207+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 2
+    },
+    {
+        "id": 37,
+        "bytes_index": [
+            [
+                1346,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/common/frame.c:275+",
+            "src/muxers.c:248+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 0
+    },
+    {
+        "id": 38,
+        "bytes_index": [
+            [
+                8299,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/common/predict.c:555+",
+            "src/common/mc.c:104+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 2
+    },
+    {
+        "id": 39,
+        "bytes_index": [
+            [
+                111,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/encoder/encoder.c:1318+",
+            "src/common/macroblock.c:843+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 0
+    },
+    {
+        "id": 40,
+        "bytes_index": [
+            [
+                5868,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/encoder/encoder.c:900+",
+            "src/common/frame.c:237+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 3
+    },
+    {
+        "id": 41,
+        "bytes_index": [
+            [
+                6574,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/encoder/encoder.c:960+",
+            "src/encoder/analyse.c:117+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 1
+    },
+    {
+        "id": 42,
+        "bytes_index": [
+            [
+                7240,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/common/macroblock.c:792+",
+            "src/encoder/encoder.c:1397+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 2
+    },
+    {
+        "id": 43,
+        "bytes_index": [
+            [
+                3186,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/encoder/encoder.c:973+",
+            "src/common/predict.c:486+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 0
+    },
+    {
+        "id": 44,
+        "bytes_index": [
+            [
+                143,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/common/frame.c:175+",
+            "src/encoder/encoder.c:965+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 1
+    },
+    {
+        "id": 45,
+        "bytes_index": [
+            [
+                2670,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/common/macroblock.c:877+",
+            "src/encoder/me.c:638+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 2
+    },
+    {
+        "id": 46,
+        "bytes_index": [
+            [
+                170,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/common/macroblock.c:810+",
+            "src/encoder/encoder.c:1154+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 0
+    },
+    {
+        "id": 47,
+        "bytes_index": [
+            [
+                5185,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/encoder/encoder.c:1318+",
+            "src/common/macroblock.c:782+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 2
+    },
+    {
+        "id": 48,
+        "bytes_index": [
+            [
+                826,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/encoder/encoder.c:1397+",
+            "src/common/macroblock.c:1001+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 2
+    },
+    {
+        "id": 49,
+        "bytes_index": [
+            [
+                2848,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/encoder/analyse.c:177+",
+            "src/x264.c:681+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 0
+    },
+    {
+        "id": 50,
+        "bytes_index": [
+            [
+                7795,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/encoder/encoder.c:127+",
+            "src/encoder/analyse.c:117+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 2
+    },
+    {
+        "id": 51,
+        "bytes_index": [
+            [
+                5682,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/encoder/encoder.c:164+",
+            "src/encoder/encoder.c:164+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 2
+    },
+    {
+        "id": 52,
+        "bytes_index": [
+            [
+                4089,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/encoder/analyse.c:117+",
+            "src/encoder/encoder.c:198+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 2
+    },
+    {
+        "id": 53,
+        "bytes_index": [
+            [
+                7400,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/encoder/encoder.c:979+",
+            "src/encoder/analyse.c:117+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 2
+    },
+    {
+        "id": 54,
+        "bytes_index": [
+            [
+                1299,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/common/mc.c:112+",
+            "src/common/predict.c:530+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 0
+    },
+    {
+        "id": 55,
+        "bytes_index": [
+            [
+                9457,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/encoder/me.c:607+",
+            "src/encoder/analyse.c:348+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 1
+    },
+    {
+        "id": 56,
+        "bytes_index": [
+            [
+                612,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/common/macroblock.c:942+",
+            "src/encoder/analyse.c:117+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 0
+    },
+    {
+        "id": 57,
+        "bytes_index": [
+            [
+                3324,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/encoder/encoder.c:1397+",
+            "src/common/macroblock.c:1071+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 0
+    },
+    {
+        "id": 58,
+        "bytes_index": [
+            [
+                6873,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/encoder/analyse.c:117+",
+            "src/encoder/encoder.c:127+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 3
+    },
+    {
+        "id": 59,
+        "bytes_index": [
+            [
+                3056,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/encoder/analyse.c:164+",
+            "src/encoder/encoder.c:1318+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 1
+    },
+    {
+        "id": 60,
+        "bytes_index": [
+            [
+                1883,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/encoder/analyse.c:117+",
+            "src/encoder/encoder.c:213+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 3
+    },
+    {
+        "id": 61,
+        "bytes_index": [
+            [
+                5811,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/encoder/encoder.c:139+",
+            "src/encoder/analyse.c:117+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 1
+    },
+    {
+        "id": 62,
+        "bytes_index": [
+            [
+                5439,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/common/mc.c:139+",
+            "src/common/frame.c:246+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 1
+    },
+    {
+        "id": 63,
+        "bytes_index": [
+            [
+                8385,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/encoder/encoder.c:1397+",
+            "src/common/macroblock.c:987+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 3
+    },
+    {
+        "id": 64,
+        "bytes_index": [
+            [
+                8322,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/common/frame.c:950+",
+            "src/encoder/encoder.c:1323+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 3
+    },
+    {
+        "id": 65,
+        "bytes_index": [
+            [
+                7997,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/encoder/encoder.c:212+",
+            "src/encoder/analyse.c:117+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 1
+    },
+    {
+        "id": 66,
+        "bytes_index": [
+            [
+                2621,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/common/mc.c:229+",
+            "src/encoder/encoder.c:963+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 3
+    },
+    {
+        "id": 67,
+        "bytes_index": [
+            [
+                7779,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/x264.c:693+",
+            "src/common/macroblock.c:942+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 3
+    },
+    {
+        "id": 68,
+        "bytes_index": [
+            [
+                5586,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/encoder/encoder.c:960+",
+            "src/encoder/analyse.c:117+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 1
+    },
+    {
+        "id": 69,
+        "bytes_index": [
+            [
+                2127,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/common/frame.c:960+",
+            "src/encoder/encoder.c:963+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 2
+    },
+    {
+        "id": 70,
+        "bytes_index": [
+            [
+                6540,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/encoder/analyse.c:117+",
+            "src/encoder/encoder.c:210+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 2
+    },
+    {
+        "id": 71,
+        "bytes_index": [
+            [
+                6809,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/encoder/analyse.c:117+",
+            "src/encoder/encoder.c:210+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 2
+    },
+    {
+        "id": 72,
+        "bytes_index": [
+            [
+                6056,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/encoder/encoder.c:210+",
+            "src/common/frame.c:263+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 2
+    },
+    {
+        "id": 73,
+        "bytes_index": [
+            [
+                6818,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/encoder/encoder.c:197+",
+            "src/x264.c:687+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 1
+    },
+    {
+        "id": 74,
+        "bytes_index": [
+            [
+                2328,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/encoder/encoder.c:1410+",
+            "src/common/macroblock.c:853+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 1
+    },
+    {
+        "id": 75,
+        "bytes_index": [
+            [
+                5780,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/encoder/ratecontrol.c:1301+",
+            "src/muxers.c:400+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 0
+    },
+    {
+        "id": 76,
+        "bytes_index": [
+            [
+                6050,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/encoder/analyse.c:117+",
+            "src/encoder/encoder.c:962+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 2
+    },
+    {
+        "id": 77,
+        "bytes_index": [
+            [
+                9771,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/encoder/encoder.c:139+",
+            "src/encoder/analyse.c:117+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 0
+    },
+    {
+        "id": 78,
+        "bytes_index": [
+            [
+                8603,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/encoder/encoder.c:1138+",
+            "src/encoder/encoder.c:127+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 0
+    },
+    {
+        "id": 79,
+        "bytes_index": [
+            [
+                8462,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/encoder/analyse.c:117+",
+            "src/encoder/analyse.c:355+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 3
+    },
+    {
+        "id": 80,
+        "bytes_index": [
+            [
+                7865,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/encoder/analyse.c:117+",
+            "src/encoder/encoder.c:824+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 1
+    },
+    {
+        "id": 81,
+        "bytes_index": [
+            [
+                6847,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/encoder/encoder.c:212+",
+            "src/encoder/analyse.c:117+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 0
+    },
+    {
+        "id": 82,
+        "bytes_index": [
+            [
+                4681,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/encoder/encoder.c:205+",
+            "src/x264.c:687+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 3
+    },
+    {
+        "id": 83,
+        "bytes_index": [
+            [
+                3005,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/common/predict.c:578+",
+            "src/common/mc.c:109+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 2
+    },
+    {
+        "id": 84,
+        "bytes_index": [
+            [
+                10113,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/encoder/analyse.c:117+",
+            "src/common/macroblock.c:840+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 1
+    },
+    {
+        "id": 85,
+        "bytes_index": [
+            [
+                4706,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/common/dct.c:94+",
+            "src/encoder/analyse.c:117+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 1
+    },
+    {
+        "id": 86,
+        "bytes_index": [
+            [
+                8537,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/common/mc.c:184+",
+            "src/encoder/encoder.c:207+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 2
+    },
+    {
+        "id": 87,
+        "bytes_index": [
+            [
+                8995,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/encoder/encoder.c:127+",
+            "src/encoder/analyse.c:117+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 3
+    },
+    {
+        "id": 88,
+        "bytes_index": [
+            [
+                9515,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/encoder/encoder.c:139+",
+            "src/encoder/analyse.c:117+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 2
+    },
+    {
+        "id": 89,
+        "bytes_index": [
+            [
+                2914,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/encoder/encoder.c:962+",
+            "src/encoder/analyse.c:117+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 0
+    },
+    {
+        "id": 90,
+        "bytes_index": [
+            [
+                7482,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/encoder/analyse.c:117+",
+            "src/common/predict.c:334+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 1
+    },
+    {
+        "id": 91,
+        "bytes_index": [
+            [
+                6330,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/common/macroblock.c:988+",
+            "src/x264.c:693+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 2
+    },
+    {
+        "id": 92,
+        "bytes_index": [
+            [
+                9787,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/encoder/encoder.c:829+",
+            "src/common/frame.c:167+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 3
+    },
+    {
+        "id": 93,
+        "bytes_index": [
+            [
+                4855,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/encoder/encoder.c:981+",
+            "src/common/frame.c:109+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 1
+    },
+    {
+        "id": 94,
+        "bytes_index": [
+            [
+                5817,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/common/macroblock.c:1087+",
+            "src/common/predict.c:564+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 2
+    },
+    {
+        "id": 95,
+        "bytes_index": [
+            [
+                1041,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/common/frame.c:168+",
+            "src/encoder/encoder.c:962+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 1
+    },
+    {
+        "id": 96,
+        "bytes_index": [
+            [
+                786,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/common/mc.c:213+",
+            "src/encoder/encoder.c:965+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 2
+    },
+    {
+        "id": 97,
+        "bytes_index": [
+            [
+                8225,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/encoder/encoder.c:973+",
+            "src/encoder/analyse.c:117+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 3
+    },
+    {
+        "id": 98,
+        "bytes_index": [
+            [
+                6172,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/encoder/analyse.c:117+",
+            "src/encoder/encoder.c:733+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 0
+    },
+    {
+        "id": 99,
+        "bytes_index": [
+            [
+                2343,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/encoder/encoder.c:1318+",
+            "src/common/frame.c:212+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 2
+    }
+]

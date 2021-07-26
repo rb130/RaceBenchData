@@ -1,0 +1,1502 @@
+[
+    {
+        "id": 0,
+        "bytes_index": [
+            [
+                20758,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:577+",
+            "src/pthreads.cpp:590+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 1
+    },
+    {
+        "id": 1,
+        "bytes_index": [
+            [
+                90476,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:1141+",
+            "src/parsec_barrier.cpp:165+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 1
+    },
+    {
+        "id": 2,
+        "bytes_index": [
+            [
+                148787,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:521+",
+            "src/pthreads.cpp:577+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 2
+    },
+    {
+        "id": 3,
+        "bytes_index": [
+            [
+                123180,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/parsec_barrier.cpp:165+",
+            "src/pthreads.cpp:1140+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 1
+    },
+    {
+        "id": 4,
+        "bytes_index": [
+            [
+                159903,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:503+",
+            "src/pthreads.cpp:503+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 3
+    },
+    {
+        "id": 5,
+        "bytes_index": [
+            [
+                157521,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:576+",
+            "src/pthreads.cpp:577+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 0
+    },
+    {
+        "id": 6,
+        "bytes_index": [
+            [
+                9298,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:504+",
+            "src/pthreads.cpp:501+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 2
+    },
+    {
+        "id": 7,
+        "bytes_index": [
+            [
+                147875,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:503+",
+            "src/pthreads.cpp:504+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 1
+    },
+    {
+        "id": 8,
+        "bytes_index": [
+            [
+                27456,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:647+",
+            "src/pthreads.cpp:647+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 0
+    },
+    {
+        "id": 9,
+        "bytes_index": [
+            [
+                148975,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/parsec_barrier.cpp:183+",
+            "src/pthreads.cpp:1139+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 1
+    },
+    {
+        "id": 10,
+        "bytes_index": [
+            [
+                56245,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:503+",
+            "src/pthreads.cpp:501+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 0
+    },
+    {
+        "id": 11,
+        "bytes_index": [
+            [
+                151904,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:1031+",
+            "src/pthreads.cpp:1031+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 3
+    },
+    {
+        "id": 12,
+        "bytes_index": [
+            [
+                32121,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:521+",
+            "src/pthreads.cpp:523+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 2
+    },
+    {
+        "id": 13,
+        "bytes_index": [
+            [
+                71934,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:522+",
+            "src/pthreads.cpp:523+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 0
+    },
+    {
+        "id": 14,
+        "bytes_index": [
+            [
+                148299,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:1139+",
+            "src/parsec_barrier.cpp:183+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 2
+    },
+    {
+        "id": 15,
+        "bytes_index": [
+            [
+                69747,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/parsec_barrier.cpp:181+",
+            "src/parsec_barrier.cpp:183+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 2
+    },
+    {
+        "id": 16,
+        "bytes_index": [
+            [
+                5013,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:591+",
+            "src/pthreads.cpp:589+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 3
+    },
+    {
+        "id": 17,
+        "bytes_index": [
+            [
+                117131,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:590+",
+            "src/pthreads.cpp:591+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 1
+    },
+    {
+        "id": 18,
+        "bytes_index": [
+            [
+                33214,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:1033+",
+            "src/pthreads.cpp:1033+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 2
+    },
+    {
+        "id": 19,
+        "bytes_index": [
+            [
+                10703,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:1056+",
+            "src/pthreads.cpp:1056+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 2
+    },
+    {
+        "id": 20,
+        "bytes_index": [
+            [
+                154091,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:1140+",
+            "src/parsec_barrier.cpp:183+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 3
+    },
+    {
+        "id": 21,
+        "bytes_index": [
+            [
+                159784,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:589+",
+            "src/pthreads.cpp:584+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 1
+    },
+    {
+        "id": 22,
+        "bytes_index": [
+            [
+                83045,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:589+",
+            "src/pthreads.cpp:589+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 3
+    },
+    {
+        "id": 23,
+        "bytes_index": [
+            [
+                32725,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:647+",
+            "src/pthreads.cpp:646+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 0
+    },
+    {
+        "id": 24,
+        "bytes_index": [
+            [
+                125977,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:1033+",
+            "src/pthreads.cpp:1033+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 1
+    },
+    {
+        "id": 25,
+        "bytes_index": [
+            [
+                113905,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:1140+",
+            "src/pthreads.cpp:1026+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 2
+    },
+    {
+        "id": 26,
+        "bytes_index": [
+            [
+                72276,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:1029+",
+            "src/pthreads.cpp:1140+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 0
+    },
+    {
+        "id": 27,
+        "bytes_index": [
+            [
+                145495,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:1140+",
+            "src/parsec_barrier.cpp:126+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 0
+    },
+    {
+        "id": 28,
+        "bytes_index": [
+            [
+                16535,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:501+",
+            "src/pthreads.cpp:502+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 3
+    },
+    {
+        "id": 29,
+        "bytes_index": [
+            [
+                31432,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:574+",
+            "src/pthreads.cpp:577+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 3
+    },
+    {
+        "id": 30,
+        "bytes_index": [
+            [
+                53485,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:622+",
+            "src/pthreads.cpp:623+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 2
+    },
+    {
+        "id": 31,
+        "bytes_index": [
+            [
+                63932,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/parsec_barrier.cpp:183+",
+            "src/pthreads.cpp:1140+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 0
+    },
+    {
+        "id": 32,
+        "bytes_index": [
+            [
+                33887,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:504+",
+            "src/pthreads.cpp:503+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 2
+    },
+    {
+        "id": 33,
+        "bytes_index": [
+            [
+                168431,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:591+",
+            "src/pthreads.cpp:590+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 3
+    },
+    {
+        "id": 34,
+        "bytes_index": [
+            [
+                50244,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:1035+",
+            "src/pthreads.cpp:1035+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 0
+    },
+    {
+        "id": 35,
+        "bytes_index": [
+            [
+                24532,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:1056+",
+            "src/pthreads.cpp:1056+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 0
+    },
+    {
+        "id": 36,
+        "bytes_index": [
+            [
+                54103,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:1031+",
+            "src/pthreads.cpp:1031+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 2
+    },
+    {
+        "id": 37,
+        "bytes_index": [
+            [
+                135233,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:516+",
+            "src/pthreads.cpp:516+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 1
+    },
+    {
+        "id": 38,
+        "bytes_index": [
+            [
+                18902,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/parsec_barrier.cpp:183+",
+            "src/pthreads.cpp:571+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 1
+    },
+    {
+        "id": 39,
+        "bytes_index": [
+            [
+                20718,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:576+",
+            "src/pthreads.cpp:574+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 0
+    },
+    {
+        "id": 40,
+        "bytes_index": [
+            [
+                24453,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:502+",
+            "src/pthreads.cpp:504+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 0
+    },
+    {
+        "id": 41,
+        "bytes_index": [
+            [
+                163165,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:591+",
+            "src/pthreads.cpp:591+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 1
+    },
+    {
+        "id": 42,
+        "bytes_index": [
+            [
+                88033,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:571+",
+            "src/pthreads.cpp:576+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 1
+    },
+    {
+        "id": 43,
+        "bytes_index": [
+            [
+                167832,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:1029+",
+            "src/pthreads.cpp:1027+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 1
+    },
+    {
+        "id": 44,
+        "bytes_index": [
+            [
+                145709,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:1141+",
+            "src/parsec_barrier.cpp:181+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 2
+    },
+    {
+        "id": 45,
+        "bytes_index": [
+            [
+                43885,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:1140+",
+            "src/parsec_barrier.cpp:183+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 2
+    },
+    {
+        "id": 46,
+        "bytes_index": [
+            [
+                19598,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:1141+",
+            "src/parsec_barrier.cpp:165+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 2
+    },
+    {
+        "id": 47,
+        "bytes_index": [
+            [
+                16417,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:1139+",
+            "src/pthreads.cpp:1059+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 3
+    },
+    {
+        "id": 48,
+        "bytes_index": [
+            [
+                10140,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:1027+",
+            "src/pthreads.cpp:1141+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 1
+    },
+    {
+        "id": 49,
+        "bytes_index": [
+            [
+                128055,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:503+",
+            "src/pthreads.cpp:501+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 3
+    },
+    {
+        "id": 50,
+        "bytes_index": [
+            [
+                131752,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:586+",
+            "src/pthreads.cpp:589+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 1
+    },
+    {
+        "id": 51,
+        "bytes_index": [
+            [
+                20709,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:1141+",
+            "src/parsec_barrier.cpp:126+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 0
+    },
+    {
+        "id": 52,
+        "bytes_index": [
+            [
+                92151,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:522+",
+            "src/pthreads.cpp:586+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 3
+    },
+    {
+        "id": 53,
+        "bytes_index": [
+            [
+                68674,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:1031+",
+            "src/pthreads.cpp:1031+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 0
+    },
+    {
+        "id": 54,
+        "bytes_index": [
+            [
+                125771,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:1139+",
+            "src/parsec_barrier.cpp:183+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 3
+    },
+    {
+        "id": 55,
+        "bytes_index": [
+            [
+                154231,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:623+",
+            "src/pthreads.cpp:623+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 2
+    },
+    {
+        "id": 56,
+        "bytes_index": [
+            [
+                99787,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:502+",
+            "src/pthreads.cpp:503+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 1
+    },
+    {
+        "id": 57,
+        "bytes_index": [
+            [
+                652,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:504+",
+            "src/pthreads.cpp:503+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 2
+    },
+    {
+        "id": 58,
+        "bytes_index": [
+            [
+                69313,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:590+",
+            "src/pthreads.cpp:590+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 3
+    },
+    {
+        "id": 59,
+        "bytes_index": [
+            [
+                110646,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:589+",
+            "src/pthreads.cpp:590+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 0
+    },
+    {
+        "id": 60,
+        "bytes_index": [
+            [
+                119054,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:1026+",
+            "src/pthreads.cpp:1139+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 3
+    },
+    {
+        "id": 61,
+        "bytes_index": [
+            [
+                16518,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:589+",
+            "src/pthreads.cpp:576+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 0
+    },
+    {
+        "id": 62,
+        "bytes_index": [
+            [
+                75729,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:502+",
+            "src/pthreads.cpp:501+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 2
+    },
+    {
+        "id": 63,
+        "bytes_index": [
+            [
+                16880,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:502+",
+            "src/pthreads.cpp:504+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 0
+    },
+    {
+        "id": 64,
+        "bytes_index": [
+            [
+                111683,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:584+",
+            "src/pthreads.cpp:577+"
+        ],
+        "pattern": "timed-wait",
+        "interleave": 1
+    },
+    {
+        "id": 65,
+        "bytes_index": [
+            [
+                139376,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:1139+",
+            "src/pthreads.cpp:1027+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 2
+    },
+    {
+        "id": 66,
+        "bytes_index": [
+            [
+                86504,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:1141+",
+            "src/parsec_barrier.cpp:165+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 3
+    },
+    {
+        "id": 67,
+        "bytes_index": [
+            [
+                7183,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/parsec_barrier.cpp:183+",
+            "src/pthreads.cpp:1140+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 3
+    },
+    {
+        "id": 68,
+        "bytes_index": [
+            [
+                46541,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:584+",
+            "src/pthreads.cpp:577+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 2
+    },
+    {
+        "id": 69,
+        "bytes_index": [
+            [
+                10174,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:1139+",
+            "src/pthreads.cpp:1059+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 2
+    },
+    {
+        "id": 70,
+        "bytes_index": [
+            [
+                26428,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:589+",
+            "src/pthreads.cpp:590+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 3
+    },
+    {
+        "id": 71,
+        "bytes_index": [
+            [
+                93853,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:1141+",
+            "src/parsec_barrier.cpp:165+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 3
+    },
+    {
+        "id": 72,
+        "bytes_index": [
+            [
+                100474,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:697+",
+            "src/pthreads.cpp:697+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 2
+    },
+    {
+        "id": 73,
+        "bytes_index": [
+            [
+                109436,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:584+",
+            "src/pthreads.cpp:571+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 0
+    },
+    {
+        "id": 74,
+        "bytes_index": [
+            [
+                84652,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:1029+",
+            "src/pthreads.cpp:1029+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 0
+    },
+    {
+        "id": 75,
+        "bytes_index": [
+            [
+                65359,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:571+",
+            "src/pthreads.cpp:571+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 1
+    },
+    {
+        "id": 76,
+        "bytes_index": [
+            [
+                138092,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:589+",
+            "src/pthreads.cpp:589+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 1
+    },
+    {
+        "id": 77,
+        "bytes_index": [
+            [
+                855,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:571+",
+            "src/pthreads.cpp:584+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 0
+    },
+    {
+        "id": 78,
+        "bytes_index": [
+            [
+                151124,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:1141+",
+            "src/parsec_barrier.cpp:165+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 2
+    },
+    {
+        "id": 79,
+        "bytes_index": [
+            [
+                75766,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:504+",
+            "src/pthreads.cpp:502+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 0
+    },
+    {
+        "id": 80,
+        "bytes_index": [
+            [
+                45921,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:577+",
+            "src/pthreads.cpp:571+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 0
+    },
+    {
+        "id": 81,
+        "bytes_index": [
+            [
+                1287,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:1026+",
+            "src/pthreads.cpp:1140+"
+        ],
+        "pattern": "non-atomic-arith",
+        "interleave": 2
+    },
+    {
+        "id": 82,
+        "bytes_index": [
+            [
+                170619,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:517+",
+            "src/pthreads.cpp:517+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 2
+    },
+    {
+        "id": 83,
+        "bytes_index": [
+            [
+                102577,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:584+",
+            "src/pthreads.cpp:586+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 1
+    },
+    {
+        "id": 84,
+        "bytes_index": [
+            [
+                6929,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:502+",
+            "src/pthreads.cpp:504+"
+        ],
+        "pattern": "split-critical-region",
+        "interleave": 0
+    },
+    {
+        "id": 85,
+        "bytes_index": [
+            [
+                96641,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:1056+",
+            "src/pthreads.cpp:1056+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 3
+    },
+    {
+        "id": 86,
+        "bytes_index": [
+            [
+                164766,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:1141+",
+            "src/pthreads.cpp:1059+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 3
+    },
+    {
+        "id": 87,
+        "bytes_index": [
+            [
+                146373,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:502+",
+            "src/pthreads.cpp:501+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 1
+    },
+    {
+        "id": 88,
+        "bytes_index": [
+            [
+                131849,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/parsec_barrier.cpp:180+",
+            "src/pthreads.cpp:1141+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 0
+    },
+    {
+        "id": 89,
+        "bytes_index": [
+            [
+                159048,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:1059+",
+            "src/pthreads.cpp:1139+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 1
+    },
+    {
+        "id": 90,
+        "bytes_index": [
+            [
+                14727,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:1031+",
+            "src/pthreads.cpp:1031+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 1
+    },
+    {
+        "id": 91,
+        "bytes_index": [
+            [
+                167776,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:622+",
+            "src/pthreads.cpp:623+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 0
+    },
+    {
+        "id": 92,
+        "bytes_index": [
+            [
+                139806,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:1029+",
+            "src/pthreads.cpp:1140+"
+        ],
+        "pattern": "spurious-wakeup",
+        "interleave": 2
+    },
+    {
+        "id": 93,
+        "bytes_index": [
+            [
+                14317,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:1029+",
+            "src/parsec_barrier.cpp:183+"
+        ],
+        "pattern": "diff-lock-order",
+        "interleave": 0
+    },
+    {
+        "id": 94,
+        "bytes_index": [
+            [
+                138978,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:1139+",
+            "src/parsec_barrier.cpp:165+"
+        ],
+        "pattern": "notify-before-wait",
+        "interleave": 1
+    },
+    {
+        "id": 95,
+        "bytes_index": [
+            [
+                57796,
+                2
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:571+",
+            "src/pthreads.cpp:577+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 2
+    },
+    {
+        "id": 96,
+        "bytes_index": [
+            [
+                143174,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/parsec_barrier.cpp:183+",
+            "src/pthreads.cpp:1140+"
+        ],
+        "pattern": "lock-no-release",
+        "interleave": 1
+    },
+    {
+        "id": 97,
+        "bytes_index": [
+            [
+                59257,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:1031+",
+            "src/pthreads.cpp:1031+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 3
+    },
+    {
+        "id": 98,
+        "bytes_index": [
+            [
+                4536,
+                1
+            ]
+        ],
+        "parloc": [
+            "src/pthreads.cpp:586+",
+            "src/pthreads.cpp:589+"
+        ],
+        "pattern": "lack-of-lock",
+        "interleave": 1
+    },
+    {
+        "id": 99,
+        "bytes_index": [
+            [
+                128799,
+                4
+            ]
+        ],
+        "parloc": [
+            "src/parsec_barrier.cpp:166+",
+            "src/pthreads.cpp:1027+"
+        ],
+        "pattern": "disorder-depend",
+        "interleave": 0
+    }
+]
