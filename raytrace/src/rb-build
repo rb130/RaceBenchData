@@ -1,0 +1,22 @@
+#!/bin/bash
+
+arg=$1
+
+export version=pthreads
+export CXXFLAGS="${CXXFLAGS} -fexceptions -fno-strict-aliasing -fno-align-labels -DNDEBUG -D_MM_NO_ALIGN_CHECK"
+
+case $arg in
+    config)
+	    mkdir -p build
+	    ( cd build && cmake .. ) || exit 1
+    ;;
+    build)
+	    ( cd build && make ) || exit 1
+    ;;
+    clean)
+	    rm -rf build
+    ;;
+    binary)
+        echo "build/bin/rtview"
+    ;;
+esac

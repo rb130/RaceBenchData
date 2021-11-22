@@ -1,0 +1,21 @@
+#!/bin/bash
+
+arg=$1
+
+export CXXFLAGS="${CXXFLAGS} -fexceptions"
+export LDFALGS="${LDFLAGS} -lstdc++"
+
+case $arg in
+    config)
+        ./configure --disable-shared --disable-cxx --without-fftw3 --without-magick --without-liboil --without-lcms --without-OpenEXR --without-matio --without-pangoft2 --without-tiff --without-jpeg --without-zip --without-png --without-libexif --without-python --without-x --without-perl --without-v4l --without-cimg --enable-threads || exit 1
+    ;;
+    build)
+        make || exit 1
+    ;;
+    clean)
+        make distclean || exit 1
+    ;;
+    binary)
+        echo "./tools/iofuncs/vips"
+    ;;
+esac

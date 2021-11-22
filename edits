@@ -1,0 +1,26 @@
+bodytrack:
+	add new arg PoseParameters.txt
+raytrace:
+	add arg -files
+	remove mutex/cond deconstructor to avoid hanging
+	fix filename PATH_MAX
+ferret:
+	fix DBL_MAX check (CASS_DIST_MAX)
+vips:
+	allow output to /dev/null
+x264:
+	quant4_mf overflow in x264_cqm_delete
+	h->quant4_mf overflow in x264_cqm_init
+	no suffix .y4m
+raytrace2:
+	add arg -g=
+	fix overflow in ReadEnvFile
+volrend:
+	fix max file name length
+	add arg input file
+water_nsquared:
+	add arg input file
+water_nsquared:
+	add arg input file
+cholesky:
+	add arg input file
