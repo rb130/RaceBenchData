@@ -12,6 +12,8 @@ x264:
 	quant4_mf overflow in x264_cqm_delete
 	h->quant4_mf overflow in x264_cqm_init
 	no suffix .y4m
+raytrace:
+    fix clang compile error
 raytrace2:
 	add arg -g=
 	fix overflow in ReadEnvFile

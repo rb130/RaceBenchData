@@ -1,0 +1,163 @@
+execve("./pigz", ["./pigz", "-k", "-p", "4", "-d", "input.gz", "-c", "-f"], 0x7ffffe0de050 /* 36 vars */) = 0
+brk(NULL)                               = 0x557481d7b000
+arch_prctl(0x3001 /* ARCH_??? */, 0x7ffd4a5cf690) = -1 EINVAL (Invalid argument)
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=239912, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 239912, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fd3b4da0000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\363\0\0\0\0\0\0"..., 832) = 832
+newfstatat(3, "", {st_mode=S_IFREG|0755, st_size=1323472, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fd3b4d9e000
+mmap(NULL, 1323032, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fd3b4c5a000
+mprotect(0x7fd3b4c69000, 1257472, PROT_NONE) = 0
+mmap(0x7fd3b4c69000, 630784, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xf000) = 0x7fd3b4c69000
+mmap(0x7fd3b4d03000, 622592, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa9000) = 0x7fd3b4d03000
+mmap(0x7fd3b4d9c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x141000) = 0x7fd3b4d9c000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\200\0\0\0\0\0\0"..., 832) = 832
+pread64(3, "\4\0\0\0@\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0"..., 80, 792) = 80
+pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\7\310\371[O2Q\320\205P!z\330\241\363\20"..., 68, 872) = 68
+newfstatat(3, "", {st_mode=S_IFREG|0755, st_size=154040, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 131472, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fd3b4c39000
+mprotect(0x7fd3b4c40000, 81920, PROT_NONE) = 0
+mmap(0x7fd3b4c40000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7fd3b4c40000
+mmap(0x7fd3b4c4f000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7fd3b4c4f000
+mmap(0x7fd3b4c54000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1a000) = 0x7fd3b4c54000
+mmap(0x7fd3b4c56000, 12688, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fd3b4c56000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 0\0\0\0\0\0\0"..., 832) = 832
+newfstatat(3, "", {st_mode=S_IFREG|0755, st_size=100096, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 102416, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fd3b4c1f000
+mprotect(0x7fd3b4c22000, 86016, PROT_NONE) = 0
+mmap(0x7fd3b4c22000, 57344, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7fd3b4c22000
+mmap(0x7fd3b4c30000, 24576, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x11000) = 0x7fd3b4c30000
+mmap(0x7fd3b4c37000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7fd3b4c37000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`|\2\0\0\0\0\0"..., 832) = 832
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+pread64(3, "\4\0\0\0@\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0"..., 80, 848) = 80
+pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0K@g7\5w\10\300\344\306B4Zp<G"..., 68, 928) = 68
+newfstatat(3, "", {st_mode=S_IFREG|0755, st_size=2150424, ...}, AT_EMPTY_PATH) = 0
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+mmap(NULL, 1880536, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fd3b4a53000
+mmap(0x7fd3b4a79000, 1355776, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x26000) = 0x7fd3b4a79000
+mmap(0x7fd3b4bc4000, 311296, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x171000) = 0x7fd3b4bc4000
+mmap(0x7fd3b4c10000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bc000) = 0x7fd3b4c10000
+mmap(0x7fd3b4c16000, 33240, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fd3b4c16000
+close(3)                                = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fd3b4a51000
+arch_prctl(ARCH_SET_FS, 0x7fd3b4a51f80) = 0
+mprotect(0x7fd3b4c10000, 12288, PROT_READ) = 0
+mprotect(0x7fd3b4c37000, 4096, PROT_READ) = 0
+mprotect(0x7fd3b4c54000, 4096, PROT_READ) = 0
+mprotect(0x7fd3b4d9c000, 4096, PROT_READ) = 0
+mprotect(0x55747fec4000, 4096, PROT_READ) = 0
+mprotect(0x7fd3b4e09000, 8192, PROT_READ) = 0
+munmap(0x7fd3b4da0000, 239912)          = 0
+set_tid_address(0x7fd3b4a52250)         = 7106
+set_robust_list(0x7fd3b4a52260, 24)     = 0
+rt_sigaction(SIGRTMIN, {sa_handler=0x7fd3b4c40b70, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7fd3b4c4c870}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {sa_handler=0x7fd3b4c40c10, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART|SA_SIGINFO, sa_restorer=0x7fd3b4c4c870}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+futex(0x55747fee5b6c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+rt_sigaction(SIGINT, {sa_handler=0x55747fea4891, sa_mask=[], sa_flags=SA_RESTORER|SA_INTERRUPT|SA_NODEFER|SA_RESETHAND|0xffffffff00000000, sa_restorer=0x7fd3b4a8fda0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+openat(AT_FDCWD, "/sys/devices/system/cpu/online", O_RDONLY|O_CLOEXEC) = 3
+read(3, "0-15\n", 8192)                 = 5
+close(3)                                = 0
+brk(NULL)                               = 0x557481d7b000
+brk(0x557481d9c000)                     = 0x557481d9c000
+newfstatat(AT_FDCWD, "input.gz", {st_mode=S_IFREG|0644, st_size=4045, ...}, AT_SYMLINK_NOFOLLOW) = 0
+openat(AT_FDCWD, "input.gz", O_RDONLY)  = 3
+mmap(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fd3b4250000
+mprotect(0x7fd3b4251000, 8388608, PROT_READ|PROT_WRITE) = 0
+rt_sigprocmask(SIG_BLOCK, ~[], [], 8)   = 0
+clone(child_stack=0x7fd3b4a4fef0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTIDstrace: Process 7107 attached
+, parent_tid=[7107], tls=0x7fd3b4a50640, child_tidptr=0x7fd3b4a50910) = 7107
+[pid  7107] set_robust_list(0x7fd3b4a50920, 24 <unfinished ...>
+[pid  7106] rt_sigprocmask(SIG_SETMASK, [],  <unfinished ...>
+[pid  7107] <... set_robust_list resumed>) = 0
+[pid  7106] <... rt_sigprocmask resumed>NULL, 8) = 0
+[pid  7107] rt_sigprocmask(SIG_SETMASK, [],  <unfinished ...>
+[pid  7106] futex(0x557481d7b310, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY <unfinished ...>
+[pid  7107] <... rt_sigprocmask resumed>NULL, 8) = 0
+[pid  7107] read(3, "\37\213\10\10:\2423Q\0\3COPYING\0\335Z[o\33G\226~\237_QK`\261"..., 32768) = 4045
+[pid  7107] read(3, "", 28723)          = 0
+[pid  7107] futex(0x557481d7b310, FUTEX_WAKE_PRIVATE, 2147483647 <unfinished ...>
+[pid  7106] <... futex resumed>)        = 0
+[pid  7107] <... futex resumed>)        = 1
+[pid  7106] futex(0x557481d7b2c0, FUTEX_WAIT_PRIVATE, 2, NULL <unfinished ...>
+[pid  7107] futex(0x557481d7b2c0, FUTEX_WAKE_PRIVATE, 1 <unfinished ...>
+[pid  7106] <... futex resumed>)        = -1 EAGAIN (Resource temporarily unavailable)
+[pid  7107] <... futex resumed>)        = 0
+[pid  7106] futex(0x557481d7b2c0, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  7107] mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0 <unfinished ...>
+[pid  7106] futex(0x7fd3b4a50910, FUTEX_WAIT_BITSET|FUTEX_CLOCK_REALTIME, 7107, NULL, FUTEX_BITSET_MATCH_ANY <unfinished ...>
+[pid  7107] <... mmap resumed>)         = 0x7fd3ac250000
+[pid  7107] munmap(0x7fd3ac250000, 64684032) = 0
+[pid  7107] munmap(0x7fd3b4000000, 2424832) = 0
+[pid  7107] mprotect(0x7fd3b0000000, 135168, PROT_READ|PROT_WRITE) = 0
+[pid  7107] madvise(0x7fd3b4250000, 8368128, MADV_DONTNEED) = 0
+[pid  7107] exit(0)                     = ?
+[pid  7106] <... futex resumed>)        = 0
+[pid  7107] +++ exited with 0 +++
+rt_sigprocmask(SIG_BLOCK, ~[], [], 8)   = 0
+clone(child_stack=0x7fd3b4a4fef0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTIDstrace: Process 7108 attached
+, parent_tid=[7108], tls=0x7fd3b4a50640, child_tidptr=0x7fd3b4a50910) = 7108
+[pid  7106] rt_sigprocmask(SIG_SETMASK, [],  <unfinished ...>
+[pid  7108] set_robust_list(0x7fd3b4a50920, 24 <unfinished ...>
+[pid  7106] <... rt_sigprocmask resumed>NULL, 8) = 0
+[pid  7106] mmap(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fd3af7ff000
+[pid  7106] mprotect(0x7fd3af800000, 8388608, PROT_READ|PROT_WRITE) = 0
+[pid  7106] rt_sigprocmask(SIG_BLOCK, ~[], [], 8) = 0
+[pid  7106] clone(child_stack=0x7fd3afffeef0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID <unfinished ...>
+[pid  7108] <... set_robust_list resumed>) = 0
+strace: Process 7109 attached
+[pid  7106] <... clone resumed>, parent_tid=[7109], tls=0x7fd3affff640, child_tidptr=0x7fd3affff910) = 7109
+[pid  7109] set_robust_list(0x7fd3affff920, 24 <unfinished ...>
+[pid  7106] rt_sigprocmask(SIG_SETMASK, [],  <unfinished ...>
+[pid  7109] <... set_robust_list resumed>) = 0
+[pid  7106] <... rt_sigprocmask resumed>NULL, 8) = 0
+[pid  7109] rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+[pid  7106] futex(0x557481d7d110, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, FUTEX_BITSET_MATCH_ANY <unfinished ...>
+[pid  7108] rt_sigprocmask(SIG_SETMASK, [],  <unfinished ...>
+[pid  7109] futex(0x557481d7d110, FUTEX_WAKE_PRIVATE, 2147483647 <unfinished ...>
+[pid  7108] <... rt_sigprocmask resumed>NULL, 8) = 0
+[pid  7106] <... futex resumed>)        = 0
+[pid  7109] <... futex resumed>)        = 1
+[pid  7106] futex(0x557481d7d0c0, FUTEX_WAIT_PRIVATE, 2, NULL <unfinished ...>
+[pid  7108] write(1, "                                "..., 11341 <unfinished ...>
+[pid  7106] <... futex resumed>)        = -1 EAGAIN (Resource temporarily unavailable)
+[pid  7109] futex(0x557481d7d0c0, FUTEX_WAKE_PRIVATE, 1 <unfinished ...>
+[pid  7106] futex(0x557481d7b2c0, FUTEX_WAIT_PRIVATE, 2, NULL <unfinished ...>
+[pid  7109] <... futex resumed>)        = 0
+[pid  7109] futex(0x557481d7d0c0, FUTEX_WAIT_PRIVATE, 2, NULL <unfinished ...>
+[pid  7108] <... write resumed>)        = 11341
+[pid  7108] futex(0x557481d7b2c0, FUTEX_WAKE_PRIVATE, 1 <unfinished ...>
+[pid  7106] <... futex resumed>)        = 0
+[pid  7108] <... futex resumed>)        = 1
+[pid  7106] futex(0x557481d7b2c0, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  7108] madvise(0x7fd3b4250000, 8368128, MADV_DONTNEED <unfinished ...>
+[pid  7106] futex(0x557481d7d0c0, FUTEX_WAKE_PRIVATE, 1 <unfinished ...>
+[pid  7108] <... madvise resumed>)      = 0
+[pid  7106] <... futex resumed>)        = 1
+[pid  7109] <... futex resumed>)        = 0
+[pid  7106] futex(0x7fd3affff910, FUTEX_WAIT_BITSET|FUTEX_CLOCK_REALTIME, 7109, NULL, FUTEX_BITSET_MATCH_ANY <unfinished ...>
+[pid  7108] exit(0 <unfinished ...>
+[pid  7109] futex(0x557481d7d0c0, FUTEX_WAKE_PRIVATE, 1 <unfinished ...>
+[pid  7108] <... exit resumed>)         = ?
+[pid  7109] <... futex resumed>)        = 0
+[pid  7109] madvise(0x7fd3af7ff000, 8368128, MADV_DONTNEED <unfinished ...>
+[pid  7108] +++ exited with 0 +++
+[pid  7109] <... madvise resumed>)      = 0
+[pid  7109] exit(0)                     = ?
+[pid  7106] <... futex resumed>)        = 0
+[pid  7109] +++ exited with 0 +++
+close(3)                                = 0
+exit_group(0)                           = ?
++++ exited with 0 +++

@@ -1,4 +1,0 @@
-rdo.c
-slicetype.c
-cavlc.c
-cabac.c

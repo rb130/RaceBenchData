@@ -696,8 +696,8 @@ BOOL	ModelTransform; 		/* TRUE if model transform present.  */
 BOOL	AntiAlias;			/* TRUE if antialiasing enabled.     */
 
 CHAR	*ProgName;			/* The program name.		     */
-CHAR	GeoFileName[80];		/* Geometry file name.		     */
-CHAR	PicFileName[80];		/* Picture file name.		     */
+CHAR	GeoFileName[1024];		/* Geometry file name.		     */
+CHAR	PicFileName[1024];		/* Picture file name.		     */
 
 VIEW	View;				/* Viewing parameters.		     */
 DISPLAY Display;			/* Display parameters.		     */

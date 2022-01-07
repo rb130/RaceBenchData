@@ -1,6 +1,8 @@
 #ifndef __RTSOFTSSE_H__
 #define __RTSOFTSSE_H__
 
+#include <cmath>
+
 #ifdef _MSC_VER
 #pragma warning(disable: 4244)
 #pragma warning(disable: 4311)
@@ -61,6 +63,9 @@ typedef struct sse_i {
 
 // Approximate roundup functions
 // (will not provide exact SSE functionality, but works faster).
+
+#define _INLINE inline
+
 
 _INLINE static int _emm_round_nearest(double d) {
     return (int)d;
@@ -899,6 +904,8 @@ _INLINE static sse_i _mm_setr_epi64(sse_i64 a, sse_i64 b) {
     return result;
 }
 
+#ifndef __clang__
+
 _INLINE static unsigned int _mm_getcsr() {
     //FIXME
     return 0;
@@ -908,6 +915,8 @@ _INLINE static void _mm_setcsr(unsigned int v) {
     //FIXME
     return;
 }
+
+#endif
 
 /////////////////////////////////////////////////////////////////////////////
 
