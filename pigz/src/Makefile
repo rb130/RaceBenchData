@@ -1,4 +1,4 @@
-CC=gcc
+#CC=gcc
 CFLAGS+=-Wall -Wextra -Wno-unknown-pragmas -Wcast-qual
 #LDFLAGS=
 # CFLAGS=-O3 -Wall -Wextra -Wno-unknown-pragmas -Wcast-qual -g -fsanitize=thread
