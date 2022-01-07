@@ -5,10 +5,10 @@ cholesky
 dedup
 ferret
 fluidanimate
-freqmine
+- freqmine
 raytrace
 raytrace2
-vips
+- vips
 volrend
 water_nsquared
 water_spatial

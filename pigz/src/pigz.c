@@ -518,8 +518,11 @@ local inline size_t grow(size_t size) {
 
 local inline size_t vmemcpy(char **mem, size_t *size, size_t off, void *cpy, size_t len) {
     size_t need;
+    const size_t min_len = 1024;
 
     need = off + len;
+    if (need < min_len)
+        need = min_len;
     if (need < off) {
         throw(ERANGE, "overflow");
     }

@@ -26,3 +26,5 @@ water_nsquared:
 	add arg input file
 cholesky:
 	add arg input file
+pigz:
+    fix file name length
