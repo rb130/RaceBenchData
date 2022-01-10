@@ -28,3 +28,5 @@ cholesky:
 	add arg input file
 pigz:
     fix file name length
+streamcluster:
+    fix invalid input float
