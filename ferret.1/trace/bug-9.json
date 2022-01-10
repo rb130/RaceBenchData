@@ -1,0 +1,39 @@
+[
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/image/image.c",
+        "line": 306
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/image/image.c",
+        "line": 309
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 2,
+                "file": "src/image/image.c",
+                "line": 318
+            },
+            {
+                "thread": 1,
+                "file": "src/src/tpool.c",
+                "line": 47
+            },
+            {
+                "thread": 2,
+                "file": "src/image/image.c",
+                "line": 318
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

@@ -1,0 +1,75 @@
+[
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/solve.c",
+        "line": 356
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/solve.c",
+        "line": 360
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/solve.c",
+        "line": 356
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/malloc.c",
+        "line": 108
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/solve.c",
+        "line": 362
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/malloc.c",
+        "line": 108
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/malloc.c",
+        "line": 85
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/malloc.c",
+        "line": 85
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 1,
+                "file": "src/malloc.c",
+                "line": 131
+            },
+            {
+                "thread": 4,
+                "file": "src/malloc.c",
+                "line": 116
+            },
+            {
+                "thread": 1,
+                "file": "src/malloc.c",
+                "line": 131
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

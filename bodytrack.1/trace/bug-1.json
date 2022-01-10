@@ -1,0 +1,96 @@
+[
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/src/TrackingBenchmark/threads/Thread.cpp",
+        "line": 23
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/src/TrackingBenchmark/threads/WorkerGroup.cpp",
+        "line": 111
+    },
+    {
+        "type": "pattern",
+        "name": "NoWait",
+        "locations": [
+            {
+                "thread": 3,
+                "file": "src/src/TrackingBenchmark/threads/Thread.cpp",
+                "line": 23
+            },
+            {
+                "thread": 2,
+                "file": "src/src/TrackingBenchmark/threads/Mutex.cpp",
+                "line": 83
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Chain"
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/src/TrackingBenchmark/threads/WorkerGroup.cpp",
+        "line": 111
+    },
+    {
+        "type": "pattern",
+        "name": "Disorder",
+        "locations": [
+            {
+                "thread": 1,
+                "file": "src/src/TrackingBenchmark/TrackingModel.cpp",
+                "line": 29
+            },
+            {
+                "thread": 2,
+                "file": "src/src/TrackingBenchmark/threads/WorkerGroup.cpp",
+                "line": 113
+            },
+            {
+                "thread": 1,
+                "file": "src/src/TrackingBenchmark/TrackingModel.cpp",
+                "line": 29
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Chain"
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/src/TrackingBenchmark/TrackingModel.cpp",
+        "line": 31
+    },
+    {
+        "type": "pattern",
+        "name": "RWA",
+        "locations": [
+            {
+                "thread": 3,
+                "file": "src/src/TrackingBenchmark/threads/WorkerGroup.cpp",
+                "line": 114
+            },
+            {
+                "thread": 2,
+                "file": "src/src/TrackingBenchmark/threads/WorkerGroup.cpp",
+                "line": 118
+            },
+            {
+                "thread": 3,
+                "file": "src/src/TrackingBenchmark/threads/WorkerGroup.cpp",
+                "line": 114
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

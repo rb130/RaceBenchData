@@ -1,0 +1,63 @@
+[
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/blackscholes.m4.cpp",
+        "line": 179
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/blackscholes.m4.cpp",
+        "line": 121
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/blackscholes.m4.cpp",
+        "line": 141
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/blackscholes.m4.cpp",
+        "line": 128
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/blackscholes.m4.cpp",
+        "line": 147
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/blackscholes.m4.cpp",
+        "line": 141
+    },
+    {
+        "type": "pattern",
+        "name": "RWA",
+        "locations": [
+            {
+                "thread": 4,
+                "file": "src/blackscholes.m4.cpp",
+                "line": 118
+            },
+            {
+                "thread": 2,
+                "file": "src/blackscholes.m4.cpp",
+                "line": 139
+            },
+            {
+                "thread": 4,
+                "file": "src/blackscholes.m4.cpp",
+                "line": 118
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

@@ -1,0 +1,75 @@
+[
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/streamcluster.cpp",
+        "line": 1498
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/streamcluster.cpp",
+        "line": 1463
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/streamcluster.cpp",
+        "line": 1492
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/streamcluster.cpp",
+        "line": 1494
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/streamcluster.cpp",
+        "line": 1496
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/streamcluster.cpp",
+        "line": 1496
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/streamcluster.cpp",
+        "line": 1491
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/parsec_barrier.cpp",
+        "line": 127
+    },
+    {
+        "type": "pattern",
+        "name": "WWA",
+        "locations": [
+            {
+                "thread": 1,
+                "file": "src/streamcluster.cpp",
+                "line": 1498
+            },
+            {
+                "thread": 2,
+                "file": "src/parsec_barrier.cpp",
+                "line": 127
+            },
+            {
+                "thread": 1,
+                "file": "src/streamcluster.cpp",
+                "line": 1498
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

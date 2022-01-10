@@ -1,0 +1,75 @@
+[
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/pigz.c",
+        "line": 552
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/yarn.c",
+        "line": 119
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/yarn.c",
+        "line": 245
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/yarn.c",
+        "line": 131
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/yarn.c",
+        "line": 111
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/yarn.c",
+        "line": 115
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/pigz.c",
+        "line": 2535
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/pigz.c",
+        "line": 576
+    },
+    {
+        "type": "pattern",
+        "name": "RWA",
+        "locations": [
+            {
+                "thread": 4,
+                "file": "src/yarn.c",
+                "line": 111
+            },
+            {
+                "thread": 3,
+                "file": "src/yarn.c",
+                "line": 219
+            },
+            {
+                "thread": 4,
+                "file": "src/yarn.c",
+                "line": 111
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

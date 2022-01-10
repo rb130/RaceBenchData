@@ -1,0 +1,75 @@
+[
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/pigz.c",
+        "line": 552
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/pigz.c",
+        "line": 552
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/yarn.c",
+        "line": 234
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/yarn.c",
+        "line": 202
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/yarn.c",
+        "line": 222
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/yarn.c",
+        "line": 269
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/yarn.c",
+        "line": 131
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/yarn.c",
+        "line": 263
+    },
+    {
+        "type": "pattern",
+        "name": "WWA",
+        "locations": [
+            {
+                "thread": 1,
+                "file": "src/yarn.c",
+                "line": 270
+            },
+            {
+                "thread": 4,
+                "file": "src/pigz.c",
+                "line": 2557
+            },
+            {
+                "thread": 1,
+                "file": "src/yarn.c",
+                "line": 270
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

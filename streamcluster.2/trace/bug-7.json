@@ -1,0 +1,51 @@
+[
+    {
+        "type": "next",
+        "thread": 5,
+        "file": "src/streamcluster.cpp",
+        "line": 1464
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/parsec_barrier.cpp",
+        "line": 184
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/parsec_barrier.cpp",
+        "line": 184
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/parsec_barrier.cpp",
+        "line": 184
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 3,
+                "file": "src/parsec_barrier.cpp",
+                "line": 184
+            },
+            {
+                "thread": 2,
+                "file": "src/parsec_barrier.cpp",
+                "line": 184
+            },
+            {
+                "thread": 3,
+                "file": "src/parsec_barrier.cpp",
+                "line": 184
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

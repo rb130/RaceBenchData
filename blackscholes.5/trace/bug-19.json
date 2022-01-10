@@ -1,0 +1,87 @@
+[
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/blackscholes.m4.cpp",
+        "line": 194
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/blackscholes.m4.cpp",
+        "line": 114
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/blackscholes.m4.cpp",
+        "line": 279
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/blackscholes.m4.cpp",
+        "line": 135
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/blackscholes.m4.cpp",
+        "line": 186
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/blackscholes.m4.cpp",
+        "line": 137
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/blackscholes.m4.cpp",
+        "line": 280
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/blackscholes.m4.cpp",
+        "line": 179
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/blackscholes.m4.cpp",
+        "line": 139
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/blackscholes.m4.cpp",
+        "line": 139
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 3,
+                "file": "src/blackscholes.m4.cpp",
+                "line": 186
+            },
+            {
+                "thread": 2,
+                "file": "src/blackscholes.m4.cpp",
+                "line": 131
+            },
+            {
+                "thread": 3,
+                "file": "src/blackscholes.m4.cpp",
+                "line": 186
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

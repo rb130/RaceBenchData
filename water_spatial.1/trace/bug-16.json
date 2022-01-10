@@ -1,0 +1,39 @@
+[
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/water.c",
+        "line": 391
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/water.c",
+        "line": 394
+    },
+    {
+        "type": "pattern",
+        "name": "RWA",
+        "locations": [
+            {
+                "thread": 1,
+                "file": "src/water.c",
+                "line": 320
+            },
+            {
+                "thread": 2,
+                "file": "src/water.c",
+                "line": 396
+            },
+            {
+                "thread": 1,
+                "file": "src/water.c",
+                "line": 320
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

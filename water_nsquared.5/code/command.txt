@@ -1,0 +1,3 @@
+{install_dir}/water_nsquared
+{install_dir}/input.template
+{input_file}

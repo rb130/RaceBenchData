@@ -1,0 +1,75 @@
+[
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/main.c",
+        "line": 262
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/main.c",
+        "line": 269
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/main.c",
+        "line": 55
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/workpool.c",
+        "line": 146
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/workpool.c",
+        "line": 146
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/workpool.c",
+        "line": 166
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/workpool.c",
+        "line": 159
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/workpool.c",
+        "line": 159
+    },
+    {
+        "type": "pattern",
+        "name": "WWA",
+        "locations": [
+            {
+                "thread": 4,
+                "file": "src/workpool.c",
+                "line": 163
+            },
+            {
+                "thread": 3,
+                "file": "src/workpool.c",
+                "line": 20
+            },
+            {
+                "thread": 4,
+                "file": "src/workpool.c",
+                "line": 163
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

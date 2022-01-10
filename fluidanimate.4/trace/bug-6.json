@@ -1,0 +1,75 @@
+[
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/pthreads.cpp",
+        "line": 1142
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/pthreads.cpp",
+        "line": 572
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/pthreads.cpp",
+        "line": 522
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/pthreads.cpp",
+        "line": 523
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/pthreads.cpp",
+        "line": 524
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/pthreads.cpp",
+        "line": 524
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/pthreads.cpp",
+        "line": 575
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/pthreads.cpp",
+        "line": 523
+    },
+    {
+        "type": "pattern",
+        "name": "WWA",
+        "locations": [
+            {
+                "thread": 4,
+                "file": "src/pthreads.cpp",
+                "line": 578
+            },
+            {
+                "thread": 5,
+                "file": "src/pthreads.cpp",
+                "line": 524
+            },
+            {
+                "thread": 4,
+                "file": "src/pthreads.cpp",
+                "line": 578
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

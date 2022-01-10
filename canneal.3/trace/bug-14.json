@@ -1,0 +1,63 @@
+[
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/netlist.cpp",
+        "line": 41
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/netlist_elem.cpp",
+        "line": 48
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/netlist_elem.cpp",
+        "line": 39
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/netlist_elem.cpp",
+        "line": 48
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/annealer_thread.cpp",
+        "line": 39
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/netlist_elem.cpp",
+        "line": 49
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 4,
+                "file": "src/netlist_elem.cpp",
+                "line": 40
+            },
+            {
+                "thread": 2,
+                "file": "src/netlist.cpp",
+                "line": 41
+            },
+            {
+                "thread": 4,
+                "file": "src/netlist_elem.cpp",
+                "line": 40
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

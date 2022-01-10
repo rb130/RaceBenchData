@@ -1,0 +1,75 @@
+[
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/intraf.c",
+        "line": 34
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/intraf.c",
+        "line": 41
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/intraf.c",
+        "line": 53
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/intraf.c",
+        "line": 44
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/intraf.c",
+        "line": 36
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/intraf.c",
+        "line": 63
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/intraf.c",
+        "line": 43
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/intraf.c",
+        "line": 83
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 2,
+                "file": "src/intraf.c",
+                "line": 40
+            },
+            {
+                "thread": 4,
+                "file": "src/intraf.c",
+                "line": 34
+            },
+            {
+                "thread": 2,
+                "file": "src/intraf.c",
+                "line": 40
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

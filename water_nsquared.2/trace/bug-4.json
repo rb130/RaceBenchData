@@ -1,0 +1,51 @@
+[
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/intraf.c",
+        "line": 85
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/intraf.c",
+        "line": 81
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/intraf.c",
+        "line": 65
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/intraf.c",
+        "line": 64
+    },
+    {
+        "type": "pattern",
+        "name": "RWA",
+        "locations": [
+            {
+                "thread": 2,
+                "file": "src/intraf.c",
+                "line": 39
+            },
+            {
+                "thread": 4,
+                "file": "src/intraf.c",
+                "line": 49
+            },
+            {
+                "thread": 2,
+                "file": "src/intraf.c",
+                "line": 39
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/intraf.c",
+        "line": 58
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/intraf.c",
+        "line": 71
+    },
+    {
+        "type": "pattern",
+        "name": "WWA",
+        "locations": [
+            {
+                "thread": 3,
+                "file": "src/intraf.c",
+                "line": 57
+            },
+            {
+                "thread": 1,
+                "file": "src/intraf.c",
+                "line": 41
+            },
+            {
+                "thread": 3,
+                "file": "src/intraf.c",
+                "line": 57
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

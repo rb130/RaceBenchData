@@ -1,0 +1,51 @@
+[
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/netlist_elem.cpp",
+        "line": 52
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/netlist_elem.cpp",
+        "line": 51
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/annealer_thread.cpp",
+        "line": 50
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/netlist_elem.cpp",
+        "line": 39
+    },
+    {
+        "type": "pattern",
+        "name": "RWA",
+        "locations": [
+            {
+                "thread": 4,
+                "file": "src/netlist_elem.cpp",
+                "line": 52
+            },
+            {
+                "thread": 3,
+                "file": "src/netlist_elem.cpp",
+                "line": 35
+            },
+            {
+                "thread": 4,
+                "file": "src/netlist_elem.cpp",
+                "line": 52
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

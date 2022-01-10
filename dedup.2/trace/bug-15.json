@@ -1,0 +1,88 @@
+[
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/encoder.c",
+        "line": 1356
+    },
+    {
+        "type": "next",
+        "thread": 12,
+        "file": "src/encoder.c",
+        "line": 1061
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/rabin.c",
+        "line": 26
+    },
+    {
+        "type": "next",
+        "thread": 12,
+        "file": "src/util.c",
+        "line": 33
+    },
+    {
+        "type": "pattern",
+        "name": "Sleep",
+        "locations": [
+            {
+                "thread": 12,
+                "file": "src/queue.c",
+                "line": 34
+            },
+            {
+                "thread": 2,
+                "file": "src/rabin.c",
+                "line": 26
+            },
+            {
+                "thread": 12,
+                "file": "src/queue.c",
+                "line": 34
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Chain"
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/rabin.c",
+        "line": 26
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/rabin.c",
+        "line": 26
+    },
+    {
+        "type": "pattern",
+        "name": "WWA",
+        "locations": [
+            {
+                "thread": 8,
+                "file": "src/encoder.c",
+                "line": 464
+            },
+            {
+                "thread": 9,
+                "file": "src/encoder.c",
+                "line": 365
+            },
+            {
+                "thread": 8,
+                "file": "src/encoder.c",
+                "line": 464
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

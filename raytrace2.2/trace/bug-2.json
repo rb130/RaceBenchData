@@ -1,0 +1,51 @@
+[
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/main.c",
+        "line": 45
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/main.c",
+        "line": 51
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/main.c",
+        "line": 52
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/main.c",
+        "line": 52
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 3,
+                "file": "src/main.c",
+                "line": 45
+            },
+            {
+                "thread": 2,
+                "file": "src/main.c",
+                "line": 52
+            },
+            {
+                "thread": 3,
+                "file": "src/main.c",
+                "line": 45
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

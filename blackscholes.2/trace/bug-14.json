@@ -1,0 +1,51 @@
+[
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/blackscholes.m4.cpp",
+        "line": 184
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/blackscholes.m4.cpp",
+        "line": 280
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/blackscholes.m4.cpp",
+        "line": 190
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/blackscholes.m4.cpp",
+        "line": 280
+    },
+    {
+        "type": "pattern",
+        "name": "RWA",
+        "locations": [
+            {
+                "thread": 4,
+                "file": "src/blackscholes.m4.cpp",
+                "line": 194
+            },
+            {
+                "thread": 2,
+                "file": "src/blackscholes.m4.cpp",
+                "line": 121
+            },
+            {
+                "thread": 4,
+                "file": "src/blackscholes.m4.cpp",
+                "line": 194
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

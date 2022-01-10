@@ -1,0 +1,51 @@
+[
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/solve.c",
+        "line": 357
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/solve.c",
+        "line": 361
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/malloc.c",
+        "line": 83
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/malloc.c",
+        "line": 85
+    },
+    {
+        "type": "pattern",
+        "name": "WWA",
+        "locations": [
+            {
+                "thread": 3,
+                "file": "src/solve.c",
+                "line": 361
+            },
+            {
+                "thread": 2,
+                "file": "src/malloc.c",
+                "line": 85
+            },
+            {
+                "thread": 3,
+                "file": "src/solve.c",
+                "line": 361
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

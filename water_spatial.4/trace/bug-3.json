@@ -1,0 +1,75 @@
+[
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/mdmain.c",
+        "line": 47
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/mdmain.c",
+        "line": 47
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/mdmain.c",
+        "line": 52
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/mdmain.c",
+        "line": 47
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/mdmain.c",
+        "line": 44
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/mdmain.c",
+        "line": 43
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/mdmain.c",
+        "line": 44
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/mdmain.c",
+        "line": 46
+    },
+    {
+        "type": "pattern",
+        "name": "WWA",
+        "locations": [
+            {
+                "thread": 4,
+                "file": "src/mdmain.c",
+                "line": 52
+            },
+            {
+                "thread": 3,
+                "file": "src/mdmain.c",
+                "line": 52
+            },
+            {
+                "thread": 4,
+                "file": "src/mdmain.c",
+                "line": 52
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

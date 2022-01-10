@@ -1,0 +1,88 @@
+[
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/netlist_elem.cpp",
+        "line": 52
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/netlist_elem.cpp",
+        "line": 38
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/netlist_elem.cpp",
+        "line": 52
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/netlist_elem.cpp",
+        "line": 51
+    },
+    {
+        "type": "pattern",
+        "name": "WWA",
+        "locations": [
+            {
+                "thread": 2,
+                "file": "src/netlist_elem.cpp",
+                "line": 38
+            },
+            {
+                "thread": 4,
+                "file": "src/netlist_elem.cpp",
+                "line": 42
+            },
+            {
+                "thread": 2,
+                "file": "src/netlist_elem.cpp",
+                "line": 38
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Chain"
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/netlist_elem.cpp",
+        "line": 52
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/netlist_elem.cpp",
+        "line": 39
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 4,
+                "file": "src/netlist.cpp",
+                "line": 48
+            },
+            {
+                "thread": 2,
+                "file": "src/netlist_elem.cpp",
+                "line": 38
+            },
+            {
+                "thread": 4,
+                "file": "src/netlist.cpp",
+                "line": 48
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

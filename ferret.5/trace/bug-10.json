@@ -1,0 +1,87 @@
+[
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/benchmark/ferret-pthreads.c",
+        "line": 521
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/benchmark/ferret-pthreads.c",
+        "line": 185
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/src/tpool.c",
+        "line": 25
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/benchmark/ferret-pthreads.c",
+        "line": 161
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/benchmark/ferret-pthreads.c",
+        "line": 167
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/benchmark/ferret-pthreads.c",
+        "line": 132
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/image/image.c",
+        "line": 316
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/image/image.c",
+        "line": 316
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/image/image.c",
+        "line": 318
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/image/image.c",
+        "line": 319
+    },
+    {
+        "type": "pattern",
+        "name": "RWA",
+        "locations": [
+            {
+                "thread": 1,
+                "file": "src/benchmark/ferret-pthreads.c",
+                "line": 522
+            },
+            {
+                "thread": 2,
+                "file": "src/image/image.c",
+                "line": 318
+            },
+            {
+                "thread": 1,
+                "file": "src/benchmark/ferret-pthreads.c",
+                "line": 522
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

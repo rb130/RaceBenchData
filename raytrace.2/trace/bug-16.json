@@ -1,0 +1,51 @@
+[
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/LRT/render.cxx",
+        "line": 532
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/LRT/render.cxx",
+        "line": 533
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/LRT/render.cxx",
+        "line": 463
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/LRT/render.cxx",
+        "line": 458
+    },
+    {
+        "type": "pattern",
+        "name": "WWA",
+        "locations": [
+            {
+                "thread": 5,
+                "file": "src/LRT/render.cxx",
+                "line": 459
+            },
+            {
+                "thread": 2,
+                "file": "src/LRT/render.cxx",
+                "line": 511
+            },
+            {
+                "thread": 5,
+                "file": "src/LRT/render.cxx",
+                "line": 459
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

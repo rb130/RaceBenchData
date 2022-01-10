@@ -1,0 +1,87 @@
+[
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/water.c",
+        "line": 391
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/water.c",
+        "line": 391
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/water.c",
+        "line": 391
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/water.c",
+        "line": 394
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/water.c",
+        "line": 394
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/water.c",
+        "line": 396
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/water.c",
+        "line": 320
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/water.c",
+        "line": 320
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/water.c",
+        "line": 327
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/water.c",
+        "line": 327
+    },
+    {
+        "type": "pattern",
+        "name": "RWA",
+        "locations": [
+            {
+                "thread": 4,
+                "file": "src/water.c",
+                "line": 391
+            },
+            {
+                "thread": 1,
+                "file": "src/water.c",
+                "line": 327
+            },
+            {
+                "thread": 4,
+                "file": "src/water.c",
+                "line": 396
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

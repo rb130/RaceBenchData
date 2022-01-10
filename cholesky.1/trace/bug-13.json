@@ -1,0 +1,39 @@
+[
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/solve.c",
+        "line": 354
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/solve.c",
+        "line": 357
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 1,
+                "file": "src/solve.c",
+                "line": 354
+            },
+            {
+                "thread": 2,
+                "file": "src/solve.c",
+                "line": 357
+            },
+            {
+                "thread": 1,
+                "file": "src/solve.c",
+                "line": 354
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

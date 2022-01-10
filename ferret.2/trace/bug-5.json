@@ -1,0 +1,51 @@
+[
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/image/image.c",
+        "line": 307
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/image/image.c",
+        "line": 318
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/image/image.c",
+        "line": 319
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/src/queue.c",
+        "line": 35
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 4,
+                "file": "src/src/queue.c",
+                "line": 38
+            },
+            {
+                "thread": 2,
+                "file": "src/image/image.c",
+                "line": 318
+            },
+            {
+                "thread": 4,
+                "file": "src/src/queue.c",
+                "line": 38
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

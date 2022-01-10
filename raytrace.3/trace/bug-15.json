@@ -1,0 +1,63 @@
+[
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/RTTL/common/RTThread.cxx",
+        "line": 158
+    },
+    {
+        "type": "next",
+        "thread": 5,
+        "file": "src/LRT/render.cxx",
+        "line": 460
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/LRT/render.cxx",
+        "line": 513
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/LRT/render.cxx",
+        "line": 515
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/LRT/render.cxx",
+        "line": 457
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/LRT/render.cxx",
+        "line": 507
+    },
+    {
+        "type": "pattern",
+        "name": "WWA",
+        "locations": [
+            {
+                "thread": 5,
+                "file": "src/LRT/render.cxx",
+                "line": 530
+            },
+            {
+                "thread": 4,
+                "file": "src/LRT/render.cxx",
+                "line": 458
+            },
+            {
+                "thread": 5,
+                "file": "src/LRT/render.cxx",
+                "line": 530
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

@@ -1,0 +1,51 @@
+[
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/pigz.c",
+        "line": 1828
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/try.c",
+        "line": 16
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/yarn.c",
+        "line": 270
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/yarn.c",
+        "line": 245
+    },
+    {
+        "type": "pattern",
+        "name": "WWA",
+        "locations": [
+            {
+                "thread": 1,
+                "file": "src/pigz.c",
+                "line": 2586
+            },
+            {
+                "thread": 4,
+                "file": "src/yarn.c",
+                "line": 131
+            },
+            {
+                "thread": 1,
+                "file": "src/pigz.c",
+                "line": 2586
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

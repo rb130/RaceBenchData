@@ -1,0 +1,39 @@
+[
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/malloc.c",
+        "line": 85
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/malloc.c",
+        "line": 141
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 2,
+                "file": "src/fo.c",
+                "line": 24
+            },
+            {
+                "thread": 1,
+                "file": "src/solve.c",
+                "line": 367
+            },
+            {
+                "thread": 2,
+                "file": "src/fo.c",
+                "line": 24
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

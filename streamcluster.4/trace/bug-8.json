@@ -1,0 +1,75 @@
+[
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/streamcluster.cpp",
+        "line": 1490
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/streamcluster.cpp",
+        "line": 1464
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/streamcluster.cpp",
+        "line": 1491
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/streamcluster.cpp",
+        "line": 1493
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/streamcluster.cpp",
+        "line": 1496
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/streamcluster.cpp",
+        "line": 1490
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/streamcluster.cpp",
+        "line": 1490
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/streamcluster.cpp",
+        "line": 1464
+    },
+    {
+        "type": "pattern",
+        "name": "WWA",
+        "locations": [
+            {
+                "thread": 1,
+                "file": "src/streamcluster.cpp",
+                "line": 1494
+            },
+            {
+                "thread": 4,
+                "file": "src/streamcluster.cpp",
+                "line": 1464
+            },
+            {
+                "thread": 1,
+                "file": "src/streamcluster.cpp",
+                "line": 1494
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

@@ -1,0 +1,51 @@
+[
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/benchmark/ferret-pthreads.c",
+        "line": 161
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/image/image.c",
+        "line": 312
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/image/image.c",
+        "line": 312
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/image/image.c",
+        "line": 318
+    },
+    {
+        "type": "pattern",
+        "name": "WWA",
+        "locations": [
+            {
+                "thread": 1,
+                "file": "src/src/tpool.c",
+                "line": 37
+            },
+            {
+                "thread": 2,
+                "file": "src/image/image.c",
+                "line": 319
+            },
+            {
+                "thread": 1,
+                "file": "src/src/tpool.c",
+                "line": 37
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

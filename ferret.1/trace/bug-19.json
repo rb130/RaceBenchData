@@ -1,0 +1,39 @@
+[
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/benchmark/ferret-pthreads.c",
+        "line": 521
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/image/image.c",
+        "line": 318
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 2,
+                "file": "src/image/image.c",
+                "line": 318
+            },
+            {
+                "thread": 1,
+                "file": "src/src/tpool.c",
+                "line": 54
+            },
+            {
+                "thread": 2,
+                "file": "src/image/image.c",
+                "line": 318
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

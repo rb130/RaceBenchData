@@ -1,0 +1,87 @@
+[
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/encoder/encoder.c",
+        "line": 1141
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/common/cabac.c",
+        "line": 1961
+    },
+    {
+        "type": "next",
+        "thread": 5,
+        "file": "src/common/cabac.c",
+        "line": 1961
+    },
+    {
+        "type": "next",
+        "thread": 5,
+        "file": "src/common/cabac.c",
+        "line": 1961
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/common/cabac.c",
+        "line": 1961
+    },
+    {
+        "type": "next",
+        "thread": 5,
+        "file": "src/common/cabac.c",
+        "line": 1961
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/common/cabac.c",
+        "line": 1961
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/common/cabac.c",
+        "line": 1961
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/common/cabac.c",
+        "line": 1961
+    },
+    {
+        "type": "next",
+        "thread": 5,
+        "file": "src/common/cabac.c",
+        "line": 1961
+    },
+    {
+        "type": "pattern",
+        "name": "WWA",
+        "locations": [
+            {
+                "thread": 6,
+                "file": "src/common/cabac.c",
+                "line": 1961
+            },
+            {
+                "thread": 5,
+                "file": "src/common/cabac.c",
+                "line": 1961
+            },
+            {
+                "thread": 6,
+                "file": "src/common/cabac.c",
+                "line": 1961
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

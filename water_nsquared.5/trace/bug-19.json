@@ -1,0 +1,87 @@
+[
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/intraf.c",
+        "line": 45
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/intraf.c",
+        "line": 66
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/intraf.c",
+        "line": 45
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/intraf.c",
+        "line": 43
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/intraf.c",
+        "line": 40
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/intraf.c",
+        "line": 45
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/intraf.c",
+        "line": 65
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/intraf.c",
+        "line": 64
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/intraf.c",
+        "line": 48
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/intraf.c",
+        "line": 70
+    },
+    {
+        "type": "pattern",
+        "name": "WWA",
+        "locations": [
+            {
+                "thread": 1,
+                "file": "src/intraf.c",
+                "line": 70
+            },
+            {
+                "thread": 2,
+                "file": "src/intraf.c",
+                "line": 39
+            },
+            {
+                "thread": 1,
+                "file": "src/intraf.c",
+                "line": 70
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

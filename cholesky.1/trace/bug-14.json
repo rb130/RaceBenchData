@@ -1,0 +1,39 @@
+[
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/malloc.c",
+        "line": 85
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/malloc.c",
+        "line": 111
+    },
+    {
+        "type": "pattern",
+        "name": "RWA",
+        "locations": [
+            {
+                "thread": 2,
+                "file": "src/malloc.c",
+                "line": 140
+            },
+            {
+                "thread": 4,
+                "file": "src/malloc.c",
+                "line": 116
+            },
+            {
+                "thread": 2,
+                "file": "src/malloc.c",
+                "line": 140
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

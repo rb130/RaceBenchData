@@ -1,0 +1,51 @@
+[
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/solve.c",
+        "line": 357
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/solve.c",
+        "line": 354
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/solve.c",
+        "line": 356
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/solve.c",
+        "line": 354
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 3,
+                "file": "src/solve.c",
+                "line": 361
+            },
+            {
+                "thread": 1,
+                "file": "src/solve.c",
+                "line": 354
+            },
+            {
+                "thread": 3,
+                "file": "src/solve.c",
+                "line": 361
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

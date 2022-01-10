@@ -1,0 +1,51 @@
+[
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/src/TrackingBenchmark/threads/WorkerGroup.cpp",
+        "line": 112
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/src/TrackingBenchmark/threads/Mutex.cpp",
+        "line": 83
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/src/TrackingBenchmark/threads/WorkerGroup.cpp",
+        "line": 111
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/src/TrackingBenchmark/threads/WorkerGroup.cpp",
+        "line": 82
+    },
+    {
+        "type": "pattern",
+        "name": "RWA",
+        "locations": [
+            {
+                "thread": 1,
+                "file": "src/src/TrackingBenchmark/threads/Barrier.cpp",
+                "line": 26
+            },
+            {
+                "thread": 4,
+                "file": "src/src/TrackingBenchmark/threads/WorkerGroup.cpp",
+                "line": 112
+            },
+            {
+                "thread": 1,
+                "file": "src/src/TrackingBenchmark/threads/Barrier.cpp",
+                "line": 26
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

@@ -1,0 +1,5 @@
+{install_dir}/fluidanimate
+4
+1
+{input_file}
+/dev/null

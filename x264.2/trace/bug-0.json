@@ -1,0 +1,51 @@
+[
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/x264.c",
+        "line": 692
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/encoder/encoder.c",
+        "line": 128
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/encoder/encoder.c",
+        "line": 208
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/encoder/encoder.c",
+        "line": 211
+    },
+    {
+        "type": "pattern",
+        "name": "WWA",
+        "locations": [
+            {
+                "thread": 1,
+                "file": "src/encoder/encoder.c",
+                "line": 1139
+            },
+            {
+                "thread": 3,
+                "file": "src/encoder/encoder.c",
+                "line": 211
+            },
+            {
+                "thread": 1,
+                "file": "src/encoder/encoder.c",
+                "line": 1143
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

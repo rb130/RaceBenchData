@@ -1,0 +1,39 @@
+[
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/annealer_thread.cpp",
+        "line": 67
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/netlist_elem.cpp",
+        "line": 49
+    },
+    {
+        "type": "pattern",
+        "name": "RWA",
+        "locations": [
+            {
+                "thread": 3,
+                "file": "src/annealer_thread.cpp",
+                "line": 40
+            },
+            {
+                "thread": 4,
+                "file": "src/annealer_thread.cpp",
+                "line": 28
+            },
+            {
+                "thread": 3,
+                "file": "src/annealer_thread.cpp",
+                "line": 40
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/src/TrackingBenchmark/threads/ThreadGroup.cpp",
+        "line": 35
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/src/TrackingBenchmark/threads/Thread.cpp",
+        "line": 24
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 1,
+                "file": "src/src/TrackingBenchmark/threads/ThreadGroup.cpp",
+                "line": 35
+            },
+            {
+                "thread": 2,
+                "file": "src/src/TrackingBenchmark/threads/Thread.cpp",
+                "line": 24
+            },
+            {
+                "thread": 1,
+                "file": "src/src/TrackingBenchmark/threads/ThreadGroup.cpp",
+                "line": 35
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

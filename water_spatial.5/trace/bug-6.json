@@ -1,0 +1,137 @@
+[
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/intraf.c",
+        "line": 78
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/intraf.c",
+        "line": 56
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/intraf.c",
+        "line": 76
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/intraf.c",
+        "line": 79
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/intraf.c",
+        "line": 97
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/intraf.c",
+        "line": 67
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/intraf.c",
+        "line": 70
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/intraf.c",
+        "line": 82
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/intraf.c",
+        "line": 65
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/intraf.c",
+        "line": 53
+    },
+    {
+        "type": "pattern",
+        "name": "NoWait",
+        "locations": [
+            {
+                "thread": 1,
+                "file": "src/intraf.c",
+                "line": 79
+            },
+            {
+                "thread": 4,
+                "file": "src/intraf.c",
+                "line": 93
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Chain"
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/intraf.c",
+        "line": 53
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/intraf.c",
+        "line": 52
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/intraf.c",
+        "line": 88
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/intraf.c",
+        "line": 41
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/intraf.c",
+        "line": 61
+    },
+    {
+        "type": "pattern",
+        "name": "RWA",
+        "locations": [
+            {
+                "thread": 4,
+                "file": "src/intraf.c",
+                "line": 78
+            },
+            {
+                "thread": 1,
+                "file": "src/intraf.c",
+                "line": 97
+            },
+            {
+                "thread": 4,
+                "file": "src/intraf.c",
+                "line": 78
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

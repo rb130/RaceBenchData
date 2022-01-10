@@ -1,0 +1,142 @@
+[
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/solve.c",
+        "line": 277
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/malloc.c",
+        "line": 85
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/malloc.c",
+        "line": 85
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/malloc.c",
+        "line": 85
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/malloc.c",
+        "line": 85
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/malloc.c",
+        "line": 85
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/solve.c",
+        "line": 367
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/fo.c",
+        "line": 626
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/fo.c",
+        "line": 626
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/fo.c",
+        "line": 378
+    },
+    {
+        "type": "pattern",
+        "name": "Sleep",
+        "locations": [
+            {
+                "thread": 4,
+                "file": "src/fo.c",
+                "line": 675
+            },
+            {
+                "thread": 3,
+                "file": "src/bfac.c",
+                "line": 583
+            },
+            {
+                "thread": 4,
+                "file": "src/fo.c",
+                "line": 675
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Chain"
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/fo.c",
+        "line": 675
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/fo.c",
+        "line": 675
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/fo.c",
+        "line": 667
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/fo.c",
+        "line": 675
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/fo.c",
+        "line": 675
+    },
+    {
+        "type": "pattern",
+        "name": "RWA",
+        "locations": [
+            {
+                "thread": 4,
+                "file": "src/fo.c",
+                "line": 675
+            },
+            {
+                "thread": 3,
+                "file": "src/fo.c",
+                "line": 675
+            },
+            {
+                "thread": 4,
+                "file": "src/fo.c",
+                "line": 675
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

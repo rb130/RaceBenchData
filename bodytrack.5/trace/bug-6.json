@@ -1,0 +1,87 @@
+[
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/src/TrackingBenchmark/threads/Mutex.cpp",
+        "line": 83
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/src/TrackingBenchmark/threads/WorkerGroup.cpp",
+        "line": 113
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/src/TrackingBenchmark/threads/WorkerGroup.cpp",
+        "line": 82
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/src/TrackingBenchmark/threads/WorkerGroup.cpp",
+        "line": 85
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/src/TrackingBenchmark/threads/Condition.cpp",
+        "line": 27
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/src/TrackingBenchmark/TrackingModel.cpp",
+        "line": 54
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/src/TrackingBenchmark/threads/Mutex.cpp",
+        "line": 148
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/src/TrackingBenchmark/threads/WorkerGroup.cpp",
+        "line": 82
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/src/FlexImageLib/FlexImage.cpp",
+        "line": 183
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/src/TrackingBenchmark/threads/Condition.cpp",
+        "line": 189
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 1,
+                "file": "src/src/TrackingBenchmark/TrackingModel.cpp",
+                "line": 57
+            },
+            {
+                "thread": 3,
+                "file": "src/src/TrackingBenchmark/threads/Condition.cpp",
+                "line": 189
+            },
+            {
+                "thread": 1,
+                "file": "src/src/TrackingBenchmark/TrackingModel.cpp",
+                "line": 57
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

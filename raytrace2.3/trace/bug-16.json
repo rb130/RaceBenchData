@@ -1,0 +1,138 @@
+[
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/workpool.c",
+        "line": 152
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/memory.c",
+        "line": 150
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/workpool.c",
+        "line": 22
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/workpool.c",
+        "line": 23
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/memory.c",
+        "line": 149
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/memory.c",
+        "line": 150
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 2,
+                "file": "src/workpool.c",
+                "line": 40
+            },
+            {
+                "thread": 1,
+                "file": "src/memory.c",
+                "line": 146
+            },
+            {
+                "thread": 2,
+                "file": "src/workpool.c",
+                "line": 40
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Chain"
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/workpool.c",
+        "line": 53
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/workpool.c",
+        "line": 29
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/workpool.c",
+        "line": 29
+    },
+    {
+        "type": "pattern",
+        "name": "NoWait",
+        "locations": [
+            {
+                "thread": 1,
+                "file": "src/memory.c",
+                "line": 120
+            },
+            {
+                "thread": 2,
+                "file": "src/workpool.c",
+                "line": 35
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Chain"
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/memory.c",
+        "line": 149
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/memory.c",
+        "line": 121
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 4,
+                "file": "src/memory.c",
+                "line": 121
+            },
+            {
+                "thread": 1,
+                "file": "src/workpool.c",
+                "line": 35
+            },
+            {
+                "thread": 4,
+                "file": "src/memory.c",
+                "line": 121
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

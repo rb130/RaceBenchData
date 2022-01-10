@@ -1,0 +1,51 @@
+[
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/main.cpp",
+        "line": 80
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/main.cpp",
+        "line": 103
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/annealer_thread.cpp",
+        "line": 23
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/annealer_thread.cpp",
+        "line": 24
+    },
+    {
+        "type": "pattern",
+        "name": "RWA",
+        "locations": [
+            {
+                "thread": 4,
+                "file": "src/annealer_thread.cpp",
+                "line": 24
+            },
+            {
+                "thread": 2,
+                "file": "src/main.cpp",
+                "line": 102
+            },
+            {
+                "thread": 4,
+                "file": "src/annealer_thread.cpp",
+                "line": 24
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

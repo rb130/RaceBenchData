@@ -1,0 +1,39 @@
+[
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/LRT/render.cxx",
+        "line": 118
+    },
+    {
+        "type": "next",
+        "thread": 5,
+        "file": "src/LRT/render.cxx",
+        "line": 458
+    },
+    {
+        "type": "pattern",
+        "name": "WWA",
+        "locations": [
+            {
+                "thread": 5,
+                "file": "src/LRT/render.cxx",
+                "line": 509
+            },
+            {
+                "thread": 4,
+                "file": "src/LRT/render.cxx",
+                "line": 459
+            },
+            {
+                "thread": 5,
+                "file": "src/LRT/render.cxx",
+                "line": 509
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

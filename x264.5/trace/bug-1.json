@@ -1,0 +1,87 @@
+[
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/muxers.c",
+        "line": 401
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/muxers.c",
+        "line": 401
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/muxers.c",
+        "line": 235
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/muxers.c",
+        "line": 237
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/x264.c",
+        "line": 682
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/x264.c",
+        "line": 688
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/x264.c",
+        "line": 689
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/x264.c",
+        "line": 610
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/encoder/encoder.c",
+        "line": 1139
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/encoder/encoder.c",
+        "line": 1140
+    },
+    {
+        "type": "pattern",
+        "name": "WWA",
+        "locations": [
+            {
+                "thread": 1,
+                "file": "src/encoder/encoder.c",
+                "line": 1141
+            },
+            {
+                "thread": 2,
+                "file": "src/muxers.c",
+                "line": 251
+            },
+            {
+                "thread": 1,
+                "file": "src/encoder/encoder.c",
+                "line": 1141
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

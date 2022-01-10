@@ -1,0 +1,87 @@
+[
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/encoder/encoder.c",
+        "line": 1398
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/encoder/encoder.c",
+        "line": 1411
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/encoder/encoder.c",
+        "line": 1140
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/x264.c",
+        "line": 682
+    },
+    {
+        "type": "next",
+        "thread": 6,
+        "file": "src/encoder/encoder.c",
+        "line": 144
+    },
+    {
+        "type": "next",
+        "thread": 6,
+        "file": "src/common/macroblock.c",
+        "line": 842
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/common/macroblock.c",
+        "line": 793
+    },
+    {
+        "type": "next",
+        "thread": 6,
+        "file": "src/common/macroblock.c",
+        "line": 909
+    },
+    {
+        "type": "next",
+        "thread": 5,
+        "file": "src/common/macroblock.c",
+        "line": 793
+    },
+    {
+        "type": "next",
+        "thread": 5,
+        "file": "src/encoder/analyse.c",
+        "line": 169
+    },
+    {
+        "type": "pattern",
+        "name": "RWA",
+        "locations": [
+            {
+                "thread": 6,
+                "file": "src/encoder/analyse.c",
+                "line": 183
+            },
+            {
+                "thread": 3,
+                "file": "src/common/pixel.c",
+                "line": 151
+            },
+            {
+                "thread": 6,
+                "file": "src/encoder/analyse.c",
+                "line": 183
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

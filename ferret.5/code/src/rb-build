@@ -1,0 +1,18 @@
+#!/bin/bash
+
+arg=$1
+
+case $arg in
+    config)
+    ;;
+    build)
+        make dirs benchmark
+    ;;
+	clean)
+		make clean
+		rm -rf parsec
+	;;
+    binary)
+        echo "parsec/bin/ferret-pthreads"
+    ;;
+esac

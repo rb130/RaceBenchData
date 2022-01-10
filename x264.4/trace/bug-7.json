@@ -1,0 +1,75 @@
+[
+    {
+        "type": "next",
+        "thread": 6,
+        "file": "src/common/cabac.c",
+        "line": 1961
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/common/cabac.c",
+        "line": 1961
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/common/cabac.c",
+        "line": 1961
+    },
+    {
+        "type": "next",
+        "thread": 6,
+        "file": "src/common/cabac.c",
+        "line": 1961
+    },
+    {
+        "type": "next",
+        "thread": 5,
+        "file": "src/common/cabac.c",
+        "line": 1961
+    },
+    {
+        "type": "next",
+        "thread": 6,
+        "file": "src/common/cabac.c",
+        "line": 1961
+    },
+    {
+        "type": "next",
+        "thread": 6,
+        "file": "src/common/cabac.c",
+        "line": 1961
+    },
+    {
+        "type": "next",
+        "thread": 5,
+        "file": "src/common/cabac.c",
+        "line": 1961
+    },
+    {
+        "type": "pattern",
+        "name": "RWA",
+        "locations": [
+            {
+                "thread": 6,
+                "file": "src/common/cabac.c",
+                "line": 1961
+            },
+            {
+                "thread": 3,
+                "file": "src/common/cabac.c",
+                "line": 1968
+            },
+            {
+                "thread": 6,
+                "file": "src/common/cabac.c",
+                "line": 1961
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

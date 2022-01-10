@@ -1,0 +1,88 @@
+[
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/pigz.c",
+        "line": 1784
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/pigz.c",
+        "line": 1804
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/yarn.c",
+        "line": 119
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/yarn.c",
+        "line": 224
+    },
+    {
+        "type": "pattern",
+        "name": "RWA",
+        "locations": [
+            {
+                "thread": 3,
+                "file": "src/try.c",
+                "line": 16
+            },
+            {
+                "thread": 1,
+                "file": "src/yarn.c",
+                "line": 268
+            },
+            {
+                "thread": 3,
+                "file": "src/try.c",
+                "line": 16
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Chain"
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/pigz.c",
+        "line": 2533
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/yarn.c",
+        "line": 268
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 1,
+                "file": "src/yarn.c",
+                "line": 270
+            },
+            {
+                "thread": 3,
+                "file": "src/pigz.c",
+                "line": 2534
+            },
+            {
+                "thread": 1,
+                "file": "src/yarn.c",
+                "line": 270
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

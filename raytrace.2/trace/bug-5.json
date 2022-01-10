@@ -1,0 +1,51 @@
+[
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/RTTL/common/RTThread.cxx",
+        "line": 156
+    },
+    {
+        "type": "next",
+        "thread": 5,
+        "file": "src/RTTL/common/RTThread.cxx",
+        "line": 154
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/RTTL/common/RTThread.cxx",
+        "line": 158
+    },
+    {
+        "type": "next",
+        "thread": 5,
+        "file": "src/RTTL/common/RTThread.cxx",
+        "line": 156
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 3,
+                "file": "src/RTTL/common/RTThread.cxx",
+                "line": 25
+            },
+            {
+                "thread": 2,
+                "file": "src/RTTL/common/RTThread.cxx",
+                "line": 25
+            },
+            {
+                "thread": 3,
+                "file": "src/RTTL/common/RTThread.cxx",
+                "line": 25
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

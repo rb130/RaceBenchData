@@ -1,0 +1,63 @@
+[
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/main.cpp",
+        "line": 80
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/main.cpp",
+        "line": 83
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/main.cpp",
+        "line": 83
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/main.cpp",
+        "line": 102
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/main.cpp",
+        "line": 102
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/annealer_thread.cpp",
+        "line": 22
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 4,
+                "file": "src/annealer_thread.cpp",
+                "line": 22
+            },
+            {
+                "thread": 3,
+                "file": "src/main.cpp",
+                "line": 102
+            },
+            {
+                "thread": 4,
+                "file": "src/annealer_thread.cpp",
+                "line": 22
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

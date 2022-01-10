@@ -1,0 +1,39 @@
+[
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/benchmark/ferret-pthreads.c",
+        "line": 178
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/benchmark/ferret-pthreads.c",
+        "line": 180
+    },
+    {
+        "type": "pattern",
+        "name": "RWA",
+        "locations": [
+            {
+                "thread": 2,
+                "file": "src/benchmark/ferret-pthreads.c",
+                "line": 161
+            },
+            {
+                "thread": 1,
+                "file": "src/src/tpool.c",
+                "line": 54
+            },
+            {
+                "thread": 2,
+                "file": "src/benchmark/ferret-pthreads.c",
+                "line": 161
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

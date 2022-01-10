@@ -1,0 +1,63 @@
+[
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/water.c",
+        "line": 313
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/intraf.c",
+        "line": 81
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/intraf.c",
+        "line": 40
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/intraf.c",
+        "line": 80
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/intraf.c",
+        "line": 81
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/intraf.c",
+        "line": 72
+    },
+    {
+        "type": "pattern",
+        "name": "WWA",
+        "locations": [
+            {
+                "thread": 4,
+                "file": "src/intraf.c",
+                "line": 49
+            },
+            {
+                "thread": 2,
+                "file": "src/intraf.c",
+                "line": 65
+            },
+            {
+                "thread": 4,
+                "file": "src/intraf.c",
+                "line": 49
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

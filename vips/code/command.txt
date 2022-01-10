@@ -1,4 +1,0 @@
-{install_dir}/vips
-im_benchmark
-{input_file}
-/dev/null

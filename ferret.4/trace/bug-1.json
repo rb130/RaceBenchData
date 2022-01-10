@@ -1,0 +1,75 @@
+[
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/benchmark/ferret-pthreads.c",
+        "line": 178
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/benchmark/ferret-pthreads.c",
+        "line": 180
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/benchmark/ferret-pthreads.c",
+        "line": 185
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/benchmark/ferret-pthreads.c",
+        "line": 185
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/src/tpool.c",
+        "line": 54
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/src/tpool.c",
+        "line": 55
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/benchmark/ferret-pthreads.c",
+        "line": 160
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/benchmark/ferret-pthreads.c",
+        "line": 161
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 2,
+                "file": "src/benchmark/ferret-pthreads.c",
+                "line": 161
+            },
+            {
+                "thread": 1,
+                "file": "src/src/tpool.c",
+                "line": 57
+            },
+            {
+                "thread": 2,
+                "file": "src/benchmark/ferret-pthreads.c",
+                "line": 161
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

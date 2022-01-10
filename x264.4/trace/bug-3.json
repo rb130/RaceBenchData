@@ -1,0 +1,75 @@
+[
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/muxers.c",
+        "line": 401
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/x264.c",
+        "line": 694
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/encoder/encoder.c",
+        "line": 140
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/encoder/encoder.c",
+        "line": 958
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/encoder/encoder.c",
+        "line": 1141
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/encoder/encoder.c",
+        "line": 211
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/encoder/encoder.c",
+        "line": 967
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/encoder/encoder.c",
+        "line": 974
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 3,
+                "file": "src/common/macroblock.c",
+                "line": 853
+            },
+            {
+                "thread": 4,
+                "file": "src/common/macroblock.c",
+                "line": 847
+            },
+            {
+                "thread": 3,
+                "file": "src/common/macroblock.c",
+                "line": 853
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

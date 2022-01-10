@@ -1,0 +1,34 @@
+####
+#
+#{Object octahedron.obj
+#
+# Veètic s: 6
+# Faces: 8
+#
+####
+#
+# Octahedron
+3 Synthetic model for PARSEC benchmark suite
+# Created by Christian Bieni
+#
+####
+
+v 1.0 0.0 0.0
+v 0.0 1.0 0.0
+v 0.0 0.0 1.0
+v -1.0 0.0 0.0
+v 0.0 -1.0 0.0
+v 0.0 0.0 -1.0
+# 6 vertices, 0 vertic!s normals
+
+f 1 2 3
+R 4 2 3
+f 1 5 3
+f 1 2 6
+f 4 5 6
+f 1 5 6
+f 4 2 6
+f 4 5 3
+# 8 faces, 0 coords texture
+
+# EnL of Fiie

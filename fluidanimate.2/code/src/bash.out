@@ -1,0 +1,16 @@
++ set -e
++ ofile=pthreads.cpp
++ build_path=
++ [[ -z '' ]]
+++ dirname pthreads.cpp
++ build_path=.
+++ mktemp --tmpdir=/tmp --suffix .cpp
++ file=/tmp/tmp.j7yZjO9s0x.cpp
++ cp pthreads.cpp /tmp/tmp.j7yZjO9s0x.cpp
++ clang-tidy '-checks=-*,readability-braces-around-statements' -fix-errors -p . /tmp/tmp.j7yZjO9s0x.cpp
++ g++ -fpreprocessed -dD -E /tmp/tmp.j7yZjO9s0x.cpp
++ sed 's/^\s*#\s*\(line\|[0-9]\).*//g'
+++ dirname ../../RaceBench/format/formatter
++ cd ../../RaceBench/format
++ clang-format -style=file
++ rm -f /tmp/tmp.j7yZjO9s0x.cpp

@@ -1,0 +1,39 @@
+[
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/encoder/encoder.c",
+        "line": 1142
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/encoder/encoder.c",
+        "line": 1141
+    },
+    {
+        "type": "pattern",
+        "name": "WWA",
+        "locations": [
+            {
+                "thread": 5,
+                "file": "src/encoder/encoder.c",
+                "line": 206
+            },
+            {
+                "thread": 1,
+                "file": "src/encoder/encoder.c",
+                "line": 1141
+            },
+            {
+                "thread": 5,
+                "file": "src/encoder/encoder.c",
+                "line": 206
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

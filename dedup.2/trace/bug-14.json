@@ -1,0 +1,51 @@
+[
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/encoder.c",
+        "line": 1355
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/encoder.c",
+        "line": 881
+    },
+    {
+        "type": "next",
+        "thread": 10,
+        "file": "src/encoder.c",
+        "line": 344
+    },
+    {
+        "type": "next",
+        "thread": 11,
+        "file": "src/encoder.c",
+        "line": 351
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 10,
+                "file": "src/encoder.c",
+                "line": 351
+            },
+            {
+                "thread": 11,
+                "file": "src/encoder.c",
+                "line": 354
+            },
+            {
+                "thread": 10,
+                "file": "src/encoder.c",
+                "line": 351
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

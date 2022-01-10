@@ -1,0 +1,51 @@
+[
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/LRT/render.cxx",
+        "line": 528
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/LRT/render.cxx",
+        "line": 515
+    },
+    {
+        "type": "next",
+        "thread": 5,
+        "file": "src/RTTL/common/RTThread.cxx",
+        "line": 165
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/LRT/render.cxx",
+        "line": 460
+    },
+    {
+        "type": "pattern",
+        "name": "RWA",
+        "locations": [
+            {
+                "thread": 3,
+                "file": "src/LRT/render.cxx",
+                "line": 515
+            },
+            {
+                "thread": 5,
+                "file": "src/LRT/render.cxx",
+                "line": 460
+            },
+            {
+                "thread": 3,
+                "file": "src/LRT/render.cxx",
+                "line": 515
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

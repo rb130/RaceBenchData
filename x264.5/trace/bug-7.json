@@ -1,0 +1,87 @@
+[
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/encoder/encoder.c",
+        "line": 1117
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/encoder/encoder.c",
+        "line": 958
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/encoder/encoder.c",
+        "line": 125
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/muxers.c",
+        "line": 411
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/encoder/encoder.c",
+        "line": 733
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/encoder/encoder.c",
+        "line": 1144
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/encoder/encoder.c",
+        "line": 173
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/encoder/encoder.c",
+        "line": 201
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/encoder/encoder.c",
+        "line": 208
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/encoder/encoder.c",
+        "line": 963
+    },
+    {
+        "type": "pattern",
+        "name": "RWA",
+        "locations": [
+            {
+                "thread": 4,
+                "file": "src/encoder/encoder.c",
+                "line": 966
+            },
+            {
+                "thread": 3,
+                "file": "src/encoder/encoder.c",
+                "line": 970
+            },
+            {
+                "thread": 4,
+                "file": "src/encoder/encoder.c",
+                "line": 967
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

@@ -1,0 +1,87 @@
+[
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/muxers.c",
+        "line": 249
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/encoder/encoder.c",
+        "line": 733
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/x264.c",
+        "line": 688
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/encoder/encoder.c",
+        "line": 1092
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/x264.c",
+        "line": 682
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/encoder/encoder.c",
+        "line": 971
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/encoder/encoder.c",
+        "line": 1089
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/common/macroblock.c",
+        "line": 842
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/common/macroblock.c",
+        "line": 909
+    },
+    {
+        "type": "next",
+        "thread": 6,
+        "file": "src/encoder/encoder.c",
+        "line": 130
+    },
+    {
+        "type": "pattern",
+        "name": "WWA",
+        "locations": [
+            {
+                "thread": 6,
+                "file": "src/encoder/encoder.c",
+                "line": 144
+            },
+            {
+                "thread": 5,
+                "file": "src/common/macroblock.c",
+                "line": 861
+            },
+            {
+                "thread": 6,
+                "file": "src/encoder/encoder.c",
+                "line": 144
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

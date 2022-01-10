@@ -1,0 +1,39 @@
+[
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/rabin.c",
+        "line": 26
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/rabin.c",
+        "line": 26
+    },
+    {
+        "type": "pattern",
+        "name": "WWA",
+        "locations": [
+            {
+                "thread": 6,
+                "file": "src/queue.c",
+                "line": 56
+            },
+            {
+                "thread": 2,
+                "file": "src/rabin.c",
+                "line": 26
+            },
+            {
+                "thread": 6,
+                "file": "src/queue.c",
+                "line": 56
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

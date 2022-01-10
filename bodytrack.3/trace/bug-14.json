@@ -1,0 +1,106 @@
+[
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/src/TrackingBenchmark/threads/ThreadGroup.cpp",
+        "line": 34
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/src/TrackingBenchmark/threads/Thread.cpp",
+        "line": 23
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/src/TrackingBenchmark/threads/Thread.cpp",
+        "line": 23
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/src/TrackingBenchmark/threads/Thread.cpp",
+        "line": 23
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/src/TrackingBenchmark/threads/Thread.cpp",
+        "line": 24
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/src/TrackingBenchmark/threads/Thread.cpp",
+        "line": 24
+    },
+    {
+        "type": "pattern",
+        "name": "WWA",
+        "locations": [
+            {
+                "thread": 2,
+                "file": "src/src/TrackingBenchmark/threads/Thread.cpp",
+                "line": 24
+            },
+            {
+                "thread": 3,
+                "file": "src/src/TrackingBenchmark/threads/WorkerGroup.cpp",
+                "line": 106
+            },
+            {
+                "thread": 2,
+                "file": "src/src/TrackingBenchmark/threads/Thread.cpp",
+                "line": 24
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Chain"
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/src/TrackingBenchmark/threads/Mutex.cpp",
+        "line": 83
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/src/TrackingBenchmark/threads/WorkerGroup.cpp",
+        "line": 118
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/src/TrackingBenchmark/threads/WorkerGroup.cpp",
+        "line": 82
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 1,
+                "file": "src/src/TrackingBenchmark/threads/Mutex.cpp",
+                "line": 24
+            },
+            {
+                "thread": 2,
+                "file": "src/src/TrackingBenchmark/threads/Mutex.cpp",
+                "line": 148
+            },
+            {
+                "thread": 1,
+                "file": "src/src/TrackingBenchmark/threads/Mutex.cpp",
+                "line": 24
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

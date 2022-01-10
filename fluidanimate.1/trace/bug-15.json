@@ -1,0 +1,39 @@
+[
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/pthreads.cpp",
+        "line": 1141
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/pthreads.cpp",
+        "line": 1142
+    },
+    {
+        "type": "pattern",
+        "name": "WWA",
+        "locations": [
+            {
+                "thread": 5,
+                "file": "src/pthreads.cpp",
+                "line": 1030
+            },
+            {
+                "thread": 1,
+                "file": "src/pthreads.cpp",
+                "line": 1150
+            },
+            {
+                "thread": 5,
+                "file": "src/pthreads.cpp",
+                "line": 1030
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

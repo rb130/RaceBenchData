@@ -1,0 +1,63 @@
+[
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/src/TrackingBenchmark/threads/ThreadGroup.cpp",
+        "line": 35
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/src/TrackingBenchmark/threads/Thread.cpp",
+        "line": 23
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/src/TrackingBenchmark/threads/Thread.cpp",
+        "line": 23
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/src/TrackingBenchmark/threads/Thread.cpp",
+        "line": 23
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/src/TrackingBenchmark/threads/ThreadGroup.cpp",
+        "line": 34
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/src/TrackingBenchmark/threads/WorkerGroup.cpp",
+        "line": 112
+    },
+    {
+        "type": "pattern",
+        "name": "WWA",
+        "locations": [
+            {
+                "thread": 3,
+                "file": "src/src/TrackingBenchmark/threads/WorkerGroup.cpp",
+                "line": 112
+            },
+            {
+                "thread": 2,
+                "file": "src/src/TrackingBenchmark/threads/WorkerGroup.cpp",
+                "line": 106
+            },
+            {
+                "thread": 3,
+                "file": "src/src/TrackingBenchmark/threads/WorkerGroup.cpp",
+                "line": 112
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

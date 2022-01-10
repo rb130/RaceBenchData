@@ -1,0 +1,51 @@
+[
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/yarn.c",
+        "line": 263
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/yarn.c",
+        "line": 230
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/yarn.c",
+        "line": 268
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/try.c",
+        "line": 16
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 2,
+                "file": "src/pigz.c",
+                "line": 1784
+            },
+            {
+                "thread": 1,
+                "file": "src/yarn.c",
+                "line": 103
+            },
+            {
+                "thread": 2,
+                "file": "src/pigz.c",
+                "line": 1784
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

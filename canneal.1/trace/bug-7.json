@@ -1,0 +1,39 @@
+[
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/netlist_elem.cpp",
+        "line": 51
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/netlist.cpp",
+        "line": 41
+    },
+    {
+        "type": "pattern",
+        "name": "WWA",
+        "locations": [
+            {
+                "thread": 2,
+                "file": "src/annealer_thread.cpp",
+                "line": 84
+            },
+            {
+                "thread": 4,
+                "file": "src/netlist_elem.cpp",
+                "line": 51
+            },
+            {
+                "thread": 2,
+                "file": "src/annealer_thread.cpp",
+                "line": 84
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

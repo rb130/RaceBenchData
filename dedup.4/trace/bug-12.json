@@ -1,0 +1,75 @@
+[
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/mbuffer.c",
+        "line": 100
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/mbuffer.c",
+        "line": 100
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/mbuffer.c",
+        "line": 103
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/encoder.c",
+        "line": 1344
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/encoder.c",
+        "line": 929
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/encoder.c",
+        "line": 551
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/encoder.c",
+        "line": 930
+    },
+    {
+        "type": "next",
+        "thread": 8,
+        "file": "src/encoder.c",
+        "line": 97
+    },
+    {
+        "type": "pattern",
+        "name": "RWA",
+        "locations": [
+            {
+                "thread": 4,
+                "file": "src/encoder.c",
+                "line": 551
+            },
+            {
+                "thread": 6,
+                "file": "src/encoder.c",
+                "line": 99
+            },
+            {
+                "thread": 4,
+                "file": "src/encoder.c",
+                "line": 551
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

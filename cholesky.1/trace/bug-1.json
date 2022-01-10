@@ -1,0 +1,39 @@
+[
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/malloc.c",
+        "line": 85
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/malloc.c",
+        "line": 85
+    },
+    {
+        "type": "pattern",
+        "name": "WWA",
+        "locations": [
+            {
+                "thread": 3,
+                "file": "src/malloc.c",
+                "line": 131
+            },
+            {
+                "thread": 4,
+                "file": "src/malloc.c",
+                "line": 111
+            },
+            {
+                "thread": 3,
+                "file": "src/malloc.c",
+                "line": 131
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

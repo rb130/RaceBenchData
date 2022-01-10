@@ -1,0 +1,87 @@
+[
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/src/TrackingBenchmark/threads/WorkerGroup.cpp",
+        "line": 113
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/src/TrackingBenchmark/threads/ThreadGroup.cpp",
+        "line": 34
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/src/TrackingBenchmark/threads/Mutex.cpp",
+        "line": 153
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/src/TrackingBenchmark/threads/WorkerGroup.cpp",
+        "line": 113
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/src/TrackingBenchmark/threads/WorkerGroup.cpp",
+        "line": 106
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/src/TrackingBenchmark/threads/WorkerGroup.cpp",
+        "line": 106
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/src/TrackingBenchmark/threads/WorkerGroup.cpp",
+        "line": 106
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/src/TrackingBenchmark/TrackingModel.cpp",
+        "line": 28
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/src/TrackingBenchmark/threads/Mutex.cpp",
+        "line": 83
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/src/TrackingBenchmark/threads/WorkerGroup.cpp",
+        "line": 114
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 4,
+                "file": "src/src/TrackingBenchmark/threads/Mutex.cpp",
+                "line": 148
+            },
+            {
+                "thread": 2,
+                "file": "src/src/TrackingBenchmark/threads/Mutex.cpp",
+                "line": 83
+            },
+            {
+                "thread": 4,
+                "file": "src/src/TrackingBenchmark/threads/Mutex.cpp",
+                "line": 148
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

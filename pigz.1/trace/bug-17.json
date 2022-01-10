@@ -1,0 +1,39 @@
+[
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/pigz.c",
+        "line": 1790
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/yarn.c",
+        "line": 230
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 3,
+                "file": "src/pigz.c",
+                "line": 2534
+            },
+            {
+                "thread": 1,
+                "file": "src/yarn.c",
+                "line": 247
+            },
+            {
+                "thread": 3,
+                "file": "src/pigz.c",
+                "line": 2534
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

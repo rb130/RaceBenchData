@@ -1,0 +1,112 @@
+[
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/encoder/encoder.c",
+        "line": 128
+    },
+    {
+        "type": "next",
+        "thread": 5,
+        "file": "src/encoder/encoder.c",
+        "line": 201
+    },
+    {
+        "type": "next",
+        "thread": 5,
+        "file": "src/encoder/encoder.c",
+        "line": 971
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/encoder/encoder.c",
+        "line": 827
+    },
+    {
+        "type": "next",
+        "thread": 5,
+        "file": "src/common/macroblock.c",
+        "line": 846
+    },
+    {
+        "type": "next",
+        "thread": 5,
+        "file": "src/common/macroblock.c",
+        "line": 793
+    },
+    {
+        "type": "next",
+        "thread": 6,
+        "file": "src/common/macroblock.c",
+        "line": 938
+    },
+    {
+        "type": "next",
+        "thread": 5,
+        "file": "src/encoder/analyse.c",
+        "line": 146
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/encoder/analyse.c",
+        "line": 141
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/encoder/analyse.c",
+        "line": 145
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 3,
+                "file": "src/encoder/analyse.c",
+                "line": 150
+            },
+            {
+                "thread": 5,
+                "file": "src/encoder/analyse.c",
+                "line": 168
+            },
+            {
+                "thread": 3,
+                "file": "src/encoder/analyse.c",
+                "line": 150
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Nest"
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 5,
+                "file": "src/encoder/analyse.c",
+                "line": 168
+            },
+            {
+                "thread": 6,
+                "file": "src/common/macroblock.c",
+                "line": 793
+            },
+            {
+                "thread": 5,
+                "file": "src/encoder/analyse.c",
+                "line": 168
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/yarn.c",
+        "line": 269
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/yarn.c",
+        "line": 207
+    },
+    {
+        "type": "pattern",
+        "name": "RWA",
+        "locations": [
+            {
+                "thread": 2,
+                "file": "src/yarn.c",
+                "line": 222
+            },
+            {
+                "thread": 1,
+                "file": "src/yarn.c",
+                "line": 136
+            },
+            {
+                "thread": 2,
+                "file": "src/yarn.c",
+                "line": 222
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/muxers.c",
+        "line": 425
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/encoder/encoder.c",
+        "line": 1143
+    },
+    {
+        "type": "pattern",
+        "name": "WWA",
+        "locations": [
+            {
+                "thread": 3,
+                "file": "src/encoder/encoder.c",
+                "line": 733
+            },
+            {
+                "thread": 1,
+                "file": "src/encoder/encoder.c",
+                "line": 1398
+            },
+            {
+                "thread": 3,
+                "file": "src/encoder/encoder.c",
+                "line": 734
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

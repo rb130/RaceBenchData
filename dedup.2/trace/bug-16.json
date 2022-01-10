@@ -1,0 +1,51 @@
+[
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/encoder.c",
+        "line": 882
+    },
+    {
+        "type": "next",
+        "thread": 6,
+        "file": "src/encoder.c",
+        "line": 448
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/encoder.c",
+        "line": 548
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/encoder.c",
+        "line": 1350
+    },
+    {
+        "type": "pattern",
+        "name": "RWA",
+        "locations": [
+            {
+                "thread": 10,
+                "file": "src/encoder.c",
+                "line": 351
+            },
+            {
+                "thread": 1,
+                "file": "src/encoder.c",
+                "line": 1350
+            },
+            {
+                "thread": 10,
+                "file": "src/encoder.c",
+                "line": 351
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

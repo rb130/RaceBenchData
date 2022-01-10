@@ -1,0 +1,87 @@
+[
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/pthreads.cpp",
+        "line": 1030
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/parsec_barrier.cpp",
+        "line": 127
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/parsec_barrier.cpp",
+        "line": 184
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/parsec_barrier.cpp",
+        "line": 184
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/parsec_barrier.cpp",
+        "line": 184
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/parsec_barrier.cpp",
+        "line": 184
+    },
+    {
+        "type": "next",
+        "thread": 5,
+        "file": "src/parsec_barrier.cpp",
+        "line": 184
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/parsec_barrier.cpp",
+        "line": 184
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/parsec_barrier.cpp",
+        "line": 184
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/parsec_barrier.cpp",
+        "line": 184
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 5,
+                "file": "src/parsec_barrier.cpp",
+                "line": 184
+            },
+            {
+                "thread": 2,
+                "file": "src/parsec_barrier.cpp",
+                "line": 184
+            },
+            {
+                "thread": 5,
+                "file": "src/parsec_barrier.cpp",
+                "line": 184
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

@@ -1,0 +1,63 @@
+[
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/pthreads.cpp",
+        "line": 1060
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/parsec_barrier.cpp",
+        "line": 184
+    },
+    {
+        "type": "next",
+        "thread": 5,
+        "file": "src/parsec_barrier.cpp",
+        "line": 184
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/parsec_barrier.cpp",
+        "line": 184
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/parsec_barrier.cpp",
+        "line": 184
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/parsec_barrier.cpp",
+        "line": 184
+    },
+    {
+        "type": "pattern",
+        "name": "WWA",
+        "locations": [
+            {
+                "thread": 2,
+                "file": "src/parsec_barrier.cpp",
+                "line": 184
+            },
+            {
+                "thread": 3,
+                "file": "src/parsec_barrier.cpp",
+                "line": 184
+            },
+            {
+                "thread": 2,
+                "file": "src/parsec_barrier.cpp",
+                "line": 184
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

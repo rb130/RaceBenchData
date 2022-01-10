@@ -1,0 +1,75 @@
+[
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/src/TrackingBenchmark/threads/ThreadGroup.cpp",
+        "line": 35
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/src/TrackingBenchmark/threads/WorkerGroup.cpp",
+        "line": 111
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/src/TrackingBenchmark/threads/WorkerGroup.cpp",
+        "line": 114
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/src/TrackingBenchmark/threads/WorkerGroup.cpp",
+        "line": 82
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/src/TrackingBenchmark/TrackingModel.cpp",
+        "line": 56
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/src/FlexImageLib/FlexImage.cpp",
+        "line": 27
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/src/TrackingBenchmark/CameraModel.cpp",
+        "line": 43
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/src/TrackingBenchmark/CameraModel.cpp",
+        "line": 30
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 2,
+                "file": "src/src/TrackingBenchmark/threads/Condition.cpp",
+                "line": 186
+            },
+            {
+                "thread": 1,
+                "file": "src/src/TrackingBenchmark/CameraModel.cpp",
+                "line": 27
+            },
+            {
+                "thread": 2,
+                "file": "src/src/TrackingBenchmark/threads/Condition.cpp",
+                "line": 186
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

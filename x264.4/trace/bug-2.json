@@ -1,0 +1,75 @@
+[
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/x264.c",
+        "line": 682
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/encoder/encoder.c",
+        "line": 728
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/encoder/encoder.c",
+        "line": 129
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/common/cabac.c",
+        "line": 1961
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/common/cabac.c",
+        "line": 1961
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/common/cabac.c",
+        "line": 1961
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/common/cabac.c",
+        "line": 1961
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/common/cabac.c",
+        "line": 1961
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 3,
+                "file": "src/common/cabac.c",
+                "line": 1961
+            },
+            {
+                "thread": 4,
+                "file": "src/common/cabac.c",
+                "line": 1961
+            },
+            {
+                "thread": 3,
+                "file": "src/common/cabac.c",
+                "line": 1961
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

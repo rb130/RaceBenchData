@@ -1,0 +1,51 @@
+[
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/muxers.c",
+        "line": 234
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/common/frame.c",
+        "line": 959
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/common/macroblock.c",
+        "line": 861
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/common/macroblock.c",
+        "line": 862
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 3,
+                "file": "src/encoder/analyse.c",
+                "line": 147
+            },
+            {
+                "thread": 4,
+                "file": "src/encoder/analyse.c",
+                "line": 150
+            },
+            {
+                "thread": 3,
+                "file": "src/encoder/analyse.c",
+                "line": 147
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

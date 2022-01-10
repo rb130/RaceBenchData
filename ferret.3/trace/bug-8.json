@@ -1,0 +1,174 @@
+[
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/src/tpool.c",
+        "line": 55
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/src/tpool.c",
+        "line": 42
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/image/image.c",
+        "line": 311
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/image/image.c",
+        "line": 319
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/image/image.c",
+        "line": 318
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/image/image.c",
+        "line": 318
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 1,
+                "file": "src/src/tpool.c",
+                "line": 37
+            },
+            {
+                "thread": 2,
+                "file": "src/image/image.c",
+                "line": 318
+            },
+            {
+                "thread": 1,
+                "file": "src/src/tpool.c",
+                "line": 37
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Chain"
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/image/image.c",
+        "line": 318
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/src/tpool.c",
+        "line": 42
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/image/image.c",
+        "line": 319
+    },
+    {
+        "type": "pattern",
+        "name": "RWA",
+        "locations": [
+            {
+                "thread": 2,
+                "file": "src/image/image.c",
+                "line": 319
+            },
+            {
+                "thread": 1,
+                "file": "src/src/tpool.c",
+                "line": 47
+            },
+            {
+                "thread": 2,
+                "file": "src/image/image.c",
+                "line": 319
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Chain"
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/image/image.c",
+        "line": 319
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/src/tpool.c",
+        "line": 57
+    },
+    {
+        "type": "pattern",
+        "name": "Disorder",
+        "locations": [
+            {
+                "thread": 2,
+                "file": "src/image/image.c",
+                "line": 319
+            },
+            {
+                "thread": 1,
+                "file": "src/src/tpool.c",
+                "line": 57
+            },
+            {
+                "thread": 2,
+                "file": "src/image/image.c",
+                "line": 319
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Chain"
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/image/image.c",
+        "line": 319
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 1,
+                "file": "src/src/tpool.c",
+                "line": 83
+            },
+            {
+                "thread": 2,
+                "file": "src/image/image.c",
+                "line": 319
+            },
+            {
+                "thread": 1,
+                "file": "src/src/tpool.c",
+                "line": 83
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

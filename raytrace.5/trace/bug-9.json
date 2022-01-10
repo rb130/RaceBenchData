@@ -1,0 +1,87 @@
+[
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/RTTL/common/RTThread.cxx",
+        "line": 154
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/RTTL/common/RTThread.cxx",
+        "line": 154
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/RTTL/common/RTThread.cxx",
+        "line": 156
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/RTTL/common/RTThread.cxx",
+        "line": 154
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/RTTL/common/RTThread.cxx",
+        "line": 133
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/RTTL/common/RTThread.cxx",
+        "line": 156
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/RTTL/common/RTThread.cxx",
+        "line": 23
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/RTTL/common/RTThread.cxx",
+        "line": 23
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/RTTL/common/RTThread.cxx",
+        "line": 25
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/RTTL/common/RTThread.cxx",
+        "line": 148
+    },
+    {
+        "type": "pattern",
+        "name": "RWA",
+        "locations": [
+            {
+                "thread": 1,
+                "file": "src/RTTL/common/RTThread.cxx",
+                "line": 148
+            },
+            {
+                "thread": 4,
+                "file": "src/RTTL/common/RTThread.cxx",
+                "line": 158
+            },
+            {
+                "thread": 1,
+                "file": "src/RTTL/common/RTThread.cxx",
+                "line": 148
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

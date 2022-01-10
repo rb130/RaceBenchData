@@ -1,0 +1,39 @@
+[
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/encoder/encoder.c",
+        "line": 970
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/encoder/encoder.c",
+        "line": 980
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 4,
+                "file": "src/common/macroblock.c",
+                "line": 848
+            },
+            {
+                "thread": 3,
+                "file": "src/common/macroblock.c",
+                "line": 905
+            },
+            {
+                "thread": 4,
+                "file": "src/common/macroblock.c",
+                "line": 848
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

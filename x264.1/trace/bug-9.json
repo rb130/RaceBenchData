@@ -1,0 +1,39 @@
+[
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/muxers.c",
+        "line": 410
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/encoder/encoder.c",
+        "line": 1142
+    },
+    {
+        "type": "pattern",
+        "name": "RWA",
+        "locations": [
+            {
+                "thread": 4,
+                "file": "src/common/cabac.c",
+                "line": 1969
+            },
+            {
+                "thread": 3,
+                "file": "src/common/cabac.c",
+                "line": 1970
+            },
+            {
+                "thread": 4,
+                "file": "src/common/cabac.c",
+                "line": 1969
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

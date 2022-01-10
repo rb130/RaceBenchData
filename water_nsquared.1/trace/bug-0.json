@@ -1,0 +1,39 @@
+[
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/mdmain.c",
+        "line": 31
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/intraf.c",
+        "line": 36
+    },
+    {
+        "type": "pattern",
+        "name": "RWA",
+        "locations": [
+            {
+                "thread": 3,
+                "file": "src/intraf.c",
+                "line": 40
+            },
+            {
+                "thread": 2,
+                "file": "src/intraf.c",
+                "line": 42
+            },
+            {
+                "thread": 3,
+                "file": "src/intraf.c",
+                "line": 40
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

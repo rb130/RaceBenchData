@@ -1,0 +1,39 @@
+[
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/encoder/encoder.c",
+        "line": 144
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/common/macroblock.c",
+        "line": 840
+    },
+    {
+        "type": "pattern",
+        "name": "RWA",
+        "locations": [
+            {
+                "thread": 4,
+                "file": "src/common/macroblock.c",
+                "line": 845
+            },
+            {
+                "thread": 3,
+                "file": "src/common/macroblock.c",
+                "line": 849
+            },
+            {
+                "thread": 4,
+                "file": "src/common/macroblock.c",
+                "line": 845
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

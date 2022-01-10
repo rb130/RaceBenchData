@@ -1,0 +1,39 @@
+[
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/workpool.c",
+        "line": 146
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/main.c",
+        "line": 55
+    },
+    {
+        "type": "pattern",
+        "name": "RWA",
+        "locations": [
+            {
+                "thread": 2,
+                "file": "src/main.c",
+                "line": 55
+            },
+            {
+                "thread": 4,
+                "file": "src/workpool.c",
+                "line": 23
+            },
+            {
+                "thread": 2,
+                "file": "src/main.c",
+                "line": 55
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

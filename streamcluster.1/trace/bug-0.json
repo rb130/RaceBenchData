@@ -1,0 +1,39 @@
+[
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/streamcluster.cpp",
+        "line": 1464
+    },
+    {
+        "type": "next",
+        "thread": 5,
+        "file": "src/streamcluster.cpp",
+        "line": 1463
+    },
+    {
+        "type": "pattern",
+        "name": "WWA",
+        "locations": [
+            {
+                "thread": 1,
+                "file": "src/streamcluster.cpp",
+                "line": 1506
+            },
+            {
+                "thread": 5,
+                "file": "src/streamcluster.cpp",
+                "line": 1463
+            },
+            {
+                "thread": 1,
+                "file": "src/streamcluster.cpp",
+                "line": 1506
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

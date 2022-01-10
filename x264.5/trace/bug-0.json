@@ -1,0 +1,142 @@
+[
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/encoder/encoder.c",
+        "line": 1139
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/muxers.c",
+        "line": 410
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/muxers.c",
+        "line": 411
+    },
+    {
+        "type": "next",
+        "thread": 6,
+        "file": "src/encoder/encoder.c",
+        "line": 173
+    },
+    {
+        "type": "next",
+        "thread": 6,
+        "file": "src/encoder/encoder.c",
+        "line": 206
+    },
+    {
+        "type": "next",
+        "thread": 6,
+        "file": "src/common/cabac.c",
+        "line": 1972
+    },
+    {
+        "type": "next",
+        "thread": 6,
+        "file": "src/common/macroblock.c",
+        "line": 858
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/common/macroblock.c",
+        "line": 793
+    },
+    {
+        "type": "next",
+        "thread": 6,
+        "file": "src/common/macroblock.c",
+        "line": 793
+    },
+    {
+        "type": "next",
+        "thread": 5,
+        "file": "src/common/macroblock.c",
+        "line": 793
+    },
+    {
+        "type": "pattern",
+        "name": "Sleep",
+        "locations": [
+            {
+                "thread": 6,
+                "file": "src/encoder/analyse.c",
+                "line": 137
+            },
+            {
+                "thread": 3,
+                "file": "src/encoder/analyse.c",
+                "line": 146
+            },
+            {
+                "thread": 6,
+                "file": "src/encoder/analyse.c",
+                "line": 137
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Chain"
+    },
+    {
+        "type": "next",
+        "thread": 5,
+        "file": "src/encoder/analyse.c",
+        "line": 169
+    },
+    {
+        "type": "next",
+        "thread": 5,
+        "file": "src/encoder/analyse.c",
+        "line": 170
+    },
+    {
+        "type": "next",
+        "thread": 5,
+        "file": "src/encoder/analyse.c",
+        "line": 177
+    },
+    {
+        "type": "next",
+        "thread": 6,
+        "file": "src/encoder/analyse.c",
+        "line": 152
+    },
+    {
+        "type": "next",
+        "thread": 5,
+        "file": "src/common/frame.c",
+        "line": 953
+    },
+    {
+        "type": "pattern",
+        "name": "WWA",
+        "locations": [
+            {
+                "thread": 3,
+                "file": "src/common/pixel.c",
+                "line": 146
+            },
+            {
+                "thread": 6,
+                "file": "src/encoder/analyse.c",
+                "line": 173
+            },
+            {
+                "thread": 3,
+                "file": "src/common/pixel.c",
+                "line": 146
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

@@ -1,0 +1,64 @@
+[
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/src/TrackingBenchmark/CameraModel.cpp",
+        "line": 43
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/src/TrackingBenchmark/BodyPose.cpp",
+        "line": 66
+    },
+    {
+        "type": "pattern",
+        "name": "WWA",
+        "locations": [
+            {
+                "thread": 5,
+                "file": "src/src/FlexImageLib/FlexImage.cpp",
+                "line": 23
+            },
+            {
+                "thread": 1,
+                "file": "src/src/TrackingBenchmark/AsyncIO.cpp",
+                "line": 64
+            },
+            {
+                "thread": 5,
+                "file": "src/src/FlexImageLib/FlexImage.cpp",
+                "line": 24
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Nest"
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 1,
+                "file": "src/src/TrackingBenchmark/AsyncIO.cpp",
+                "line": 64
+            },
+            {
+                "thread": 5,
+                "file": "src/src/FlexImageLib/FlexImage.cpp",
+                "line": 24
+            },
+            {
+                "thread": 1,
+                "file": "src/src/TrackingBenchmark/AsyncIO.cpp",
+                "line": 64
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

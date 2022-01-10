@@ -1,0 +1,75 @@
+[
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/x264.c",
+        "line": 610
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/encoder/encoder.c",
+        "line": 963
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/common/cabac.c",
+        "line": 1970
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/encoder/encoder.c",
+        "line": 971
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/encoder/encoder.c",
+        "line": 977
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/common/macroblock.c",
+        "line": 878
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/common/macroblock.c",
+        "line": 793
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/encoder/analyse.c",
+        "line": 140
+    },
+    {
+        "type": "pattern",
+        "name": "RWA",
+        "locations": [
+            {
+                "thread": 4,
+                "file": "src/encoder/analyse.c",
+                "line": 165
+            },
+            {
+                "thread": 3,
+                "file": "src/encoder/analyse.c",
+                "line": 142
+            },
+            {
+                "thread": 4,
+                "file": "src/encoder/analyse.c",
+                "line": 165
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

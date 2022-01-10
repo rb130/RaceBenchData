@@ -1,0 +1,39 @@
+[
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/workpool.c",
+        "line": 141
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/main.c",
+        "line": 55
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 4,
+                "file": "src/workpool.c",
+                "line": 152
+            },
+            {
+                "thread": 3,
+                "file": "src/workpool.c",
+                "line": 145
+            },
+            {
+                "thread": 4,
+                "file": "src/workpool.c",
+                "line": 152
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

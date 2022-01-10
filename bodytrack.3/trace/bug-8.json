@@ -1,0 +1,63 @@
+[
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/src/TrackingBenchmark/threads/Mutex.cpp",
+        "line": 83
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/src/TrackingBenchmark/TrackingModel.cpp",
+        "line": 23
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/src/TrackingBenchmark/BodyGeometry.cpp",
+        "line": 128
+    },
+    {
+        "type": "next",
+        "thread": 5,
+        "file": "src/src/TrackingBenchmark/AsyncIO.cpp",
+        "line": 32
+    },
+    {
+        "type": "next",
+        "thread": 5,
+        "file": "src/src/FlexImageLib/FlexImage.cpp",
+        "line": 23
+    },
+    {
+        "type": "next",
+        "thread": 5,
+        "file": "src/src/FlexImageLib/FlexIO.cpp",
+        "line": 92
+    },
+    {
+        "type": "pattern",
+        "name": "RWA",
+        "locations": [
+            {
+                "thread": 5,
+                "file": "src/src/FlexImageLib/FlexIO.cpp",
+                "line": 104
+            },
+            {
+                "thread": 2,
+                "file": "src/src/TrackingBenchmark/threads/Condition.cpp",
+                "line": 186
+            },
+            {
+                "thread": 5,
+                "file": "src/src/FlexImageLib/FlexIO.cpp",
+                "line": 104
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

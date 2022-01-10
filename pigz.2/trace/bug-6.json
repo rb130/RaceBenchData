@@ -1,0 +1,119 @@
+[
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/pigz.c",
+        "line": 2558
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/pigz.c",
+        "line": 2594
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/pigz.c",
+        "line": 2559
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/yarn.c",
+        "line": 234
+    },
+    {
+        "type": "pattern",
+        "name": "RWA",
+        "locations": [
+            {
+                "thread": 3,
+                "file": "src/yarn.c",
+                "line": 202
+            },
+            {
+                "thread": 4,
+                "file": "src/yarn.c",
+                "line": 115
+            },
+            {
+                "thread": 3,
+                "file": "src/yarn.c",
+                "line": 202
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Chain"
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/yarn.c",
+        "line": 202
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/yarn.c",
+        "line": 202
+    },
+    {
+        "type": "pattern",
+        "name": "RWA",
+        "locations": [
+            {
+                "thread": 3,
+                "file": "src/yarn.c",
+                "line": 202
+            },
+            {
+                "thread": 4,
+                "file": "src/yarn.c",
+                "line": 224
+            },
+            {
+                "thread": 3,
+                "file": "src/yarn.c",
+                "line": 202
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Chain"
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/yarn.c",
+        "line": 224
+    },
+    {
+        "type": "pattern",
+        "name": "WWA",
+        "locations": [
+            {
+                "thread": 5,
+                "file": "src/yarn.c",
+                "line": 230
+            },
+            {
+                "thread": 1,
+                "file": "src/yarn.c",
+                "line": 270
+            },
+            {
+                "thread": 5,
+                "file": "src/yarn.c",
+                "line": 230
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

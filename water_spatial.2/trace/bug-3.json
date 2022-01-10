@@ -1,0 +1,51 @@
+[
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/water.c",
+        "line": 391
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/water.c",
+        "line": 391
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/water.c",
+        "line": 394
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/water.c",
+        "line": 391
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 2,
+                "file": "src/water.c",
+                "line": 396
+            },
+            {
+                "thread": 4,
+                "file": "src/water.c",
+                "line": 391
+            },
+            {
+                "thread": 2,
+                "file": "src/water.c",
+                "line": 396
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

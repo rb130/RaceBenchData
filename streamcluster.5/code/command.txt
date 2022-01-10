@@ -1,0 +1,10 @@
+{install_dir}/streamcluster
+10
+20
+32
+0
+1024
+1000
+{input_file}
+/dev/null
+4

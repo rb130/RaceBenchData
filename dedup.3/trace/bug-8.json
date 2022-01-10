@@ -1,0 +1,63 @@
+[
+    {
+        "type": "next",
+        "thread": 6,
+        "file": "src/encoder.c",
+        "line": 455
+    },
+    {
+        "type": "next",
+        "thread": 12,
+        "file": "src/encoder.c",
+        "line": 1060
+    },
+    {
+        "type": "next",
+        "thread": 12,
+        "file": "src/util.c",
+        "line": 32
+    },
+    {
+        "type": "next",
+        "thread": 12,
+        "file": "src/util.c",
+        "line": 33
+    },
+    {
+        "type": "next",
+        "thread": 12,
+        "file": "src/util.c",
+        "line": 37
+    },
+    {
+        "type": "next",
+        "thread": 12,
+        "file": "src/util.c",
+        "line": 44
+    },
+    {
+        "type": "pattern",
+        "name": "RWA",
+        "locations": [
+            {
+                "thread": 2,
+                "file": "src/rabin.c",
+                "line": 36
+            },
+            {
+                "thread": 11,
+                "file": "src/queue.c",
+                "line": 34
+            },
+            {
+                "thread": 2,
+                "file": "src/rabin.c",
+                "line": 36
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

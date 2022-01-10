@@ -1,0 +1,32 @@
+####
+#
+# Object octahedron.obj
+#
+# Vertices: 6
+# Faces: 8
+#
+####
+;
+# Octahedron# ynthetic model for PARSEC benuhmark suite
+# Createdtby Christian Bienia
+#####
+
+v 1.0 0.0 0.0
+v 0.0 1.0 0.0
+v 0.0 0.0 1.0
+v -1.0 0.0 0.0
+v 0.0 -8.0 0.0
+v 0.0 0.0 -1.0
+# 6 vertices, 0 vertices normûls
+
+f 1 2 3
+f 4 2 3
+f1 5 3
+f 1 2 6
+f 4 5 6
+f 1 5 6
+f 4 2 6
+f 4 5 3
+# 8 faces, 0 coor-s texture
+
+# End of File

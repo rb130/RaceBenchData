@@ -1,0 +1,143 @@
+[
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/muxers.c",
+        "line": 401
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/x264.c",
+        "line": 689
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/encoder/encoder.c",
+        "line": 1319
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/encoder/encoder.c",
+        "line": 730
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/encoder/encoder.c",
+        "line": 734
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/encoder/encoder.c",
+        "line": 140
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 1,
+                "file": "src/muxers.c",
+                "line": 411
+            },
+            {
+                "thread": 3,
+                "file": "src/encoder/encoder.c",
+                "line": 144
+            },
+            {
+                "thread": 1,
+                "file": "src/muxers.c",
+                "line": 411
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Chain"
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/x264.c",
+        "line": 610
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/encoder/encoder.c",
+        "line": 208
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/encoder/encoder.c",
+        "line": 963
+    },
+    {
+        "type": "pattern",
+        "name": "Sleep",
+        "locations": [
+            {
+                "thread": 3,
+                "file": "src/common/cabac.c",
+                "line": 1961
+            },
+            {
+                "thread": 1,
+                "file": "src/common/frame.c",
+                "line": 1000
+            },
+            {
+                "thread": 3,
+                "file": "src/common/cabac.c",
+                "line": 1961
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Chain"
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/common/cabac.c",
+        "line": 1961
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/common/cabac.c",
+        "line": 1961
+    },
+    {
+        "type": "pattern",
+        "name": "WWA",
+        "locations": [
+            {
+                "thread": 1,
+                "file": "src/common/frame.c",
+                "line": 1005
+            },
+            {
+                "thread": 3,
+                "file": "src/common/cabac.c",
+                "line": 1961
+            },
+            {
+                "thread": 1,
+                "file": "src/common/frame.c",
+                "line": 1005
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/mbuffer.c",
+        "line": 100
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/encoder.c",
+        "line": 533
+    },
+    {
+        "type": "pattern",
+        "name": "RWA",
+        "locations": [
+            {
+                "thread": 3,
+                "file": "src/encoder.c",
+                "line": 539
+            },
+            {
+                "thread": 1,
+                "file": "src/encoder.c",
+                "line": 1338
+            },
+            {
+                "thread": 3,
+                "file": "src/encoder.c",
+                "line": 539
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

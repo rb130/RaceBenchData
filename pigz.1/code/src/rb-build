@@ -1,0 +1,17 @@
+#!/bin/bash
+
+arg=$1
+
+case $arg in
+    config)
+    ;;
+    build)
+        make
+    ;;
+	clean)
+		make clean
+	;;
+    binary)
+        echo "pigz"
+    ;;
+esac

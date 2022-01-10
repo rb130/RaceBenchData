@@ -1,0 +1,51 @@
+[
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/src/TrackingBenchmark/threads/Thread.cpp",
+        "line": 23
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/src/TrackingBenchmark/threads/WorkerGroup.cpp",
+        "line": 111
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/src/TrackingBenchmark/threads/Barrier.cpp",
+        "line": 26
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/src/TrackingBenchmark/threads/Condition.cpp",
+        "line": 186
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 3,
+                "file": "src/src/TrackingBenchmark/threads/WorkerGroup.cpp",
+                "line": 114
+            },
+            {
+                "thread": 1,
+                "file": "src/src/TrackingBenchmark/threads/WorkerGroup.cpp",
+                "line": 53
+            },
+            {
+                "thread": 3,
+                "file": "src/src/TrackingBenchmark/threads/WorkerGroup.cpp",
+                "line": 114
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

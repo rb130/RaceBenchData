@@ -1,0 +1,23 @@
+#!/bin/bash
+
+arg=$1
+
+export CXXFLAGS="${CXXFLAGS} -std=c++98 -fexceptions -fpermissive"
+
+case $arg in
+	config)
+		./src/configure --enable-threads --disable-openmp --disable-tbb --srcdir=`pwd`/src/
+		;;
+	build)
+		make
+		;;
+	clean)
+		if [[ -f "Makefile" ]]; then
+			make clean
+			make distclean
+		fi
+		;;
+	binary)
+		echo "./TrackingBenchmark/bodytrack"
+		;;
+esac

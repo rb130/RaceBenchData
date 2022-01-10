@@ -1,0 +1,87 @@
+[
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/src/TrackingBenchmark/threads/Mutex.cpp",
+        "line": 153
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/src/TrackingBenchmark/threads/Condition.cpp",
+        "line": 186
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/src/FlexImageLib/FlexImage.cpp",
+        "line": 183
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/src/TrackingBenchmark/CameraModel.cpp",
+        "line": 25
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/src/TrackingBenchmark/CameraModel.cpp",
+        "line": 36
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/src/TrackingBenchmark/BodyGeometry.cpp",
+        "line": 128
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/src/TrackingBenchmark/BodyPose.cpp",
+        "line": 47
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/src/TrackingBenchmark/BodyPose.cpp",
+        "line": 55
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/src/TrackingBenchmark/CovarianceMatrix.cpp",
+        "line": 18
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/src/TrackingBenchmark/CovarianceMatrix.cpp",
+        "line": 18
+    },
+    {
+        "type": "pattern",
+        "name": "WWA",
+        "locations": [
+            {
+                "thread": 1,
+                "file": "src/src/TrackingBenchmark/TrackingModelPthread.cpp",
+                "line": 183
+            },
+            {
+                "thread": 5,
+                "file": "src/src/FlexImageLib/FlexImage.cpp",
+                "line": 25
+            },
+            {
+                "thread": 1,
+                "file": "src/src/TrackingBenchmark/TrackingModelPthread.cpp",
+                "line": 183
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

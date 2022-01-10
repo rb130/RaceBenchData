@@ -1,0 +1,70 @@
+[
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/main.c",
+        "line": 361
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/main.c",
+        "line": 370
+    },
+    {
+        "type": "pattern",
+        "name": "Sleep",
+        "locations": [
+            {
+                "thread": 2,
+                "file": "src/main.c",
+                "line": 370
+            },
+            {
+                "thread": 4,
+                "file": "src/main.c",
+                "line": 370
+            },
+            {
+                "thread": 2,
+                "file": "src/main.c",
+                "line": 370
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Chain"
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/main.c",
+        "line": 361
+    },
+    {
+        "type": "pattern",
+        "name": "WWA",
+        "locations": [
+            {
+                "thread": 4,
+                "file": "src/main.c",
+                "line": 370
+            },
+            {
+                "thread": 2,
+                "file": "src/main.c",
+                "line": 370
+            },
+            {
+                "thread": 4,
+                "file": "src/main.c",
+                "line": 370
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

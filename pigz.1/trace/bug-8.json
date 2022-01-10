@@ -1,0 +1,39 @@
+[
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/yarn.c",
+        "line": 263
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/pigz.c",
+        "line": 550
+    },
+    {
+        "type": "pattern",
+        "name": "RWA",
+        "locations": [
+            {
+                "thread": 2,
+                "file": "src/pigz.c",
+                "line": 560
+            },
+            {
+                "thread": 1,
+                "file": "src/pigz.c",
+                "line": 1804
+            },
+            {
+                "thread": 2,
+                "file": "src/pigz.c",
+                "line": 561
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

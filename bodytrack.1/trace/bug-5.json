@@ -1,0 +1,39 @@
+[
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/src/TrackingBenchmark/threads/WorkerGroup.cpp",
+        "line": 85
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/src/TrackingBenchmark/BodyGeometry.cpp",
+        "line": 124
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 1,
+                "file": "src/src/TrackingBenchmark/AsyncIO.cpp",
+                "line": 63
+            },
+            {
+                "thread": 5,
+                "file": "src/src/TrackingBenchmark/AsyncIO.cpp",
+                "line": 31
+            },
+            {
+                "thread": 1,
+                "file": "src/src/TrackingBenchmark/AsyncIO.cpp",
+                "line": 63
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

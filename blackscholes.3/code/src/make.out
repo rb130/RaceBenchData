@@ -1,0 +1,2 @@
+rm -f blackscholes
+g++ -pthread -DENABLE_THREADS -DNCO=4   blackscholes.m4.cpp -o blackscholes

@@ -1,0 +1,39 @@
+[
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/muxers.c",
+        "line": 427
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/x264.c",
+        "line": 682
+    },
+    {
+        "type": "pattern",
+        "name": "WWA",
+        "locations": [
+            {
+                "thread": 4,
+                "file": "src/encoder/encoder.c",
+                "line": 731
+            },
+            {
+                "thread": 3,
+                "file": "src/common/cabac.c",
+                "line": 1961
+            },
+            {
+                "thread": 4,
+                "file": "src/encoder/encoder.c",
+                "line": 731
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

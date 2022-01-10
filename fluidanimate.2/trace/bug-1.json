@@ -1,0 +1,51 @@
+[
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/pthreads.cpp",
+        "line": 1057
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/pthreads.cpp",
+        "line": 1060
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/pthreads.cpp",
+        "line": 1060
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/pthreads.cpp",
+        "line": 1060
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 5,
+                "file": "src/pthreads.cpp",
+                "line": 1030
+            },
+            {
+                "thread": 3,
+                "file": "src/pthreads.cpp",
+                "line": 1060
+            },
+            {
+                "thread": 5,
+                "file": "src/pthreads.cpp",
+                "line": 1030
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

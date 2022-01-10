@@ -1,0 +1,20 @@
+#!/bin/bash
+
+arg=$1
+
+export RANLIB=ranlib
+
+case $arg in
+    config)
+        ./configure --enable-debug --enable-shared --enable-pthread --extra-asflags="${ASFLAGS}" --extra-cflags="${CFLAGS}" --extra-ldflags="${LDFLAGS}" --disable-asm || exit 1
+    ;;
+    build)
+        make || exit 1
+    ;;
+    clean)
+        make clean || exit 1
+    ;;
+    binary)
+        echo "x264"
+    ;;
+esac

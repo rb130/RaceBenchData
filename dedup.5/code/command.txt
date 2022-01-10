@@ -1,0 +1,10 @@
+{install_dir}/dedup
+-c
+-p
+-v
+-t
+3
+-i
+{input_file}
+-o
+/dev/null

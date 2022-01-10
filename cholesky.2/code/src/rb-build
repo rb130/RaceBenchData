@@ -1,0 +1,19 @@
+#!/bin/bash
+
+export CFLAGS="${CFLAGS} -Wno-error=return-type"
+
+arg=$1
+
+case $arg in
+    config)
+    ;;
+    build)
+        make || exit 1
+    ;;
+    clean)
+        make clean || exit 1
+    ;;
+    binary)
+        echo "cholesky"
+    ;;
+esac

@@ -1,0 +1,39 @@
+[
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/solve.c",
+        "line": 367
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/fo.c",
+        "line": 626
+    },
+    {
+        "type": "pattern",
+        "name": "WWA",
+        "locations": [
+            {
+                "thread": 4,
+                "file": "src/solve.c",
+                "line": 381
+            },
+            {
+                "thread": 3,
+                "file": "src/fo.c",
+                "line": 626
+            },
+            {
+                "thread": 4,
+                "file": "src/solve.c",
+                "line": 381
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

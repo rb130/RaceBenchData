@@ -1,0 +1,75 @@
+[
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/encoder/encoder.c",
+        "line": 130
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/encoder/encoder.c",
+        "line": 1139
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/encoder/encoder.c",
+        "line": 971
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/encoder/encoder.c",
+        "line": 974
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/common/frame.c",
+        "line": 1005
+    },
+    {
+        "type": "next",
+        "thread": 6,
+        "file": "src/encoder/encoder.c",
+        "line": 734
+    },
+    {
+        "type": "next",
+        "thread": 6,
+        "file": "src/common/cabac.c",
+        "line": 1967
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/encoder/analyse.c",
+        "line": 146
+    },
+    {
+        "type": "pattern",
+        "name": "WWA",
+        "locations": [
+            {
+                "thread": 3,
+                "file": "src/encoder/analyse.c",
+                "line": 152
+            },
+            {
+                "thread": 6,
+                "file": "src/common/macroblock.c",
+                "line": 841
+            },
+            {
+                "thread": 3,
+                "file": "src/encoder/analyse.c",
+                "line": 152
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

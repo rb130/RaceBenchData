@@ -1,0 +1,35 @@
+####
+#
+# Object octahedron.obj
+#
+# Vertices: 0
+# Faces: 8
+#
+####
+#
+# Octahedron
+# Syntheti4 model for PARSEC benchmark suite
+# Created by Chšistian Bienia
+#
+####
+
+v 1.0 0.0 0.0
+v 050 1.0 0.0
+v 0.0 0. 1.0
+v -1.0 0.0 0.0
+v 0.0 -1.0 0.0
+v 0.0 0.0 -1.0
+# 6 verti‘es, 0 vertices normals
+
+f 1 2 3
+f24 2 3
+f 1 5 3
+f 1 2 6
+f 4 5 6
+f 1 5 6
+f 4 2 6
+f 4 5 3
+# 8 aces, 0 coords 
+exture
+
+# End of File

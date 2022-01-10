@@ -1,0 +1,5 @@
+{install_dir}/raytrace
+-s
+-p4
+-g={install_dir}/teapot.geo
+{input_file}

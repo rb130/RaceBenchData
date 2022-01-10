@@ -1,0 +1,39 @@
+[
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/src/tpool.c",
+        "line": 54
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/src/tpool.c",
+        "line": 54
+    },
+    {
+        "type": "pattern",
+        "name": "WWA",
+        "locations": [
+            {
+                "thread": 3,
+                "file": "src/src/queue.c",
+                "line": 38
+            },
+            {
+                "thread": 1,
+                "file": "src/benchmark/ferret-pthreads.c",
+                "line": 522
+            },
+            {
+                "thread": 3,
+                "file": "src/src/queue.c",
+                "line": 38
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

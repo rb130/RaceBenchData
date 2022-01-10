@@ -1,0 +1,70 @@
+[
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/muxers.c",
+        "line": 411
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/common/cabac.c",
+        "line": 1972
+    },
+    {
+        "type": "pattern",
+        "name": "RWA",
+        "locations": [
+            {
+                "thread": 5,
+                "file": "src/encoder/analyse.c",
+                "line": 174
+            },
+            {
+                "thread": 6,
+                "file": "src/common/macroblock.c",
+                "line": 907
+            },
+            {
+                "thread": 5,
+                "file": "src/encoder/analyse.c",
+                "line": 174
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Chain"
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/common/pixel.c",
+        "line": 146
+    },
+    {
+        "type": "pattern",
+        "name": "RWA",
+        "locations": [
+            {
+                "thread": 6,
+                "file": "src/encoder/analyse.c",
+                "line": 167
+            },
+            {
+                "thread": 3,
+                "file": "src/common/pixel.c",
+                "line": 151
+            },
+            {
+                "thread": 6,
+                "file": "src/encoder/analyse.c",
+                "line": 167
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

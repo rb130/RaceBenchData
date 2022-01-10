@@ -1,0 +1,39 @@
+[
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/src/TrackingBenchmark/CameraModel.cpp",
+        "line": 24
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/src/TrackingBenchmark/BodyGeometry.cpp",
+        "line": 128
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 5,
+                "file": "src/src/FlexImageLib/FlexImage.cpp",
+                "line": 187
+            },
+            {
+                "thread": 1,
+                "file": "src/src/TrackingBenchmark/AsyncIO.cpp",
+                "line": 64
+            },
+            {
+                "thread": 5,
+                "file": "src/src/FlexImageLib/FlexImage.cpp",
+                "line": 187
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Crash"
+    }
+]

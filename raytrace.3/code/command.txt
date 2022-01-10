@@ -1,0 +1,11 @@
+{install_dir}/rtview
+-files
+{input_file}
+-automove
+-nthreads
+4
+-frames
+1
+-res
+1
+1
