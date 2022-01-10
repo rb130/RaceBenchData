@@ -30,3 +30,4 @@ pigz:
     fix file name length
 streamcluster:
     fix invalid input float
+    replace lrand48

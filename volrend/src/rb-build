@@ -2,6 +2,9 @@
 
 arg=$1
 
+export CFLAGS="${CFLAGS} -Wno-return-type"
+export CXXFLAGS="${CXXFLAGS} -Wno-return-type"
+
 case $arg in
     config)
     ;;
