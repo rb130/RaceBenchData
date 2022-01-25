@@ -1,32 +1,32 @@
 [
     {
         "type": "next",
-        "thread": 2,
+        "thread": 3,
+        "file": "src/pthreads.cpp",
+        "line": 504
+    },
+    {
+        "type": "next",
+        "thread": 4,
         "file": "src/pthreads.cpp",
         "line": 502
     },
     {
-        "type": "next",
-        "thread": 2,
-        "file": "src/pthreads.cpp",
-        "line": 503
-    },
-    {
         "type": "pattern",
-        "name": "WWA",
+        "name": "RWA",
         "locations": [
             {
-                "thread": 2,
+                "thread": 5,
                 "file": "src/pthreads.cpp",
                 "line": 504
             },
             {
-                "thread": 3,
+                "thread": 4,
                 "file": "src/pthreads.cpp",
                 "line": 502
             },
             {
-                "thread": 2,
+                "thread": 5,
                 "file": "src/pthreads.cpp",
                 "line": 504
             }

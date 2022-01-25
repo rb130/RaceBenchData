@@ -1,65 +1,34 @@
 [
     {
         "type": "next",
-        "thread": 3,
+        "thread": 5,
         "file": "src/pthreads.cpp",
-        "line": 1057
+        "line": 503
     },
     {
         "type": "next",
         "thread": 4,
         "file": "src/pthreads.cpp",
-        "line": 1057
+        "line": 504
     },
     {
         "type": "pattern",
-        "name": "Disorder",
+        "name": "WWA",
         "locations": [
             {
-                "thread": 4,
+                "thread": 2,
                 "file": "src/pthreads.cpp",
-                "line": 1057
-            },
-            {
-                "thread": 3,
-                "file": "src/pthreads.cpp",
-                "line": 1030
-            },
-            {
-                "thread": 4,
-                "file": "src/pthreads.cpp",
-                "line": 1057
-            }
-        ]
-    },
-    {
-        "type": "assume",
-        "outcome": "Chain"
-    },
-    {
-        "type": "next",
-        "thread": 2,
-        "file": "src/pthreads.cpp",
-        "line": 1030
-    },
-    {
-        "type": "pattern",
-        "name": "RWA",
-        "locations": [
-            {
-                "thread": 4,
-                "file": "src/pthreads.cpp",
-                "line": 1060
+                "line": 504
             },
             {
                 "thread": 5,
                 "file": "src/pthreads.cpp",
-                "line": 1057
+                "line": 503
             },
             {
-                "thread": 4,
+                "thread": 2,
                 "file": "src/pthreads.cpp",
-                "line": 1060
+                "line": 504
             }
         ]
     },

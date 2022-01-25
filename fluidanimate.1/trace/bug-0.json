@@ -1,65 +1,34 @@
 [
     {
         "type": "next",
-        "thread": 4,
-        "file": "src/pthreads.cpp",
-        "line": 523
-    },
-    {
-        "type": "next",
-        "thread": 3,
-        "file": "src/pthreads.cpp",
-        "line": 587
-    },
-    {
-        "type": "pattern",
-        "name": "RWA",
-        "locations": [
-            {
-                "thread": 3,
-                "file": "src/pthreads.cpp",
-                "line": 524
-            },
-            {
-                "thread": 4,
-                "file": "src/pthreads.cpp",
-                "line": 522
-            },
-            {
-                "thread": 3,
-                "file": "src/pthreads.cpp",
-                "line": 524
-            }
-        ]
-    },
-    {
-        "type": "assume",
-        "outcome": "Chain"
+        "thread": 5,
+        "file": "src/parsec_barrier.cpp",
+        "line": 184
     },
     {
         "type": "next",
         "thread": 5,
-        "file": "src/pthreads.cpp",
-        "line": 590
+        "file": "src/parsec_barrier.cpp",
+        "line": 184
     },
     {
         "type": "pattern",
-        "name": "WWA",
+        "name": "WAW",
         "locations": [
             {
-                "thread": 3,
+                "thread": 4,
                 "file": "src/pthreads.cpp",
-                "line": 591
+                "line": 505
             },
             {
                 "thread": 5,
                 "file": "src/pthreads.cpp",
-                "line": 577
+                "line": 502
             },
             {
-                "thread": 3,
+                "thread": 4,
                 "file": "src/pthreads.cpp",
-                "line": 591
+                "line": 505
             }
         ]
     },

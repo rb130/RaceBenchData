@@ -1,34 +1,34 @@
 [
     {
         "type": "next",
-        "thread": 1,
+        "thread": 2,
         "file": "src/pthreads.cpp",
-        "line": 1141
+        "line": 504
     },
     {
         "type": "next",
         "thread": 3,
         "file": "src/pthreads.cpp",
-        "line": 1030
+        "line": 502
     },
     {
         "type": "pattern",
-        "name": "WAW",
+        "name": "WWA",
         "locations": [
             {
                 "thread": 3,
                 "file": "src/pthreads.cpp",
-                "line": 1030
+                "line": 503
             },
             {
-                "thread": 4,
+                "thread": 2,
                 "file": "src/pthreads.cpp",
-                "line": 1057
+                "line": 503
             },
             {
                 "thread": 3,
                 "file": "src/pthreads.cpp",
-                "line": 1030
+                "line": 503
             }
         ]
     },

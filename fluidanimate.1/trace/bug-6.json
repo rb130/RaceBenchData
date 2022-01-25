@@ -1,34 +1,34 @@
 [
     {
         "type": "next",
-        "thread": 2,
-        "file": "src/parsec_barrier.cpp",
-        "line": 184
+        "thread": 3,
+        "file": "src/pthreads.cpp",
+        "line": 505
     },
     {
         "type": "next",
-        "thread": 5,
+        "thread": 4,
         "file": "src/pthreads.cpp",
-        "line": 523
+        "line": 504
     },
     {
         "type": "pattern",
         "name": "WWA",
         "locations": [
             {
-                "thread": 5,
+                "thread": 3,
                 "file": "src/pthreads.cpp",
-                "line": 572
+                "line": 505
             },
             {
-                "thread": 2,
+                "thread": 4,
                 "file": "src/pthreads.cpp",
-                "line": 572
+                "line": 502
             },
             {
-                "thread": 5,
+                "thread": 3,
                 "file": "src/pthreads.cpp",
-                "line": 572
+                "line": 505
             }
         ]
     },

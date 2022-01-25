@@ -3,32 +3,32 @@
         "type": "next",
         "thread": 2,
         "file": "src/pthreads.cpp",
-        "line": 1057
+        "line": 502
     },
     {
         "type": "next",
-        "thread": 2,
+        "thread": 5,
         "file": "src/pthreads.cpp",
-        "line": 1060
+        "line": 504
     },
     {
         "type": "pattern",
         "name": "WWA",
         "locations": [
             {
-                "thread": 3,
+                "thread": 4,
                 "file": "src/pthreads.cpp",
-                "line": 1057
+                "line": 502
             },
             {
-                "thread": 1,
+                "thread": 2,
                 "file": "src/pthreads.cpp",
-                "line": 1142
+                "line": 503
             },
             {
-                "thread": 3,
+                "thread": 4,
                 "file": "src/pthreads.cpp",
-                "line": 1057
+                "line": 502
             }
         ]
     },
