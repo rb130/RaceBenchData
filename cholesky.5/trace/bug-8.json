@@ -1,82 +1,82 @@
 [
     {
         "type": "next",
-        "thread": 2,
+        "thread": 1,
         "file": "src/solve.c",
-        "line": 356
-    },
-    {
-        "type": "next",
-        "thread": 2,
-        "file": "src/solve.c",
-        "line": 356
-    },
-    {
-        "type": "next",
-        "thread": 3,
-        "file": "src/solve.c",
-        "line": 356
-    },
-    {
-        "type": "next",
-        "thread": 2,
-        "file": "src/malloc.c",
-        "line": 85
-    },
-    {
-        "type": "next",
-        "thread": 3,
-        "file": "src/malloc.c",
-        "line": 85
-    },
-    {
-        "type": "next",
-        "thread": 3,
-        "file": "src/malloc.c",
-        "line": 85
-    },
-    {
-        "type": "next",
-        "thread": 3,
-        "file": "src/malloc.c",
-        "line": 85
-    },
-    {
-        "type": "next",
-        "thread": 3,
-        "file": "src/malloc.c",
-        "line": 89
+        "line": 284
     },
     {
         "type": "next",
         "thread": 1,
-        "file": "src/malloc.c",
-        "line": 89
+        "file": "src/solve.c",
+        "line": 284
     },
     {
         "type": "next",
         "thread": 2,
-        "file": "src/malloc.c",
-        "line": 142
+        "file": "src/solve.c",
+        "line": 361
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/solve.c",
+        "line": 284
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/solve.c",
+        "line": 361
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/solve.c",
+        "line": 364
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/solve.c",
+        "line": 361
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/solve.c",
+        "line": 367
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/solve.c",
+        "line": 361
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/solve.c",
+        "line": 368
     },
     {
         "type": "pattern",
         "name": "RWA",
         "locations": [
             {
+                "thread": 4,
+                "file": "src/solve.c",
+                "line": 369
+            },
+            {
                 "thread": 2,
-                "file": "src/malloc.c",
-                "line": 145
+                "file": "src/solve.c",
+                "line": 368
             },
             {
                 "thread": 4,
-                "file": "src/malloc.c",
-                "line": 85
-            },
-            {
-                "thread": 2,
-                "file": "src/malloc.c",
-                "line": 145
+                "file": "src/solve.c",
+                "line": 369
             }
         ]
     },

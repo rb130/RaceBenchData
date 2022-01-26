@@ -1,51 +1,9 @@
 [
     {
         "type": "next",
-        "thread": 4,
+        "thread": 3,
         "file": "src/malloc.c",
         "line": 85
-    },
-    {
-        "type": "next",
-        "thread": 1,
-        "file": "src/malloc.c",
-        "line": 135
-    },
-    {
-        "type": "next",
-        "thread": 2,
-        "file": "src/malloc.c",
-        "line": 85
-    },
-    {
-        "type": "next",
-        "thread": 1,
-        "file": "src/malloc.c",
-        "line": 85
-    },
-    {
-        "type": "next",
-        "thread": 2,
-        "file": "src/malloc.c",
-        "line": 139
-    },
-    {
-        "type": "next",
-        "thread": 4,
-        "file": "src/malloc.c",
-        "line": 85
-    },
-    {
-        "type": "next",
-        "thread": 2,
-        "file": "src/malloc.c",
-        "line": 159
-    },
-    {
-        "type": "next",
-        "thread": 2,
-        "file": "src/malloc.c",
-        "line": 208
     },
     {
         "type": "next",
@@ -60,23 +18,120 @@
         "line": 145
     },
     {
+        "type": "next",
+        "thread": 4,
+        "file": "src/malloc.c",
+        "line": 116
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/malloc.c",
+        "line": 140
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/malloc.c",
+        "line": 142
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/malloc.c",
+        "line": 85
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/malloc.c",
+        "line": 85
+    },
+    {
+        "type": "next",
+        "thread": 4,
+        "file": "src/fo.c",
+        "line": 626
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/fo.c",
+        "line": 626
+    },
+    {
+        "type": "pattern",
+        "name": "Disorder",
+        "locations": [
+            {
+                "thread": 3,
+                "file": "src/fo.c",
+                "line": 626
+            },
+            {
+                "thread": 1,
+                "file": "src/fo.c",
+                "line": 626
+            },
+            {
+                "thread": 3,
+                "file": "src/fo.c",
+                "line": 626
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Chain"
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/fo.c",
+        "line": 626
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/fo.c",
+        "line": 626
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/fo.c",
+        "line": 626
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/fo.c",
+        "line": 626
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/solve.c",
+        "line": 380
+    },
+    {
         "type": "pattern",
         "name": "RWA",
         "locations": [
             {
                 "thread": 1,
                 "file": "src/solve.c",
-                "line": 383
+                "line": 380
             },
             {
-                "thread": 4,
+                "thread": 3,
                 "file": "src/solve.c",
-                "line": 373
+                "line": 388
             },
             {
                 "thread": 1,
                 "file": "src/solve.c",
-                "line": 383
+                "line": 380
             }
         ]
     },

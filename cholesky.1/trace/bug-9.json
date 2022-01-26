@@ -1,15 +1,15 @@
 [
     {
         "type": "next",
-        "thread": 4,
-        "file": "src/malloc.c",
-        "line": 85
+        "thread": 3,
+        "file": "src/solve.c",
+        "line": 361
     },
     {
         "type": "next",
-        "thread": 1,
-        "file": "src/malloc.c",
-        "line": 140
+        "thread": 4,
+        "file": "src/solve.c",
+        "line": 368
     },
     {
         "type": "pattern",
@@ -18,17 +18,17 @@
             {
                 "thread": 4,
                 "file": "src/malloc.c",
-                "line": 199
+                "line": 131
             },
             {
-                "thread": 3,
+                "thread": 1,
                 "file": "src/malloc.c",
-                "line": 170
+                "line": 85
             },
             {
                 "thread": 4,
                 "file": "src/malloc.c",
-                "line": 199
+                "line": 131
             }
         ]
     },

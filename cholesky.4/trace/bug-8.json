@@ -3,49 +3,49 @@
         "type": "next",
         "thread": 2,
         "file": "src/solve.c",
-        "line": 356
+        "line": 363
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/solve.c",
+        "line": 361
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/solve.c",
+        "line": 363
     },
     {
         "type": "next",
         "thread": 2,
         "file": "src/solve.c",
-        "line": 360
+        "line": 369
     },
     {
         "type": "next",
         "thread": 3,
         "file": "src/solve.c",
-        "line": 356
-    },
-    {
-        "type": "next",
-        "thread": 2,
-        "file": "src/malloc.c",
-        "line": 108
+        "line": 367
     },
     {
         "type": "next",
         "thread": 3,
         "file": "src/solve.c",
-        "line": 362
+        "line": 367
     },
     {
         "type": "next",
         "thread": 3,
-        "file": "src/malloc.c",
-        "line": 108
+        "file": "src/solve.c",
+        "line": 367
     },
     {
         "type": "next",
-        "thread": 3,
-        "file": "src/malloc.c",
-        "line": 85
-    },
-    {
-        "type": "next",
-        "thread": 4,
-        "file": "src/malloc.c",
-        "line": 85
+        "thread": 1,
+        "file": "src/solve.c",
+        "line": 368
     },
     {
         "type": "pattern",
@@ -53,18 +53,18 @@
         "locations": [
             {
                 "thread": 1,
-                "file": "src/malloc.c",
-                "line": 131
+                "file": "src/solve.c",
+                "line": 369
             },
             {
                 "thread": 4,
-                "file": "src/malloc.c",
-                "line": 116
+                "file": "src/solve.c",
+                "line": 372
             },
             {
                 "thread": 1,
-                "file": "src/malloc.c",
-                "line": 131
+                "file": "src/solve.c",
+                "line": 369
             }
         ]
     },

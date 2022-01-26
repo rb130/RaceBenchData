@@ -275,7 +275,7 @@ SMatrix L;
             nextj = link[j];
             M.row[ind++] = j;
             first[j]++;
-            if (first[j] < L.col[j + 1])
+            if (first[j] < L.col[j + 1] && first[j] < L.n + L.m)
                 AddMember(L.row[first[j]], j);
             j = nextj;
         }
@@ -291,7 +291,7 @@ SMatrix L;
             fprintf(stderr, "\n");
         }
 
-        if (first[i] < L.col[i + 1]) {
+        if (first[i] < L.col[i + 1] && first[i] < L.n + L.m) {
             AddMember(L.row[first[i]], i);
         }
     }

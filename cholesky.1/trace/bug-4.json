@@ -1,34 +1,34 @@
 [
     {
         "type": "next",
-        "thread": 2,
+        "thread": 4,
         "file": "src/solve.c",
-        "line": 354
+        "line": 370
     },
     {
         "type": "next",
         "thread": 2,
-        "file": "src/solve.c",
-        "line": 361
+        "file": "src/fo.c",
+        "line": 444
     },
     {
         "type": "pattern",
-        "name": "WWA",
+        "name": "RWA",
         "locations": [
             {
                 "thread": 2,
-                "file": "src/solve.c",
-                "line": 363
+                "file": "src/bfac.c",
+                "line": 76
             },
             {
-                "thread": 1,
-                "file": "src/solve.c",
-                "line": 277
+                "thread": 3,
+                "file": "src/bfac.c",
+                "line": 570
             },
             {
                 "thread": 2,
-                "file": "src/solve.c",
-                "line": 363
+                "file": "src/bfac.c",
+                "line": 76
             }
         ]
     },

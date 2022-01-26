@@ -1,13 +1,44 @@
 [
     {
         "type": "next",
-        "thread": 3,
-        "file": "src/solve.c",
-        "line": 367
+        "thread": 4,
+        "file": "src/malloc.c",
+        "line": 111
     },
     {
         "type": "next",
-        "thread": 3,
+        "thread": 4,
+        "file": "src/malloc.c",
+        "line": 141
+    },
+    {
+        "type": "pattern",
+        "name": "WWA",
+        "locations": [
+            {
+                "thread": 2,
+                "file": "src/solve.c",
+                "line": 374
+            },
+            {
+                "thread": 3,
+                "file": "src/solve.c",
+                "line": 374
+            },
+            {
+                "thread": 2,
+                "file": "src/solve.c",
+                "line": 374
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Chain"
+    },
+    {
+        "type": "next",
+        "thread": 1,
         "file": "src/fo.c",
         "line": 626
     },
@@ -16,19 +47,19 @@
         "name": "WWA",
         "locations": [
             {
-                "thread": 4,
-                "file": "src/solve.c",
-                "line": 381
-            },
-            {
                 "thread": 3,
                 "file": "src/fo.c",
                 "line": 626
             },
             {
                 "thread": 4,
-                "file": "src/solve.c",
-                "line": 381
+                "file": "src/fo.c",
+                "line": 626
+            },
+            {
+                "thread": 3,
+                "file": "src/fo.c",
+                "line": 626
             }
         ]
     },

@@ -1,15 +1,33 @@
 [
     {
         "type": "next",
+        "thread": 1,
+        "file": "src/solve.c",
+        "line": 284
+    },
+    {
+        "type": "next",
         "thread": 2,
-        "file": "src/malloc.c",
-        "line": 85
+        "file": "src/solve.c",
+        "line": 363
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/solve.c",
+        "line": 363
     },
     {
         "type": "next",
         "thread": 3,
         "file": "src/solve.c",
-        "line": 357
+        "line": 361
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/solve.c",
+        "line": 372
     },
     {
         "type": "next",
@@ -21,50 +39,32 @@
         "type": "next",
         "thread": 2,
         "file": "src/malloc.c",
-        "line": 83
-    },
-    {
-        "type": "next",
-        "thread": 4,
-        "file": "src/malloc.c",
-        "line": 208
-    },
-    {
-        "type": "next",
-        "thread": 3,
-        "file": "src/malloc.c",
         "line": 85
     },
     {
         "type": "next",
         "thread": 3,
-        "file": "src/malloc.c",
-        "line": 85
-    },
-    {
-        "type": "next",
-        "thread": 3,
-        "file": "src/malloc.c",
-        "line": 132
+        "file": "src/solve.c",
+        "line": 369
     },
     {
         "type": "pattern",
-        "name": "RWA",
+        "name": "WWA",
         "locations": [
             {
                 "thread": 3,
-                "file": "src/malloc.c",
-                "line": 132
+                "file": "src/solve.c",
+                "line": 370
             },
             {
-                "thread": 1,
+                "thread": 2,
                 "file": "src/malloc.c",
-                "line": 170
+                "line": 85
             },
             {
                 "thread": 3,
-                "file": "src/malloc.c",
-                "line": 132
+                "file": "src/solve.c",
+                "line": 370
             }
         ]
     },

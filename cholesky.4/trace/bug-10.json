@@ -1,31 +1,7 @@
 [
     {
         "type": "next",
-        "thread": 4,
-        "file": "src/solve.c",
-        "line": 354
-    },
-    {
-        "type": "next",
         "thread": 2,
-        "file": "src/solve.c",
-        "line": 360
-    },
-    {
-        "type": "next",
-        "thread": 2,
-        "file": "src/solve.c",
-        "line": 365
-    },
-    {
-        "type": "next",
-        "thread": 4,
-        "file": "src/solve.c",
-        "line": 363
-    },
-    {
-        "type": "next",
-        "thread": 1,
         "file": "src/solve.c",
         "line": 361
     },
@@ -33,38 +9,62 @@
         "type": "next",
         "thread": 1,
         "file": "src/solve.c",
-        "line": 362
+        "line": 284
     },
     {
         "type": "next",
-        "thread": 3,
+        "thread": 2,
         "file": "src/solve.c",
-        "line": 356
+        "line": 363
     },
     {
         "type": "next",
-        "thread": 4,
-        "file": "src/malloc.c",
-        "line": 85
+        "thread": 2,
+        "file": "src/solve.c",
+        "line": 364
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/solve.c",
+        "line": 364
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/solve.c",
+        "line": 364
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/solve.c",
+        "line": 367
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/solve.c",
+        "line": 367
     },
     {
         "type": "pattern",
-        "name": "RWA",
+        "name": "WWA",
         "locations": [
             {
-                "thread": 3,
+                "thread": 4,
                 "file": "src/solve.c",
-                "line": 360
+                "line": 361
+            },
+            {
+                "thread": 2,
+                "file": "src/solve.c",
+                "line": 369
             },
             {
                 "thread": 4,
-                "file": "src/malloc.c",
-                "line": 85
-            },
-            {
-                "thread": 3,
                 "file": "src/solve.c",
-                "line": 360
+                "line": 361
             }
         ]
     },

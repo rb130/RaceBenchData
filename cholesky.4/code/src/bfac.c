@@ -1,3 +1,4 @@
+#include "racebench_bugs.h"
 
 
 #include <pthread.h>
@@ -186,6 +187,17 @@ OneDiv(A, B, n1, n3, n4) double *A, *B;
         }
         tmp0 = 1.0 / A[j + n4 * j];
         for (i = 0; i < n3; i++) {
+            #ifdef RACEBENCH_BUG_17
+            if ((rb_state17.var_3) == (0x0)) {
+                pthread_mutex_lock(&(rb_state17.lock_22));
+                if ((rb_state17.var_4) != (0x0)) {
+                    if (!((rb_state17.var_4) == (rb_state17.var_18))) {
+                        racebench_trigger(17);
+                    }
+                }
+                pthread_mutex_unlock(&(rb_state17.lock_22));
+            }
+            #endif
             B[i + n3 * j] *= tmp0;
         }
         for (i = 0; i < n3; i++) {

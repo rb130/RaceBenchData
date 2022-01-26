@@ -1,119 +1,70 @@
 [
     {
         "type": "next",
+        "thread": 2,
+        "file": "src/solve.c",
+        "line": 361
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/solve.c",
+        "line": 284
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/solve.c",
+        "line": 363
+    },
+    {
+        "type": "next",
         "thread": 4,
-        "file": "src/malloc.c",
-        "line": 111
+        "file": "src/solve.c",
+        "line": 361
     },
     {
         "type": "next",
         "thread": 1,
-        "file": "src/malloc.c",
-        "line": 89
+        "file": "src/solve.c",
+        "line": 291
     },
     {
         "type": "next",
         "thread": 1,
-        "file": "src/malloc.c",
-        "line": 159
-    },
-    {
-        "type": "next",
-        "thread": 1,
-        "file": "src/malloc.c",
-        "line": 208
-    },
-    {
-        "type": "next",
-        "thread": 1,
-        "file": "src/malloc.c",
-        "line": 85
-    },
-    {
-        "type": "next",
-        "thread": 1,
-        "file": "src/malloc.c",
-        "line": 85
-    },
-    {
-        "type": "next",
-        "thread": 1,
-        "file": "src/fo.c",
-        "line": 24
-    },
-    {
-        "type": "next",
-        "thread": 3,
-        "file": "src/fo.c",
-        "line": 626
-    },
-    {
-        "type": "pattern",
-        "name": "Disorder",
-        "locations": [
-            {
-                "thread": 4,
-                "file": "src/fo.c",
-                "line": 626
-            },
-            {
-                "thread": 1,
-                "file": "src/fo.c",
-                "line": 626
-            },
-            {
-                "thread": 4,
-                "file": "src/fo.c",
-                "line": 626
-            }
-        ]
-    },
-    {
-        "type": "assume",
-        "outcome": "Chain"
+        "file": "src/solve.c",
+        "line": 291
     },
     {
         "type": "next",
         "thread": 3,
         "file": "src/solve.c",
-        "line": 373
+        "line": 369
     },
     {
         "type": "next",
         "thread": 3,
         "file": "src/solve.c",
-        "line": 373
-    },
-    {
-        "type": "next",
-        "thread": 1,
-        "file": "src/fo.c",
-        "line": 626
-    },
-    {
-        "type": "next",
-        "thread": 1,
-        "file": "src/fo.c",
-        "line": 626
+        "line": 370
     },
     {
         "type": "pattern",
-        "name": "WWA",
+        "name": "WAW",
         "locations": [
             {
-                "thread": 3,
+                "thread": 2,
                 "file": "src/solve.c",
-                "line": 379
-            },
-            {
-                "thread": 1,
-                "file": "src/fo.c",
-                "line": 626
+                "line": 367
             },
             {
                 "thread": 3,
                 "file": "src/solve.c",
-                "line": 379
+                "line": 372
+            },
+            {
+                "thread": 2,
+                "file": "src/solve.c",
+                "line": 369
             }
         ]
     },

@@ -3,44 +3,44 @@
         "type": "next",
         "thread": 2,
         "file": "src/solve.c",
-        "line": 361
+        "line": 363
     },
     {
         "type": "next",
-        "thread": 2,
+        "thread": 4,
         "file": "src/solve.c",
-        "line": 365
+        "line": 363
     },
     {
         "type": "next",
-        "thread": 1,
-        "file": "src/solve.c",
-        "line": 277
+        "thread": 4,
+        "file": "src/malloc.c",
+        "line": 83
     },
     {
         "type": "next",
-        "thread": 3,
-        "file": "src/solve.c",
-        "line": 357
+        "thread": 4,
+        "file": "src/malloc.c",
+        "line": 111
     },
     {
         "type": "pattern",
-        "name": "WAW",
+        "name": "WWA",
         "locations": [
             {
-                "thread": 2,
+                "thread": 4,
                 "file": "src/malloc.c",
-                "line": 85
-            },
-            {
-                "thread": 1,
-                "file": "src/solve.c",
-                "line": 363
+                "line": 135
             },
             {
                 "thread": 2,
                 "file": "src/malloc.c",
-                "line": 85
+                "line": 140
+            },
+            {
+                "thread": 4,
+                "file": "src/malloc.c",
+                "line": 135
             }
         ]
     },

@@ -1,82 +1,82 @@
 [
     {
         "type": "next",
+        "thread": 4,
+        "file": "src/solve.c",
+        "line": 367
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/malloc.c",
+        "line": 85
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/malloc.c",
+        "line": 85
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/malloc.c",
+        "line": 85
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/malloc.c",
+        "line": 85
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/malloc.c",
+        "line": 85
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/malloc.c",
+        "line": 85
+    },
+    {
+        "type": "next",
         "thread": 3,
-        "file": "src/solve.c",
-        "line": 354
-    },
-    {
-        "type": "next",
-        "thread": 1,
-        "file": "src/solve.c",
-        "line": 356
-    },
-    {
-        "type": "next",
-        "thread": 2,
-        "file": "src/solve.c",
-        "line": 360
-    },
-    {
-        "type": "next",
-        "thread": 2,
-        "file": "src/solve.c",
-        "line": 360
-    },
-    {
-        "type": "next",
-        "thread": 1,
-        "file": "src/solve.c",
-        "line": 363
-    },
-    {
-        "type": "next",
-        "thread": 1,
         "file": "src/malloc.c",
-        "line": 85
-    },
-    {
-        "type": "next",
-        "thread": 1,
-        "file": "src/malloc.c",
-        "line": 85
+        "line": 135
     },
     {
         "type": "next",
         "thread": 4,
         "file": "src/malloc.c",
-        "line": 85
+        "line": 135
     },
     {
         "type": "next",
-        "thread": 4,
+        "thread": 3,
         "file": "src/malloc.c",
         "line": 85
-    },
-    {
-        "type": "next",
-        "thread": 2,
-        "file": "src/malloc.c",
-        "line": 111
     },
     {
         "type": "pattern",
-        "name": "WAW",
+        "name": "WWA",
         "locations": [
             {
-                "thread": 4,
+                "thread": 2,
                 "file": "src/malloc.c",
-                "line": 85
+                "line": 252
+            },
+            {
+                "thread": 3,
+                "file": "src/malloc.c",
+                "line": 132
             },
             {
                 "thread": 2,
                 "file": "src/malloc.c",
-                "line": 111
-            },
-            {
-                "thread": 4,
-                "file": "src/malloc.c",
-                "line": 85
+                "line": 252
             }
         ]
     },

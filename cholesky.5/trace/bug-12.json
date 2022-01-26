@@ -3,80 +3,80 @@
         "type": "next",
         "thread": 1,
         "file": "src/solve.c",
-        "line": 277
-    },
-    {
-        "type": "next",
-        "thread": 2,
-        "file": "src/solve.c",
-        "line": 354
+        "line": 284
     },
     {
         "type": "next",
         "thread": 3,
         "file": "src/solve.c",
-        "line": 356
+        "line": 367
     },
     {
         "type": "next",
-        "thread": 3,
-        "file": "src/solve.c",
-        "line": 357
+        "thread": 1,
+        "file": "src/malloc.c",
+        "line": 85
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/malloc.c",
+        "line": 85
+    },
+    {
+        "type": "next",
+        "thread": 1,
+        "file": "src/malloc.c",
+        "line": 199
     },
     {
         "type": "next",
         "thread": 1,
         "file": "src/solve.c",
-        "line": 277
+        "line": 374
     },
     {
         "type": "next",
-        "thread": 3,
-        "file": "src/solve.c",
-        "line": 362
+        "thread": 1,
+        "file": "src/fo.c",
+        "line": 626
     },
     {
         "type": "next",
         "thread": 4,
-        "file": "src/solve.c",
-        "line": 354
+        "file": "src/mf.c",
+        "line": 164
     },
     {
         "type": "next",
-        "thread": 2,
-        "file": "src/solve.c",
-        "line": 356
+        "thread": 4,
+        "file": "src/bfac.c",
+        "line": 574
     },
     {
         "type": "next",
-        "thread": 3,
-        "file": "src/solve.c",
-        "line": 362
-    },
-    {
-        "type": "next",
-        "thread": 3,
-        "file": "src/solve.c",
-        "line": 365
+        "thread": 4,
+        "file": "src/fo.c",
+        "line": 409
     },
     {
         "type": "pattern",
-        "name": "RWA",
+        "name": "WWA",
         "locations": [
             {
-                "thread": 2,
-                "file": "src/solve.c",
-                "line": 361
+                "thread": 4,
+                "file": "src/bfac.c",
+                "line": 583
+            },
+            {
+                "thread": 1,
+                "file": "src/bfac.c",
+                "line": 582
             },
             {
                 "thread": 4,
-                "file": "src/solve.c",
-                "line": 354
-            },
-            {
-                "thread": 2,
-                "file": "src/solve.c",
-                "line": 361
+                "file": "src/bfac.c",
+                "line": 583
             }
         ]
     },

@@ -2,62 +2,62 @@
     {
         "type": "next",
         "thread": 2,
-        "file": "src/solve.c",
-        "line": 356
+        "file": "src/malloc.c",
+        "line": 85
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/malloc.c",
+        "line": 85
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/malloc.c",
+        "line": 85
     },
     {
         "type": "next",
         "thread": 4,
-        "file": "src/solve.c",
-        "line": 354
+        "file": "src/malloc.c",
+        "line": 116
     },
     {
         "type": "next",
-        "thread": 1,
-        "file": "src/solve.c",
-        "line": 354
-    },
-    {
-        "type": "next",
-        "thread": 2,
-        "file": "src/solve.c",
-        "line": 360
+        "thread": 3,
+        "file": "src/malloc.c",
+        "line": 170
     },
     {
         "type": "next",
         "thread": 2,
-        "file": "src/solve.c",
-        "line": 360
+        "file": "src/malloc.c",
+        "line": 170
     },
     {
         "type": "next",
         "thread": 4,
-        "file": "src/solve.c",
-        "line": 357
+        "file": "src/fo.c",
+        "line": 626
     },
     {
         "type": "next",
         "thread": 2,
-        "file": "src/solve.c",
-        "line": 361
+        "file": "src/fo.c",
+        "line": 626
     },
     {
         "type": "next",
         "thread": 4,
-        "file": "src/solve.c",
-        "line": 360
+        "file": "src/fo.c",
+        "line": 626
     },
     {
         "type": "next",
-        "thread": 2,
-        "file": "src/solve.c",
-        "line": 362
-    },
-    {
-        "type": "next",
-        "thread": 1,
-        "file": "src/solve.c",
-        "line": 361
+        "thread": 4,
+        "file": "src/fo.c",
+        "line": 626
     },
     {
         "type": "pattern",
@@ -65,18 +65,18 @@
         "locations": [
             {
                 "thread": 4,
-                "file": "src/solve.c",
-                "line": 362
+                "file": "src/fo.c",
+                "line": 626
             },
             {
-                "thread": 1,
+                "thread": 3,
                 "file": "src/solve.c",
-                "line": 361
+                "line": 386
             },
             {
                 "thread": 4,
-                "file": "src/solve.c",
-                "line": 362
+                "file": "src/fo.c",
+                "line": 626
             }
         ]
     },

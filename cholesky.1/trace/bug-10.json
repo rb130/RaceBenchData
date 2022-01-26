@@ -1,13 +1,13 @@
 [
     {
         "type": "next",
-        "thread": 2,
-        "file": "src/malloc.c",
-        "line": 85
+        "thread": 1,
+        "file": "src/solve.c",
+        "line": 372
     },
     {
         "type": "next",
-        "thread": 3,
+        "thread": 1,
         "file": "src/malloc.c",
         "line": 85
     },
@@ -16,19 +16,19 @@
         "name": "RWA",
         "locations": [
             {
-                "thread": 4,
-                "file": "src/fo.c",
-                "line": 24
-            },
-            {
-                "thread": 1,
+                "thread": 2,
                 "file": "src/solve.c",
-                "line": 367
+                "line": 374
             },
             {
-                "thread": 4,
+                "thread": 3,
                 "file": "src/fo.c",
                 "line": 24
+            },
+            {
+                "thread": 2,
+                "file": "src/solve.c",
+                "line": 374
             }
         ]
     },

@@ -140,20 +140,8 @@ struct LocalCopies *lc;
                     tasks[MyNum].probeQlast = NULL;
                 }
             } else if (tasks[MyNum].taskQ) {
-                #ifdef RACEBENCH_BUG_3
-                if ((rb_state3.var_0) == (0x1a67c10d)) {
-                    pthread_mutex_lock(&(rb_state3.lock_18));
-                    rb_state3.var_10 = 0xe92b8b59;
-                    rb_state3.var_11 = (rb_state3.var_11) - (((rb_state3.var_9) == (0x0)) ? (rb_state3.var_8) : (0xefc93998));
-                    rb_state3.var_12 = (rb_state3.var_12) + ((0x3388c099) + (rb_state3.var_10));
-                    rb_state3.var_13 = (rb_state3.var_13) - (((0x60ff395e) - (rb_state3.var_10)) + (0x64fe6c74));
-                    rb_state3.var_14 = (rb_state3.var_14) ^ (((rb_state3.var_7) == (0x0)) ? (rb_state3.var_11) : (0x2b75f645));
-                    rb_state3.var_15 = (rb_state3.var_15) - (((rb_state3.var_12) == (0x0)) ? (rb_state3.var_13) : (0xfb9b5c5a));
-                    rb_state3.var_16 = (rb_state3.var_16) + (((rb_state3.var_11) == (0x0)) ? (rb_state3.var_14) : (0x4361a301));
-                    rb_state3.var_17 = (rb_state3.var_17) + (((rb_state3.var_15) == (0x0)) ? (rb_state3.var_16) : (0x2060430));
-                    rb_state3.var_4 = (rb_state3.var_4) - (rb_state3.var_17);
-                    pthread_mutex_unlock(&(rb_state3.lock_18));
-                }
+                #ifdef RACEBENCH_BUG_17
+                rb_state17.var_0 = (rb_state17.var_0) ^ ((0x32e57b11) - (0x701831db));
                 #endif
                 t = (struct Task *)tasks[MyNum].taskQ;
                 tasks[MyNum].taskQ = t->next;
@@ -172,6 +160,9 @@ struct LocalCopies *lc;
         }
     }
 
+    #ifdef RACEBENCH_BUG_17
+    rb_state17.var_3 = (rb_state17.var_3) + (rb_state17.var_3);
+    #endif
     *desti = t->desti;
     *destj = t->destj;
     *src = t->src;

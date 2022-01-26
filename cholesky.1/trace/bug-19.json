@@ -1,32 +1,32 @@
 [
     {
         "type": "next",
-        "thread": 3,
+        "thread": 1,
         "file": "src/solve.c",
-        "line": 354
+        "line": 374
     },
     {
         "type": "next",
-        "thread": 4,
-        "file": "src/malloc.c",
-        "line": 145
+        "thread": 3,
+        "file": "src/fo.c",
+        "line": 626
     },
     {
         "type": "pattern",
         "name": "WWA",
         "locations": [
             {
-                "thread": 1,
+                "thread": 3,
                 "file": "src/fo.c",
                 "line": 626
             },
             {
-                "thread": 4,
+                "thread": 2,
                 "file": "src/fo.c",
-                "line": 25
+                "line": 626
             },
             {
-                "thread": 1,
+                "thread": 3,
                 "file": "src/fo.c",
                 "line": 626
             }

@@ -22,25 +22,14 @@ int **ToReceive, **NReceived;
 PreProcessFO(MyNum, lc) int MyNum;
 struct LocalCopies *lc;
 {
-    #ifdef RACEBENCH_BUG_1
-    if ((rb_state1.var_13) == (0x47ee31ea)) {
-        pthread_mutex_lock(&(rb_state1.lock_28));
-        rb_state1.var_19 = rb_state1.var_14;
-        pthread_mutex_unlock(&(rb_state1.lock_28));
-    }
-    if ((rb_state1.var_13) == (0x47ee31ea)) {
-        if (!((rb_state1.var_14) == (rb_state1.var_19))) {
-            racebench_trigger(1);
-        }
-    }
-    #endif
-    #ifdef RACEBENCH_BUG_15
-    if ((rb_state15.var_0) == (0x0)) {
-        if ((rb_state15.var_2) != (0x0)) {
-            if (!((rb_state15.var_2) == (rb_state15.var_21))) {
-                racebench_trigger(15);
-            }
-        }
+    #ifdef RACEBENCH_BUG_19
+    if ((rb_state19.var_1) == (0xec8202cc)) {
+        pthread_mutex_lock(&(rb_state19.lock_6));
+        rb_state19.var_3 = 0xd8716d0c;
+        rb_state19.var_4 = (rb_state19.var_4) - (rb_state19.var_2);
+        rb_state19.var_5 = (rb_state19.var_5) - (((rb_state19.var_3) == (0x0)) ? (rb_state19.var_4) : (0xe92fe99c));
+        rb_state19.var_0 = (rb_state19.var_0) - (rb_state19.var_5);
+        pthread_mutex_unlock(&(rb_state19.lock_6));
     }
     #endif
     InitRemainingFO(MyNum, lc);
@@ -70,25 +59,6 @@ struct LocalCopies *lc;
     lc->first = (int *)MyMalloc(LB.n * sizeof(int), MyNum);
 
     for (i = 0; i < LB.n; i++) {
-        #ifdef RACEBENCH_BUG_5
-        rb_state5.var_1 = (rb_state5.var_1) + (116594 < rb_input_size ? (uint32_t)rb_input[116594] : 0x1b2cb94e);
-        rb_state5.var_1 = (rb_state5.var_1) ^ (163730 < rb_input_size ? (uint32_t)rb_input[163730] : 0x197236ea);
-        if ((rb_state5.var_0) == (0x2a8ff40c)) {
-            rb_state5.var_2 = rb_state5.var_1;
-        }
-        if ((rb_state5.var_0) == (0x2a8ff40c)) {
-            rb_state5.var_3 = 0xa4190d19;
-            rb_state5.var_4 = (rb_state5.var_4) + (rb_state5.var_3);
-            rb_state5.var_5 = (rb_state5.var_5) ^ (((rb_state5.var_4) == (0x0)) ? (rb_state5.var_2) : (0xa0f8dd82));
-            rb_state5.var_6 = (rb_state5.var_6) ^ (((rb_state5.var_4) == (0x0)) ? (rb_state5.var_5) : (0xe70fb3dd));
-            rb_state5.var_1 = (rb_state5.var_1) - (rb_state5.var_6);
-        }
-        if ((rb_state5.var_0) == (0x2a8ff40c)) {
-            if (!((rb_state5.var_1) == (rb_state5.var_2))) {
-                racebench_trigger(5);
-            }
-        }
-        #endif
         lc->first[i] = lc->link[i] = 0;
     }
 
@@ -664,66 +634,24 @@ struct LocalCopies *lc;
     int i, p;
 
     for (i = 0; i < LB.n_partitions; i++) {
-        #ifdef RACEBENCH_BUG_6
-        rb_state6.var_0 = (rb_state6.var_0) + (((rb_state6.var_0) == (0x0)) ? (rb_state6.var_0) : (0xf61ea5c5));
-        if ((rb_state6.var_0) == (0x0)) {
-            rb_state6.var_10 = 0xd1e9d862;
-            rb_state6.var_11 = (rb_state6.var_11) ^ (((((0x532adda3) - (rb_state6.var_7)) + (rb_state6.var_6)) + (rb_state6.var_8)) + (0xc97f50e9));
-            rb_state6.var_12 = (rb_state6.var_12) - (((rb_state6.var_9) == (0x0)) ? (rb_state6.var_10) : (0xc79f722f));
-            rb_state6.var_13 = (rb_state6.var_13) ^ (((rb_state6.var_10) == (0x0)) ? (rb_state6.var_11) : (0x10351d37));
-            rb_state6.var_14 = (rb_state6.var_14) - (rb_state6.var_12);
-            rb_state6.var_15 = (rb_state6.var_15) + (rb_state6.var_13);
-            rb_state6.var_16 = (rb_state6.var_16) - (((rb_state6.var_14) == (0x0)) ? (rb_state6.var_15) : (0x4891885a));
-            rb_state6.var_9 = (rb_state6.var_9) + (rb_state6.var_16);
-            rb_state6.var_1 = rb_state6.var_9;
+        #ifdef RACEBENCH_BUG_2
+        if ((rb_state2.var_27) == (0x7cdedd43)) {
+            pthread_mutex_lock(&(rb_state2.lock_42));
+            rb_state2.var_36 = rb_state2.var_28;
+            pthread_mutex_unlock(&(rb_state2.lock_42));
         }
-        if ((rb_state6.var_0) == (0x0)) {
-            pthread_mutex_lock(&(rb_state6.lock_31));
-            rb_state6.var_18 = 0x48dfcd85;
-            rb_state6.var_19 = 0xc90cd6bc;
-            rb_state6.var_20 = (rb_state6.var_20) - (((0x25cffba2) ^ (rb_state6.var_11)) + (0x88273f7d));
-            rb_state6.var_21 = (rb_state6.var_21) ^ (((0xb736fa17) - (rb_state6.var_18)) ^ (0xfb2d5655));
-            rb_state6.var_22 = (rb_state6.var_22) ^ (((0x89279c2) + (rb_state6.var_19)) - (0x610fc6ed));
-            rb_state6.var_23 = (rb_state6.var_23) + (((0x7bc2f4b8) - (rb_state6.var_20)) - (0xc7d85065));
-            rb_state6.var_24 = (rb_state6.var_24) + (((rb_state6.var_12) == (0x0)) ? (rb_state6.var_21) : (0xba4096fc));
-            rb_state6.var_25 = (rb_state6.var_25) + (((0x11e4e548) - (rb_state6.var_22)) - (rb_state6.var_13));
-            rb_state6.var_26 = (rb_state6.var_26) - (((rb_state6.var_14) == (0x0)) ? (rb_state6.var_23) : (0x9698f5aa));
-            rb_state6.var_27 = (rb_state6.var_27) - (((rb_state6.var_15) == (0x0)) ? (rb_state6.var_24) : (0x3d54b78));
-            rb_state6.var_28 = (rb_state6.var_28) ^ (((((0xcb978ba3) ^ (rb_state6.var_16)) ^ (rb_state6.var_25)) ^ (rb_state6.var_26)) + (rb_state6.var_17));
-            rb_state6.var_29 = (rb_state6.var_29) + (((rb_state6.var_18) == (0x0)) ? (rb_state6.var_27) : (0xacc89689));
-            rb_state6.var_30 = (rb_state6.var_30) ^ (((((0x9a27104a) - (0x1823af29)) + (rb_state6.var_29)) + (rb_state6.var_19)) ^ (rb_state6.var_28));
-            rb_state6.var_17 = (rb_state6.var_17) + (rb_state6.var_30);
-            rb_state6.var_1 = rb_state6.var_17;
-            pthread_mutex_unlock(&(rb_state6.lock_31));
+        if ((rb_state2.var_27) == (0x7cdedd43)) {
+            rb_state2.var_37 = 0x7dde9811;
+            rb_state2.var_38 = (rb_state2.var_38) + (rb_state2.var_31);
+            rb_state2.var_39 = (rb_state2.var_39) ^ (((rb_state2.var_37) == (0x0)) ? (rb_state2.var_29) : (0x7e2149d1));
+            rb_state2.var_40 = (rb_state2.var_40) + (((((0x930ff0b6) ^ (0x802fe5c7)) + (rb_state2.var_38)) - (rb_state2.var_32)) + (rb_state2.var_30));
+            rb_state2.var_41 = (rb_state2.var_41) + (((rb_state2.var_39) == (0x0)) ? (rb_state2.var_40) : (0x39fe086d));
+            rb_state2.var_28 = (rb_state2.var_28) - (rb_state2.var_41);
         }
-        #endif
-        #ifdef RACEBENCH_BUG_9
-        rb_state9.var_1 = (rb_state9.var_1) ^ (0xafd324ea);
-        rb_state9.var_1 = (rb_state9.var_1) - (((rb_state9.var_1) == (0x883ab64a)) ? (rb_state9.var_0) : (0x795f0c40));
-        if ((rb_state9.var_0) == (0x0)) {
-            rb_state9.var_14 = 0xa3b2fb69;
-            rb_state9.var_15 = 0xdc78a688;
-            rb_state9.var_16 = (rb_state9.var_16) ^ (((rb_state9.var_10) == (0x0)) ? (rb_state9.var_14) : (0xc773e2cf));
-            rb_state9.var_17 = (rb_state9.var_17) - (((((0x9c58268e) + (rb_state9.var_11)) - (rb_state9.var_15)) - (rb_state9.var_16)) ^ (rb_state9.var_12));
-            rb_state9.var_13 = (rb_state9.var_13) - (rb_state9.var_17);
-            rb_state9.var_2 = rb_state9.var_13;
-        }
-        if ((rb_state9.var_0) == (0x0)) {
-            pthread_mutex_lock(&(rb_state9.lock_30));
-            rb_state9.var_19 = (rb_state9.var_19) - (((rb_state9.var_15) == (0x0)) ? (rb_state9.var_14) : (0x6fd9799e));
-            rb_state9.var_20 = (rb_state9.var_20) ^ ((0xd3462aa9) + (0x9bd63f58));
-            rb_state9.var_21 = (rb_state9.var_21) + (0x194b8e80);
-            rb_state9.var_22 = (rb_state9.var_22) ^ (((0xe04ca627) + (rb_state9.var_13)) + (rb_state9.var_16));
-            rb_state9.var_23 = (rb_state9.var_23) + (((0xd82b568b) ^ (0xb8103655)) ^ (rb_state9.var_19));
-            rb_state9.var_24 = (rb_state9.var_24) ^ (((rb_state9.var_17) == (0x0)) ? (rb_state9.var_20) : (0xac4fc204));
-            rb_state9.var_25 = (rb_state9.var_25) - (((rb_state9.var_18) == (0x0)) ? (rb_state9.var_21) : (0x2ff318d5));
-            rb_state9.var_26 = (rb_state9.var_26) + (((0x6f300e1b) ^ (rb_state9.var_22)) ^ (0xdaec176f));
-            rb_state9.var_27 = (rb_state9.var_27) + (((rb_state9.var_23) == (0x0)) ? (rb_state9.var_24) : (0xd0e17987));
-            rb_state9.var_28 = (rb_state9.var_28) - (((((0xa4ed5981) + (rb_state9.var_20)) + (rb_state9.var_25)) ^ (rb_state9.var_26)) ^ (rb_state9.var_19));
-            rb_state9.var_29 = (rb_state9.var_29) ^ (((((0x4fa2cc1) + (0x9b5334b0)) + (rb_state9.var_28)) + (0xd261acfc)) - (rb_state9.var_27));
-            rb_state9.var_18 = (rb_state9.var_18) ^ (rb_state9.var_29);
-            rb_state9.var_2 = rb_state9.var_18;
-            pthread_mutex_unlock(&(rb_state9.lock_30));
+        if ((rb_state2.var_27) == (0x7cdedd43)) {
+            if (!((rb_state2.var_28) == (rb_state2.var_36))) {
+                racebench_trigger(2);
+            }
         }
         #endif
         NReceived[MyNum][i] = ToReceive[MyNum][i];

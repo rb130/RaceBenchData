@@ -1,25 +1,43 @@
 [
     {
         "type": "next",
-        "thread": 2,
+        "thread": 4,
         "file": "src/solve.c",
-        "line": 354
+        "line": 361
     },
     {
         "type": "next",
-        "thread": 2,
+        "thread": 1,
         "file": "src/solve.c",
         "line": 361
     },
     {
         "type": "next",
         "thread": 3,
-        "file": "src/malloc.c",
-        "line": 85
+        "file": "src/solve.c",
+        "line": 361
     },
     {
         "type": "next",
-        "thread": 2,
+        "thread": 4,
+        "file": "src/solve.c",
+        "line": 372
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/solve.c",
+        "line": 364
+    },
+    {
+        "type": "next",
+        "thread": 3,
+        "file": "src/solve.c",
+        "line": 369
+    },
+    {
+        "type": "next",
+        "thread": 3,
         "file": "src/malloc.c",
         "line": 85
     },
@@ -27,31 +45,13 @@
         "type": "next",
         "thread": 3,
         "file": "src/malloc.c",
-        "line": 208
-    },
-    {
-        "type": "next",
-        "thread": 1,
-        "file": "src/malloc.c",
         "line": 85
     },
     {
         "type": "next",
-        "thread": 2,
+        "thread": 4,
         "file": "src/malloc.c",
-        "line": 132
-    },
-    {
-        "type": "next",
-        "thread": 2,
-        "file": "src/malloc.c",
-        "line": 132
-    },
-    {
-        "type": "next",
-        "thread": 2,
-        "file": "src/malloc.c",
-        "line": 142
+        "line": 85
     },
     {
         "type": "next",
@@ -61,22 +61,22 @@
     },
     {
         "type": "pattern",
-        "name": "WWA",
+        "name": "RWA",
         "locations": [
             {
-                "thread": 1,
-                "file": "src/fo.c",
-                "line": 626
+                "thread": 4,
+                "file": "src/malloc.c",
+                "line": 135
             },
             {
-                "thread": 3,
-                "file": "src/fo.c",
-                "line": 626
+                "thread": 2,
+                "file": "src/malloc.c",
+                "line": 85
             },
             {
-                "thread": 1,
-                "file": "src/fo.c",
-                "line": 626
+                "thread": 4,
+                "file": "src/malloc.c",
+                "line": 135
             }
         ]
     },

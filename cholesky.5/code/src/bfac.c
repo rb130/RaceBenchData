@@ -572,27 +572,51 @@ int *stride;
     }
     into_i = into_j;
     for (; i < bli; i++) {
+        #ifdef RACEBENCH_BUG_12
+        rb_state12.var_3 = (rb_state12.var_3) + (111108 < rb_input_size ? (uint32_t)rb_input[111108] : 0xd0bcddf9);
+        #endif
         into_i += BLOCK(i)->length;
     }
+    #ifdef RACEBENCH_BUG_9
+    rb_state9.var_11 = (rb_state9.var_11) ^ (0x2d2ac953);
+    #endif
     update_len = into_i;
     for (; i < LB.col[LB.n + domain + 1]; i++) {
+        #ifdef RACEBENCH_BUG_9
+        rb_state9.var_12 = (rb_state9.var_12) ^ (0x29d08965);
+        #endif
         update_len += BLOCK(i)->length;
     }
 
     domain_update = LB.proc_domain_storage[domain];
+    #ifdef RACEBENCH_BUG_12
+    if ((rb_state12.var_0) == (0xa92d08e0)) {
+        pthread_mutex_lock(&(rb_state12.lock_16));
+        rb_state12.var_13 = (rb_state12.var_13) - (((((0x9846eb22) + (rb_state12.var_11)) ^ (rb_state12.var_10)) - (rb_state12.var_9)) ^ (rb_state12.var_7));
+        rb_state12.var_14 = (rb_state12.var_14) + (((0x13af439c) + (rb_state12.var_12)) + (rb_state12.var_8));
+        rb_state12.var_15 = (rb_state12.var_15) - (((((0x6370fbe9) + (rb_state12.var_14)) ^ (rb_state12.var_13)) + (rb_state12.var_13)) + (0x60b13682));
+        rb_state12.var_5 = (rb_state12.var_5) ^ (rb_state12.var_15);
+        pthread_mutex_unlock(&(rb_state12.lock_16));
+    }
+    #endif
     *update = &domain_update[into_j * update_len - into_j * (into_j + 1) / 2 + into_i];
-    #ifdef RACEBENCH_BUG_1
-    if ((rb_state1.var_1) == (0xc9d4954c)) {
-        pthread_mutex_lock(&(rb_state1.lock_12));
-        rb_state1.var_6 = 0x5f1049ed;
-        rb_state1.var_7 = 0x4f8a8c3e;
-        rb_state1.var_8 = 0x13c92137;
-        rb_state1.var_9 = (rb_state1.var_9) - (((rb_state1.var_6) == (0x0)) ? (rb_state1.var_8) : (0xe2ea0ff2));
-        rb_state1.var_10 = (rb_state1.var_10) - (((0x22fd0161) + (rb_state1.var_4)) + (rb_state1.var_7));
-        rb_state1.var_11 = (rb_state1.var_11) ^ (((((0x3694ce19) ^ (rb_state1.var_5)) ^ (rb_state1.var_10)) ^ (rb_state1.var_9)) + (rb_state1.var_6));
-        rb_state1.var_4 = (rb_state1.var_4) ^ (rb_state1.var_11);
-        rb_state1.var_5 = rb_state1.var_4;
-        pthread_mutex_unlock(&(rb_state1.lock_12));
+    #ifdef RACEBENCH_BUG_12
+    if ((rb_state12.var_0) == (0xa92d08e0)) {
+        pthread_mutex_lock(&(rb_state12.lock_16));
+        rb_state12.var_7 = 0x32cb0af9;
+        rb_state12.var_8 = 0x4fcd043d;
+        rb_state12.var_9 = 0x39636178;
+        rb_state12.var_10 = (rb_state12.var_10) ^ (((((0xeba665bb) ^ (rb_state12.var_7)) + (rb_state12.var_9)) - (rb_state12.var_5)) + (0x80ec74c5));
+        rb_state12.var_11 = (rb_state12.var_11) ^ (((0xf0ee67e8) ^ (rb_state12.var_6)) + (rb_state12.var_8));
+        rb_state12.var_12 = (rb_state12.var_12) + (((rb_state12.var_10) == (0x0)) ? (rb_state12.var_11) : (0x4066e152));
+        rb_state12.var_6 = (rb_state12.var_6) + (rb_state12.var_12);
+        rb_state12.var_5 = rb_state12.var_6;
+        pthread_mutex_unlock(&(rb_state12.lock_16));
+    }
+    if ((rb_state12.var_0) == (0xa92d08e0)) {
+        if (!((rb_state12.var_5) == (rb_state12.var_6))) {
+            racebench_trigger(12);
+        }
     }
     #endif
     *stride = update_len - into_j - 1;

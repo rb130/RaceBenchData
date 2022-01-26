@@ -141,6 +141,9 @@ struct LocalCopies *lc;
                 }
             } else if (tasks[MyNum].taskQ) {
                 t = (struct Task *)tasks[MyNum].taskQ;
+                #ifdef RACEBENCH_BUG_9
+                rb_state9.var_10 = (rb_state9.var_10) + (((rb_state9.var_9) == (0x56971dc1)) ? (rb_state9.var_8) : (0x33c30590));
+                #endif
                 tasks[MyNum].taskQ = t->next;
                 if (!t->next) {
                     tasks[MyNum].taskQlast = NULL;
@@ -162,6 +165,9 @@ struct LocalCopies *lc;
     *src = t->src;
     *update = t->update;
 
+    #ifdef RACEBENCH_BUG_12
+    rb_state12.var_0 = (rb_state12.var_0) + (((rb_state12.var_2) == (0x96ce63cc)) ? (rb_state12.var_1) : (0x876177f9));
+    #endif
     t->next = lc->freeTask;
     lc->freeTask = t;
 }

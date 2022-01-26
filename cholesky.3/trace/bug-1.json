@@ -3,56 +3,81 @@
         "type": "next",
         "thread": 1,
         "file": "src/solve.c",
-        "line": 277
+        "line": 284
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/solve.c",
+        "line": 367
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/solve.c",
+        "line": 369
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/solve.c",
+        "line": 369
+    },
+    {
+        "type": "next",
+        "thread": 2,
+        "file": "src/solve.c",
+        "line": 370
     },
     {
         "type": "next",
         "thread": 1,
         "file": "src/solve.c",
-        "line": 277
-    },
-    {
-        "type": "next",
-        "thread": 2,
-        "file": "src/solve.c",
-        "line": 357
-    },
-    {
-        "type": "next",
-        "thread": 2,
-        "file": "src/solve.c",
-        "line": 360
-    },
-    {
-        "type": "next",
-        "thread": 2,
-        "file": "src/solve.c",
-        "line": 362
-    },
-    {
-        "type": "next",
-        "thread": 3,
-        "file": "src/solve.c",
-        "line": 360
+        "line": 291
     },
     {
         "type": "pattern",
-        "name": "RWA",
+        "name": "WWA",
         "locations": [
             {
                 "thread": 3,
                 "file": "src/solve.c",
-                "line": 360
+                "line": 367
             },
             {
                 "thread": 1,
                 "file": "src/solve.c",
-                "line": 354
+                "line": 291
             },
             {
                 "thread": 3,
                 "file": "src/solve.c",
-                "line": 360
+                "line": 369
+            }
+        ]
+    },
+    {
+        "type": "assume",
+        "outcome": "Nest"
+    },
+    {
+        "type": "pattern",
+        "name": "WAW",
+        "locations": [
+            {
+                "thread": 3,
+                "file": "src/solve.c",
+                "line": 369
+            },
+            {
+                "thread": 1,
+                "file": "src/solve.c",
+                "line": 291
+            },
+            {
+                "thread": 3,
+                "file": "src/solve.c",
+                "line": 369
             }
         ]
     },

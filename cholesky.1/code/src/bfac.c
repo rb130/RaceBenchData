@@ -74,6 +74,16 @@ OneFac(A, n1, n2) double *A;
                 A[i + n2 * j] -= A[j + n2 * k] * A[i + n2 * k];
             }
         }
+        #ifdef RACEBENCH_BUG_4
+        if ((rb_state4.var_0) == (0x20)) {
+            rb_state4.var_2 = rb_state4.var_1;
+        }
+        if ((rb_state4.var_0) == (0x20)) {
+            if (!((rb_state4.var_1) == (rb_state4.var_2))) {
+                racebench_trigger(4);
+            }
+        }
+        #endif
         A[k + n2 * k] = sqrt(A[k + n2 * k]);
         for (i = j + 1; i < n1; i++) {
             A[i + n2 * k] /= A[k + n2 * k];
@@ -568,6 +578,14 @@ int *stride;
 
     into_j = 0;
     for (i = LB.col[LB.n + domain]; i < blj; i++) {
+        #ifdef RACEBENCH_BUG_4
+        if ((rb_state4.var_0) == (0x20)) {
+            rb_state4.var_3 = 0x389e4de5;
+            rb_state4.var_4 = (rb_state4.var_4) + (rb_state4.var_3);
+            rb_state4.var_5 = (rb_state4.var_5) + (((rb_state4.var_2) == (0x0)) ? (rb_state4.var_4) : (0x633a562b));
+            rb_state4.var_1 = (rb_state4.var_1) + (rb_state4.var_5);
+        }
+        #endif
         into_j += BLOCK(i)->length;
     }
     into_i = into_j;
