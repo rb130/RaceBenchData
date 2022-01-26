@@ -161,6 +161,13 @@ main(argc, argv) char *argv[];
     }
     M = ReadSparse(argv[i], probname);
 
+    for (int ti = 0; ti <= M.n; ++ti)
+        if (M.col[ti] > M.n + M.m)
+            return 1;
+    for (int ti = 0; ti < M.n + M.m; ++ti)
+        if (M.row[ti] > M.n)
+            return 1;
+
     distribute = LB_DOMAINS * 10 + EMBED;
 
     printf("\n");
