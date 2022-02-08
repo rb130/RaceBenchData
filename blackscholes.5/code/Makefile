@@ -13,7 +13,7 @@ RB_OBJS := $(addsuffix .o,$(basename $(RB_SRCS)))
 TARGET := $(shell cd src && ./rb-build binary)
 
 O_LINKER := $(CXX)
-O_LINK_ARGS := "-pthread" "-DENABLE_THREADS" "-DNCO=4" "blackscholes.m4.cpp" "-o" "blackscholes" $(CXXFLAGS)
+O_LINK_ARGS := "-pthread" "-DENABLE_THREADS" "-DNCO=4" "blackscholes.o" "-o" "blackscholes" $(CXXFLAGS)
 O_WORKDIR := .
 
 REQUIRED_FLAGS := -pthread -I$(abspath .)
