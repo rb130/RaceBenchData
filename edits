@@ -1,3 +1,5 @@
+blackscholes:
+    compile before link
 bodytrack:
 	add new arg PoseParameters.txt
 raytrace:

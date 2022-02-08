@@ -9,6 +9,8 @@ CSRC      = $(M4_SRC)
 MT        = -DENABLE_THREADS
 CXXFLAGS += -pthread
 
+OBJ	= blackscholes.o
+
 
 # Default build single precision version
 NCO     = -DNCO=4
@@ -17,8 +19,11 @@ CXXFLAGS += $(MT) $(NCO)
 
 all: $(TARGET)
 
-$(TARGET): clean $(CSRC)
-	$(CXX) $(CXXFLAGS) $(LDFLAGS) $(LIBS) $(CSRC) -o $(TARGET)
+$(TARGET): $(OBJ)
+	$(CXX) $(CXXFLAGS) $(LDFLAGS) $(LIBS) $(OBJ) -o $(TARGET)
+
+$(OBJ): $(CSRC)
+	$(CXX) $(CXXFLAGS) $(CSRC) -o $(OBJ) -c
 
 clean:
-	rm -f $(TARGET)
+	rm -f $(TARGET) $(OBJ)
