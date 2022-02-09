@@ -2,6 +2,7 @@
 
 arg=$1
 
+export CFLAGS="${CFLAGS} -DOPENSSL_NO_INLINE_ASM"
 export version=pthreads
 
 case $arg in
