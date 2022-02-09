@@ -2,6 +2,8 @@ blackscholes:
     compile before link
 bodytrack:
 	add new arg PoseParameters.txt
+dedup:
+    disable inline asm
 raytrace:
 	add arg -files
 	remove mutex/cond deconstructor to avoid hanging
