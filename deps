@@ -1,2 +1,9 @@
-dedup
+dedup:
     libssl-dev
+ferret:
+    libgsl-dev
+    libjpeg-dev
+raytrace:
+    libx11-dev
+    libgl-dev
+    freeglut3-dev
