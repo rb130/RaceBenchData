@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export CFLAGS="${CFLAGS} -Wno-error=return-type"
+export CFLAGS="${CFLAGS} -std=c99 -Wno-error=return-type"
 
 arg=$1
 
