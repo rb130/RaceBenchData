@@ -6,18 +6,14 @@ includedir=${prefix}/include
 ARCH=X86_64
 SYS=LINUX
 CC=gcc
-CFLAGS=-g -g -pthread -I/home/liangjs/projects/RaceBenchData/target/x264.4/code -Wall -I. -g -pthread -I/home/liangjs/projects/RaceBenchData/target/x264.4/code -DHAVE_MALLOC_H -DARCH_X86_64 -DSYS_LINUX -DHAVE_PTHREAD -fPIC
+CFLAGS=-O4 -ffast-math -pthread -I/home/liangjs/projects/RaceBenchData/x264.4/code -Wall -I. -DHAVE_MALLOC_H -DHAVE_MMX -DARCH_X86_64 -DSYS_LINUX -DHAVE_PTHREAD -s -fomit-frame-pointer
 ALTIVECFLAGS=
-LDFLAGS=-g -pthread -pthread -I/home/liangjs/projects/RaceBenchData/target/x264.4/code -g -pthread -pthread -I/home/liangjs/projects/RaceBenchData/target/x264.4/code -lm -lpthread -Wl,-Bsymbolic
-AS=
-ASFLAGS=-f elf -m amd64 -DPIC
+LDFLAGS=-pthread -pthread -I/home/liangjs/projects/RaceBenchData/x264.4/code -lm -lpthread -s
+AS=yasm
+ASFLAGS=-f elf -m amd64
 EXE=
 VIS=no
 HAVE_GETOPT_LONG=1
 DEVNULL=/dev/null
 ECHON=echo -n
-CONFIGURE_ARGS= '--enable-debug' '--enable-shared' '--enable-pthread' '--extra-asflags=' '--extra-cflags=-g -pthread -I/home/liangjs/projects/RaceBenchData/target/x264.4/code' '--extra-ldflags=-g -pthread -pthread -I/home/liangjs/projects/RaceBenchData/target/x264.4/code' '--disable-asm'
-SOSUFFIX=so
-SONAME=libx264.so.65
-SOFLAGS=-Wl,-soname,$(SONAME)
-default: $(SONAME)
+CONFIGURE_ARGS=
