@@ -5,12 +5,13 @@ cholesky
 dedup
 ferret
 fluidanimate
-- freqmine
+freqmine
+pigz
 raytrace
 raytrace2
-- vips
+streamcluster
+vips
 volrend
 water_nsquared
 water_spatial
 x264
-pigz
