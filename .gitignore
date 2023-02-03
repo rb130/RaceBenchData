@@ -1,0 +1,4 @@
+*.[0-9]/log
+
+.vscode
+x264.*/code/src/config.mak
