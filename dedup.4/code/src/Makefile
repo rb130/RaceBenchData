@@ -2,7 +2,7 @@
 
 TARGET=dedup
 
-CFLAGS += -Wall -fno-strict-aliasing -D_XOPEN_SOURCE=600
+CFLAGS += -I. -Wall -fno-strict-aliasing -D_XOPEN_SOURCE=600
 
 ostype=$(findstring solaris, ${PARSECPLAT})
 
