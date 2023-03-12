@@ -2,3 +2,4 @@
 
 .vscode
 x264.*/code/src/config.mak
+bodytrack.*/code/src/src/autom4te.cache/requests
