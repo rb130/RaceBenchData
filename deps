@@ -1,5 +1,6 @@
 dedup:
     libssl-dev
+    zlib1g-dev
 ferret:
     libgsl-dev
     libjpeg-dev
